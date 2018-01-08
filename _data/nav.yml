@@ -1,11 +1,3 @@
-- name: Home
-  path: index.html
-  section_id: home
-  children:
-    - name: Home Studio
-      path: index.html
-    - name: Home Personal
-      path: index-personal.html
 - name: About
   path: about.html
   section_id: pages
@@ -29,8 +21,3 @@
 - name: Blog
   path: blog.html
   section_id: blog
-  children:
-    - name: Blog
-      path: blog/
-    - name: Single Page
-      path: travel/2016/04/06/beautiful-day.html
