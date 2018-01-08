@@ -172,7 +172,7 @@ clients:
         {% for work in page.works_left %}
           <div class="work-wrapper">
             <a href="{{work.link_to}}" class="work">
-              <img src="{{site.url}}/{{work.image}}" alt="">
+              <img src="{{site.baseurl}}/{{work.image}}" alt="">
               <div class="info">
                 <h3>{{work.title}}</h3>
                 <p>{{work.categories}}</p>
@@ -187,7 +187,7 @@ clients:
         {% for work in page.works_right %}
           <div class="work-wrapper">
             <a href="{{work.link_to}}" class="work">
-              <img src="{{site.url}}/{{work.image}}" alt="">
+              <img src="{{site.baseurl}}/{{work.image}}" alt="">
               <div class="info">
                 <h3>{{work.title}}</h3>
                 <p>{{work.categories}}</p>
@@ -263,7 +263,7 @@ clients:
     <div class='large-12 columns'>
       <div class='clients'>
         {% for client in page.clients %}
-          <div><a href="#"><img alt="" src="{{site.url}}/{{client.image}}"></a></div>
+          <div><a href="#"><img alt="" src="{{site.baseurl}}/{{client.image}}"></a></div>
         {% endfor %}
       </div>
     </div>
@@ -284,7 +284,7 @@ clients:
       <div class="large-4 columns">
         <div class="post recent-post">
           {% if post.images %}
-            <a href="{{post.url}}" class="home"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+            <a href="{{post.url}}" class="home"><img src="{{site.baseurl}}/{{post.images[0]}}" alt="post"></a>
             <div class="spacing"></div>
           {% endif %}
           <h4>{{post.title}}</h4>
