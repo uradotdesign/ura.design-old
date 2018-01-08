@@ -1,3 +1,9 @@
+- name: Home
+  path: index.html
+  section_id: home
+  children:
+    - name: Home Studio
+      path: index.html
 - name: About
   path: about.html
   section_id: pages
@@ -6,18 +12,18 @@
       path: about.html
     - name: Supporters
       path: services.html
-- name: Blog
+- name: Logobridge
   path: portfolio.html
   section_id: works
   children:
-    - name: Events
+    - name: Request Design
       path: portfolio.html
-- name: Logobridge
-  path: contact.html
-  section_id: contact
-  - name: Contact
+- name: Contact
   path: contact.html
   section_id: contact
 - name: Blog
   path: blog.html
   section_id: blog
+  children:
+    - name: Events
+      path: blog/
