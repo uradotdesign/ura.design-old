@@ -6,29 +6,24 @@
       path: index.html
     - name: Home Personal
       path: index-personal.html
-- name: Pages
+- name: About
   path: about.html
   section_id: pages
   children:
-    - name: About Us
+    - name: Jobs
       path: about.html
-    - name: Services
+    - name: Supporters
       path: services.html
-    - name: Services 2
-      path: services-2.html
-- name: Works
+- name: Blog
   path: portfolio.html
   section_id: works
   children:
-    - name: Portfolio Style 1
+    - name: Events
       path: portfolio.html
-    - name: Portfolio Style 2
-      path: portfolio-2.html
-    - name: Single Page 1
-      path: portfolio-item.html
-    - name: Single Page 2
-      path: portfolio-item-2.html
-- name: Contact
+- name: Logobridge
+  path: contact.html
+  section_id: contact
+  - name: Contact
   path: contact.html
   section_id: contact
 - name: Blog
