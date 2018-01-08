@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Chivo;
+  src: url("../fonts/chivo/Chivo-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Chivo;
+  src: url("../fonts/chivo/Chivo-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Chivo;
+  src: url("../fonts/chivo/Chivo-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Chivo;
+  src: url("../fonts/chivo/Chivo-Light.ttf");
+  font-weight: 300;
+}
+
+

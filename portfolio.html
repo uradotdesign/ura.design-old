@@ -1,0 +1,93 @@
+---
+layout: default
+section_id: portfolio
+works_left:
+- title: Cooco fashion
+  link_to: portfolio-item.html
+  image: images/@stock/work-1.jpg
+  categories: Website, brand
+- title: Dear god
+  link_to: portfolio-item.html
+  image: images/@stock/work-20.jpg
+  categories: Website, print
+- title: Green choice
+  link_to: portfolio-item.html
+  image: images/@stock/work-22.jpg
+  categories: Website
+- title: Perfect bags
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-7.jpg
+  categories: Perfect bags
+
+works_right:
+- title: Dances App
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-3.jpg
+  categories: Website
+- title: Vintage chairs
+  link_to: portfolio-item.html
+  image: images/@stock/work-5.jpg
+  categories: Graphic, brand
+- title: Help Five
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-6.jpg
+  categories: Photography
+- title: Brandbooks
+  link_to: portfolio-item.html
+  image: images/@stock/work-8.jpg
+  categories: Website, graphic
+---
+
+<div class="full light-grey">
+  <div class="four spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">Our works</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-9 medium-centered columns">
+        <div class="header-quote">
+          <p>"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="full">
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="gallery-left-section">
+        {% for work in page.works_left %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <div class="gallery-right-section">
+        {% for work in page.works_right %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="spacing"></div>
+</div>

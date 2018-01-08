@@ -1,0 +1,304 @@
+---
+layout: default
+section_id: home
+slides:
+- title: Brand / Web design
+  text: Color displays the <span>soul</span>
+  button:
+    text: Case study
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  bg_color: "#F7C162"
+  image: images/@stock/half-1.jpg
+- title: Brand / Web design
+  text: Less is <span>more</span>
+  button:
+    text: Case study
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  bg_color: "#c9c9c9"
+  image: images/@stock/half-3.jpg
+- title: Brand / Web design
+  text: Do a <span>happy</span> dance
+  button:
+    text: Case study
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  bg_color: "#f6c418"
+  image: images/@stock/half-4.jpg
+- title: Brand / Web design
+  text: It's the <span>perfect</span> droplight
+  button:
+    text: Case study
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  bg_color: "#E4A48B"
+  image: images/@stock/half-5.jpg
+
+works_left:
+- title: Cooco fashion
+  link_to: portfolio-item.html
+  image: images/@stock/work-1.jpg
+  categories: Website, brand
+- title: Dear god
+  link_to: portfolio-item.html
+  image: images/@stock/work-20.jpg
+  categories: Website, print
+- title: Green choice
+  link_to: portfolio-item.html
+  image: images/@stock/work-22.jpg
+  categories: Website
+- title: Perfect bags
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-7.jpg
+  categories: Perfect bags
+
+works_right:
+- title: Dances App
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-3.jpg
+  categories: Website
+- title: Vintage chairs
+  link_to: portfolio-item.html
+  image: images/@stock/work-5.jpg
+  categories: Graphic, brand
+- title: Help Five
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-6.jpg
+  categories: Photography
+- title: Brandbooks
+  link_to: portfolio-item.html
+  image: images/@stock/work-8.jpg
+  categories: Website, graphic
+
+milestones:
+- title: Projects
+  from: 0
+  to: 69
+- title: Ideas
+  from: 0
+  to: 708
+- title: Countries
+  from: 0
+  to: 10
+- title: Articles
+  from: 0
+  to: 287
+
+testimonials_left:
+- author: David Lame - CEO of Wollen store
+  content: “Obcaecati voluptate ullam pariatur reiciendis optio harum
+    quae aut, eveniet explicabo. Commodi pariatur ut provident.”
+  avatar: images/@stock/author-1.png
+- author: Amy Swan - CEO of Wollen store
+  content: “Obcaecati voluptate ullam pariatur reiciendis optio harum
+    quae aut, eveniet explicabo. ”
+  avatar: images/@stock/author-3.png
+testimonials_right:
+- author: Sherley Hewai - CEO of Wollen store
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit. Explicabo eveniet asperiores ipsum saepe ab, aliquid veritatis incidunt
+    laudantium modi accusamus quidem eum magni.
+  avatar: images/@stock/author-2.png
+- author: Lucas Toope - CEO of Wollen store
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit. Consectetur rem doloribus veniam alias commodi, dolorem, natus autem neque.
+    Quisquam labore.
+  avatar: images/@stock/author-4.png
+
+clients:
+- image: images/@stock/client-1.png
+- image: images/@stock/client-2.png
+- image: images/@stock/client-3.png
+- image: images/@stock/client-4.png
+- image: images/@stock/client-5.png
+- image: images/@stock/client-6.png
+---
+
+<div class="full no-padding" style="height: 100vh;">
+  <div id="slides">
+    <div class="slides-container">
+      {% for slide in page.slides %}
+        <div class="slide">
+          <div class="slide-info">
+            <p>{{ slide.title }}</p>
+            <h1>{{ slide.text }}</h1>
+            <div class="three spacing"></div>
+            <a href="{{ slide.button.url }}" class="button boxed black">{{ slide.button.text }}</a>
+          </div>
+          <div class="slide-left" style="background-color: {{ slide.bg_color }};">
+          </div>
+          <div class="slide-right" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <nav class="slides-navigation">
+      <a href="#" class="next"><i class="icon-arrows-slim-right"></i></a>
+      <a href="#" class="prev"><i class="icon-arrows-slim-left"></i></a>
+    </nav>
+  </div>
+</div>
+<div class="full light-grey centered-text">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <img src="images/@stock/diamond-brown.png" alt="" class="wow flipInY" data-wow-duration="2s" data-wow-delay="0.1s">
+        <div class="spacing"></div>
+        <h2>What we do</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-10 large-centered columns">
+      <p class="big-text">
+        We do all aobut <a href="services.html">design</a>, <a href="services.html">brand</a>, <a href="services.html">print</a>, <a href="services.html">website</a> & <a href="services.html">packaging</a>. To raise new questions and new possibilities, to regard old problems from a new angle, requires creative imagination and marks real advance in science.
+      </p>
+      <div class="two spacing"></div>
+      <a href="#" class="button boxed">Know more</a>
+    </div>
+  </div>
+</div>
+<div class="full no-padding">
+  <div class="four spacing"></div>
+  <div class="spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Recent works</h2>
+        <p>You will love we have done</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="gallery-left-section">
+        {% for work in page.works_left %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <div class="gallery-right-section">
+        {% for work in page.works_right %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="spacing"></div>
+</div>
+<div class="full light-grey flower">
+  <div class="three spacing"></div>
+  <div class="row">
+    {% for milestone in page.milestones %}
+      <div class="large-3 columns ">
+        <div class="milestone centered-text">
+          <div class="number" style="color: #333" data-from="{{milestone.from}}" data-to="{{milestone.to}}"> </div>
+          <span>{{milestone.title}}</span>
+          <div class="spacing"></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="three spacing"></div>
+</div>
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Testimonials</h2>
+        <p>We are happy to work with our clients and let thme happy</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_left %}
+        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="auhor">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <p class="author">{{testimonial.author}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_right %}
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="auhor">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <p class="author">{{testimonial.author}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="full light-grey no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='clients'>
+        {% for client in page.clients %}
+          <div><a href="#"><img alt="" src="{{site.url}}/{{client.image}}"></a></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+<div class="full centered-text">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Recent posts</h2>
+        <p>Know what we are thinking and doing.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for post in site.posts limit:3 %}
+      <div class="large-4 columns">
+        <div class="post recent-post">
+          {% if post.images %}
+            <a href="{{post.url}}" class="home"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+            <div class="spacing"></div>
+          {% endif %}
+          <h4>{{post.title}}</h4>
+          <p class="info">
+            <span>
+              <a href="#">{{ post.author }}</a>
+            </span>
+            ,
+            <span>{{ post.date | date: "%B %d, %Y" }}</span>
+          </p>
+          <div class="spacing"></div>
+          <p><a href="{{post.url}}" class="button boxed brown">Read more</a></p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

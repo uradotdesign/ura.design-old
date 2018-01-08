@@ -1,0 +1,89 @@
+---
+layout: blog
+title: Blog
+section_id: blog
+---
+
+
+<div class="large-6 columns">
+  {% for post in paginator.posts %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 1 %}
+      <div class="post alt">
+        {% if post.images %}
+          {% if post.images.size > 1 %}
+            <a href="{{post.url}}" class='two-images'>
+              <img src="{{site.url}}/{{post.images[0]}}" alt="post" class="left-image">
+              <img src="{{site.url}}/{{post.images[1]}}" alt="post" class="right-image">
+            </a>
+          {% else %}
+            <a href="{{post.url}}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+          {% endif %}
+        {% endif %}
+        <div class="post-content">
+          <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+          <p class='info'>
+            {% if post.categories != empty %}
+              <span>
+                {% for cat in post.categories %}
+                  <a href="#">{{cat | capitalize }}</a>
+                  {% unless forloop.last %}
+                      ,
+                  {% endunless %}
+                {% endfor %}
+              </span>
+              /
+            {% endif %}
+            <span>{{ post.date | date: "%B %d, %Y" }}</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>{{post.excerpt}}</p>
+          <div class="spacing"></div>
+          <p><a href="{{post.url}}" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<div class="large-6 columns">
+  {% for post in paginator.posts %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 0 %}
+      <div class="post alt">
+        {% if post.images %}
+          {% if post.images.size > 1 %}
+            <a href="{{post.url}}" class='two-images'>
+              <img src="{{site.url}}/{{post.images[0]}}" alt="post" class="left-image">
+              <img src="{{site.url}}/{{post.images[1]}}" alt="post" class="right-image">
+            </a>
+          {% else %}
+            <a href="{{post.url}}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+          {% endif %}
+        {% endif %}
+        <div class="post-content">
+          <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+          <p class='info'>
+            {% if post.categories != empty %}
+              <span>
+                {% for cat in post.categories %}
+                  <a href="#">{{cat | capitalize}}</a>
+                  {% unless forloop.last %}
+                      ,
+                  {% endunless %}
+                {% endfor %}
+              </span>
+              /
+            {% endif %}
+            <span>{{ post.date | date: "%B %d, %Y" }}</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>{{post.excerpt}}</p>
+          <div class="spacing"></div>
+          <p><a href="{{post.url}}" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,143 @@
+---
+layout: default
+section_id: home
+slides:
+- layout: default
+  title: I design things
+  tagline: Brand, Web site, Print and Packaging
+  image: images/@stock/diamond-white.png
+  background: images/@stock/slide-full-5.jpg
+- layout: alt
+  title: I enjoy my works
+  image_top: images/@stock/welcome.png
+  image_bottom: images/@stock/arrows.png
+  background: images/@stock/slide-full-6.jpg
+works_left:
+- title: Cooco fashion
+  link_to: portfolio-item.html
+  image: images/@stock/work-1.jpg
+  categories: Website, brand
+- title: Dear god
+  link_to: portfolio-item.html
+  image: images/@stock/work-20.jpg
+  categories: Website, print
+- title: Green choice
+  link_to: portfolio-item.html
+  image: images/@stock/work-22.jpg
+  categories: Website
+- title: Perfect bags
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-7.jpg
+  categories: Perfect bags
+works_right:
+- title: Dances App
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-3.jpg
+  categories: Website
+- title: Vintage chairs
+  link_to: portfolio-item.html
+  image: images/@stock/work-5.jpg
+  categories: Graphic, brand
+- title: Help Five
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-6.jpg
+  categories: Photography
+- title: Brandbooks
+  link_to: portfolio-item.html
+  image: images/@stock/work-8.jpg
+  categories: Website, graphic
+---
+
+<div class="full no-padding">
+  <div id="slides" class="fullscreen">
+    <div class="slides-container">
+      {% for slide in page.slides %}
+        <div class="slide">
+          <div class="slide-info">
+            <div class="row">
+              <div class="large-10 large-centered columns">
+                {% if slide.layout == 'default' %}
+                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image}});"></div>
+                  <div class="two spacing"></div>
+                  <h1>{{slide.title}}</h1>
+                  <p>{{slide.tagline}}</p>
+                {% else %}
+                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image_top}});"></div>
+                  <div class="image-wrapper arrows" style="background-image: url({{site.url}}/{{slide.image_bottom}});"></div>
+                  <div class="three spacing"></div>
+                  <h1>{{slide.title}}</h1>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          <img src="{{site.url}}/{{slide.background}}" alt="">
+        </div>
+      {% endfor %}
+    </div>
+    <nav class="slides-navigation">
+      <a href="#" class="next"><i class="icon-arrows-slim-right"></i></a>
+      <a href="#" class="prev"><i class="icon-arrows-slim-left"></i></a>
+    </nav>
+  </div>
+</div>
+
+<div class="full centered-text light-grey">
+  <div class="section-title small">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+
+        <div class="spacing"></div>
+        <h2>About Me</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-10 large-centered columns">
+      <p class="big-text">
+        I do about design, brand, print, website & packageing. To raise new questions, new possibilities, to regard old problems from a new angle, requires creative imagination and marks real advance in science.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Recent works</h2>
+        <p>You will love we have done</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="gallery-left-section">
+        {% for work in page.works_left %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <div class="gallery-right-section">
+        {% for work in page.works_right %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

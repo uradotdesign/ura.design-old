@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="full light-cyan white-light centered-text">
+  <div class="four spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">Blog</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+      <div class="header-quote">
+        <p>Know what we are doing and thinking</p>
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+
+
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      {{content}}
+
+      {% if paginator %}
+        <div class="pager">
+          {% if paginator.next_page %}
+            {% if paginator.next_page == 1 %}
+              <a href="/blog" class="older">Older Entries <i class="fa fa-angle-double-right"></i></a>
+            {% else %}
+              <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries <i class="fa fa-angle-double-right"></i></a>
+            {% endif %}
+          {% else %}
+            <!-- <span class="older">Older Entries</span> -->
+          {% endif %}
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+              <a href="/blog" class="newer"><i class="fa fa-angle-double-left"></i> Newer Entries</a>
+            {% else %}
+              <a href="/blog/page{{ paginator.previous_page }}" class="newer"><i class="fa fa-angle-double-left"></i>Newer Entries</a>
+            {% endif %}
+          {% else %}
+            <!-- <span class="newer">Newer Entries</span> -->
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+

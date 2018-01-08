@@ -1,0 +1,102 @@
+---
+layout: default
+section_id: pages
+services:
+- title: Branding
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  icon: icon-basic-bolt
+- title: Development
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  icon: icon-basic-laptop
+- title: Web Design
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  icon: icon-basic-mouse
+- title: Marketing
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  icon: icon-basic-signs
+- title: Print
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  icon: icon-basic-printer
+- title: Packaging
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  icon: icon-basic-book
+
+steps:
+- title: Research
+  desc: Lorem ipsum dolor sit amet adipisicing elit. Maxime eos facilis veniam obcaecati,
+    fugiat illo soluta accusantium?
+- title: Design
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nihil
+    accusamus sint et repudiandae ea sapiente voluptatibus fuga.
+- title: Management
+  desc: Dolor sit amet, consectetur adipisicing elit. Maxime eos facilis veniam obcaecati,
+    fugiat illo soluta accusantium?
+---
+
+<div class="full centered-text light-cyan lamp">
+  <div class="four spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">Services</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+      <div class="header-quote">
+        <p>To raise new questions, new possibilities, to regard old problems from a new angle, requires creative imagination and marks real advance in science.</p>
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="services">
+        {% for service in page.services %}
+          <div class="large-4 columns">
+            <a href="#" class="icon-text">
+              <i class="{{service.icon}}"></i>
+              <h3>{{service.title}}</h3>
+              <p>{{service.desc}}</p>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="full light-grey">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Our process</h2>
+        <p>We do things step by step</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for step in page.steps %}
+      <div class="large-4 columns">
+        <div class="process">
+          <h3><span>0{{forloop.index}}.</span>{{step.title}}</h3>
+          <p>{{step.desc}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="full centered-text">
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>Have a project in mind?</h2>
+      <div class="two spacing"></div>
+      <a href="{{site.url}}/contact.html" class="button brown boxed">Let's talk</a>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>

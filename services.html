@@ -1,0 +1,129 @@
+---
+layout: default
+section_id: pages
+services:
+- title: Branding
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
+    odio ea.
+  image: images/@stock/service-3.jpg
+  image_position: left
+- title: Website
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
+    odio ea.
+  image: images/@stock/service-1.jpg
+  image_position: right
+- title: Print
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
+    odio ea.
+  image: images/@stock/service-2.jpg
+  image_position: left
+- title: Packaging
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
+    odio ea.
+  image: images/@stock/service-4.jpg
+  image_position: right
+
+principles:
+- title: Work with passion
+  desc: Lorem ipsum dolor sit amet adipisicing elit. Maxime eos facilis
+    veniam obcaecati, fugiat illo soluta accusantium?
+  icon: icon-basic-heart
+- title: Fail and Learn
+  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum,
+    nihil accusamus sint et repudiandae.
+  icon: icon-basic-flag2
+- title: Repeat and Success
+  desc: Dolor sit amet, consectetur adipisicing elit. Maxime eos facilis
+    veniam obcaecati, fugiat illo soluta accusantium?
+  icon: icon-basic-paperplane
+---
+
+<div class="full centered-text light-cyan lamp">
+  <div class="four spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">Services</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+      <div class="header-quote">
+        <p>To raise new questions, new possibilities, to regard old problems from a new angle, requires creative imagination and marks real advance in science.</p>
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+<div class="four spacing"></div>
+<div class="two spacing"></div>
+{% for service in page.services %}
+  <div class="full no-padding">
+    <div class="row">
+      {% if service.image_position == 'left' %}
+        <div class="medium-6 columns">
+          <img src="{{site.url}}/{{service.image}}" alt="">
+        </div>
+        <div class="medium-6 columns">
+          <div class="service-info right-text">
+            <h2>{{service.title}}</h2>
+            <p>{{service.desc}}</p>
+            <div class="two spacing"></div>
+            <a href="#" class="button brown">Case study</a>
+          </div>
+        </div>
+      {% else %}
+        <div class="medium-6 columns">
+          <div class="service-info right-text">
+            <h2>{{service.title}}</h2>
+            <p>{{service.desc}}</p>
+            <div class="two spacing"></div>
+            <a href="#" class="button brown">Case study</a>
+          </div>
+        </div>
+        <div class="medium-6 columns">
+          <img src="{{site.url}}/{{service.image}}" alt="">
+        </div>
+      {% endif %}
+    </div>
+    <div class="four spacing"></div>
+    <div class="two spacing"></div>
+  </div>
+{% endfor %}
+<div class="full light-grey centered-text">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Our values</h2>
+        <p>We have principles to do things</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for principle in page.principles %}
+      <div class="large-4 columns">
+        <div class="principle">
+          <i class="{{principle.icon}}"></i>
+          <h4>{{principle.title}}</h4>
+          <p>{{principle.desc}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="full centered-text">
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>Have a project in mind?</h2>
+      <div class="two spacing"></div>
+      <a href="{{site.url}}/contact.html" class="button brown boxed">Let's talk</a>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
