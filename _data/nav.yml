@@ -8,13 +8,13 @@
     - name: Jobs
       path: jobs.html
     - name: Supporters
-      path: services.html
+      path: supporters.html
 - name: Logobridge
   path: portfolio.html
   section_id: works
   children:
     - name: Request Design
-      path: portfolio.html
+      path: request.html
 - name: Contact
   path: contact.html
   section_id: contact
