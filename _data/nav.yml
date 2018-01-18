@@ -6,7 +6,7 @@
   section_id: pages
   children:
     - name: Jobs
-      path: about.html
+      path: jobs.html
     - name: Supporters
       path: services.html
 - name: Logobridge
