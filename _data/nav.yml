@@ -1,9 +1,6 @@
 - name: Home
   path: index.html
   section_id: home
-  children:
-    - name: Home Studio
-      path: index.html
 - name: About
   path: about.html
   section_id: pages
