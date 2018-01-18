@@ -56,9 +56,9 @@
     left: auto;
     right: -25px; }
   .slick-prev:before {
-    content: "←"; }
+    content: "â†"; }
     [dir="rtl"] .slick-prev:before {
-      content: "→"; }
+      content: "â†’"; }
 
 .slick-next {
   right: -25px; }
@@ -66,9 +66,9 @@
     left: -25px;
     right: auto; }
   .slick-next:before {
-    content: "→"; }
+    content: "â†’"; }
     [dir="rtl"] .slick-next:before {
-      content: "←"; }
+      content: "â†"; }
 
 /* Dots */
 .slick-slider {
@@ -110,7 +110,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        content: "•";
+        content: "â€¢";
         width: 20px;
         height: 20px;
         font-family: "slick";
