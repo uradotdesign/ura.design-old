@@ -326,7 +326,7 @@ body {
   .title-area h1 a {
     color: #333;
     font-size: 18px;
-    font-family: "josefin sans";
+    font-family: "Overpass";
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 10px; }
@@ -360,14 +360,14 @@ body {
     max-width: 100%; }
 
 .top-bar-section ul li > a {
-  font-family: "josefin sans";
+  font-family: "Overpass";
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
 .top-bar-section li:not(.has-form).has-dropdown .dropdown a:not(.button) {
   line-height: 45px;
-  font-family: "josefin sans";
+  font-family: "Overpass";
   text-transform: capitalize; }
 
 /* member */
@@ -1302,7 +1302,7 @@ form.update-form input.button:hover {
 .modBarGraph .bars h4 {
   font-weight: normal;
   text-transform: capitalize;
-  font-family: "josefin sans";
+  font-family: "Overpass";
   margin-bottom: 10px;
   letter-spacing: 1px; }
 
