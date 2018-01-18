@@ -1219,17 +1219,17 @@ form.update-form input.button:hover {
     list-style: none;
     margin: 0; }
   .footer a {
-    color: #fff; }
-  .footer a:hover {
     color: #333; }
+  .footer a:hover {
+    color: #ccc; }
   .footer .socials {
     margin-bottom: 30px; }
     .footer .socials i {
       font-size: 20px; }
     .footer .socials a {
-      color: #333; }
-    .footer .socials a:hover {
       color: #fff; }
+    .footer .socials a:hover {
+      color: #333; }
   .footer .back-to-top i {
     display: block;
     margin-bottom: 5px; }
