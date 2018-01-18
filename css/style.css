@@ -398,7 +398,8 @@ body {
   margin-bottom: 4px; }
 
 .member p.position {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 16px; }
 
 /*socials*/
 ul.socials {
