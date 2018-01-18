@@ -251,12 +251,8 @@ body {
 
 .button.boxed.blue {
   border: 1px solid #3399d4;
-  background: none;
-  color: #000; }
-
-.button.boxed.blue:hover {
-  color: #fff;
-  background: #3399d4; }
+  background: #3399d4;
+  color: #fff; }
 
 .button.boxed.black {
   border: 1px solid #333;
