@@ -361,10 +361,10 @@ body {
 
 .contain-to-grid {
   background: transparent;
-  position: absolute;
+  position: fixed;
   z-index: 99; }
   .contain-to-grid .top-bar {
-    background: transparent;
+    background: #fff;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
