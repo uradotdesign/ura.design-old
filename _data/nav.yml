@@ -19,7 +19,7 @@
   path: contact.html
   section_id: contact
 - name: Blog
-  path: blog.html
+  path: blog/
   section_id: blog
   children:
     - name: Events
