@@ -67,20 +67,6 @@ works_right:
   image: images/@stock/work-8.jpg
   categories: Website, graphic
 
-milestones:
-- title: Projects
-  from: 0
-  to: 69
-- title: Ideas
-  from: 0
-  to: 708
-- title: Countries
-  from: 0
-  to: 10
-- title: Articles
-  from: 0
-  to: 287
-
 testimonials_left:
 - author: Jeff Beatty - Mozilla
   content: “The folks at Ura were very professional in learning our expectations, planning the project, and being flexible as things changed. Add to that their commitment to work in the open and it made for a wonderful experience.”
@@ -193,21 +179,6 @@ clients:
   </div>
   <div class="spacing"></div>
 </div>
-<div class="full light-grey flower">
-  <div class="three spacing"></div>
-  <div class="row">
-    {% for milestone in page.milestones %}
-      <div class="large-3 columns ">
-        <div class="milestone centered-text">
-          <div class="number" style="color: #333" data-from="{{milestone.from}}" data-to="{{milestone.to}}"> </div>
-          <span>{{milestone.title}}</span>
-          <div class="spacing"></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <div class="three spacing"></div>
-</div>
 <div class="full">
   <div class="section-title">
     <div class="row">
@@ -235,7 +206,7 @@ clients:
     </div>
     <div class="large-6 columns">
       {% for testimonial in page.testimonials_right %}
-        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.3 | times:forloop.index0 }}s">
           <div class="row">
             <div class="small-3 columns">
               <img src="{{testimonial.avatar}}" alt="auhor">
