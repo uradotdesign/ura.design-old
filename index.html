@@ -279,8 +279,8 @@ clients:
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h2>The team</h2>
-        <p>We are happy to work together</p>
+        <h2>Our Team</h2>
+        <p>The usual suspects</p>
       </div>
     </div>
   </div>
@@ -316,36 +316,4 @@ clients:
     </div>
   </div>
   <div class="two spacing"></div>
-</div>
-<div class="full centered-text">
-  <div class="section-title">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h2>Recent posts</h2>
-        <p>Know what we are thinking and doing.</p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    {% for post in site.posts limit:3 %}
-      <div class="large-4 columns">
-        <div class="post recent-post">
-          {% if post.images %}
-            <a href="{{post.url}}" class="home"><img src="{{site.baseurl}}/{{post.images[0]}}" alt="post"></a>
-            <div class="spacing"></div>
-          {% endif %}
-          <h4>{{post.title}}</h4>
-          <p class="info">
-            <span>
-              <a href="#">{{ post.author }}</a>
-            </span>
-            ,
-            <span>{{ post.date | date: "%B %d, %Y" }}</span>
-          </p>
-          <div class="spacing"></div>
-          <p><a href="{{post.url}}" class="button boxed brown">Read more</a></p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 </div>
