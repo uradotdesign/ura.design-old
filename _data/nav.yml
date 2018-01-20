@@ -10,7 +10,7 @@
     - name: Supporters
       path: supporters.html
 - name: Logobridge
-  path: portfolio.html
+  path: logobridge.html
   section_id: works
   children:
     - name: Request Design
