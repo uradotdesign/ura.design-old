@@ -534,6 +534,22 @@ ul.socials {
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s; }
 
+.work.space {
+  display: inline-block;
+  margin: 0 auto 100px;
+  margin-bottom: 80px;
+  padding: 50px;
+  text-align: center; }
+  .work img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+
 .work .info {
   margin-top: 25px;
   margin-left: 50px;
