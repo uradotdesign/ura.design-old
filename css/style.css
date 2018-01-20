@@ -376,7 +376,7 @@ body {
     background: #fff;
    -moz-box-shadow:    inset 0 0 2px #000;
    -webkit-box-shadow: inset 0 0 2px #000;
-  box-shadow:         inset 0 0 2px #000;
+    box-shadow:         inset 0 0 2px #000;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
