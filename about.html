@@ -1,6 +1,52 @@
 ---
 layout: default
 section_id: pages
+members:
+- name: Elio Qoshi
+  position: Founder & Design Lead
+  avatar: images/@stock/ElioHeadshot.jpg
+  avatar_hover: images/@stock/ElioHeadshot.jpg
+  socials:
+  - name: facebook
+    url: https://facebook.com/elioqoshi
+  - name: twitter
+    url: https://twitter.com/elioqoshi
+  - name: envelope
+    url: mailto:elio@ura.design
+- name: Redon Skikuli
+  position: Business Development
+  avatar: images/@stock/RedonHeadshot.jpg
+  avatar_hover: images/@stock/RedonHeadshot.jpg
+  socials:
+  - name: globe
+    url: https://redon.skikuli.com/
+  - name: twitter
+    url: https://twitter.com/rskikuli
+  - name: envelope
+    url: mailto:redon@ura.design
+- name: Boris Budini
+  position: Technical Coordinator
+  avatar: images/@stock/BorisHeadshot.jpg
+  avatar_hover: images/@stock/BorisHeadshot.jpg
+  socials:
+  - name: globe
+    url: https://boris.budini.me/
+  - name: twitter
+    url: https://twitter.com/borisbudini
+  - name: envelope
+    url: mailto:boris@ura.design
+- name: Anxhelo Lushka
+  position: Frontend &amp; Designer
+  avatar: images/@stock/AnxheloHeadshot.jpg
+  avatar_hover: images/@stock/AnxheloHeadshot.jpg
+  socials:
+  - name: globe
+    url: https://lushka.al/
+  - name: github
+    url: https://github.com/AnXh3L0
+  - name: envelope
+    url: mailto:anxhelo@ura.design
+
 ---
 
 <div class="full light-grey centered-text tree">
@@ -28,3 +74,34 @@ section_id: pages
     </div>
   </div>
 </div>
+
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Our Team</h2>
+        <p>The usual suspects</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for member in page.members %}
+      <div class="large-3 columns">
+        <div class="member">
+          <img src="{{site.url}}/{{member.avatar}}" alt="">
+          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+          <div class="member-info">
+            <h4>{{member.name}}</h4>
+            <p class="position">{{member.position}}</p>
+            <ul class="socials">
+              {% for social in member.socials %}
+                <li><a href="{{social.url}}"><i class="fa fa-{{social.name}}"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
