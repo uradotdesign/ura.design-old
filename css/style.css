@@ -1172,7 +1172,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 form input[type="text"], form input[type="password"], form input[type="date"], form input[type="datetime"], form input[type="datetime-local"], form input[type="month"], form input[type="week"], form input[type="email"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="time"], form input[type="url"], form textarea {
   background: none;
-  border: 1px solid #3399d4;
+  border: 1px solid #ccc;
   box-shadow: none;
   color: #333; }
 
