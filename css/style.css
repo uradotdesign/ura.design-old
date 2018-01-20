@@ -254,6 +254,15 @@ body {
   background: #3399d4;
   color: #fff; }
 
+.button.boxed.blue.simple {
+  border: 1px solid #3399d4;
+  background: transparent;
+  color: #3399d4; }
+
+.button.boxed.blue.simple:hover {
+  background: #3399d4;
+  color: #fff; }
+
 .button.boxed.black {
   border: 1px solid #333;
   background: none;
