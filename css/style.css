@@ -373,6 +373,8 @@ body {
   position: fixed;
   z-index: 99; }
   .contain-to-grid .top-bar {
+    -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
     background: #fff;
     max-width: 100%; }
 
