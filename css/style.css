@@ -561,6 +561,33 @@ ul.socials {
     top: -5px;
     margin-right: 12px; }
 
+.work .info .center {
+  margin-top: 25px;
+  margin-left: 0px;
+  text-align: center;
+  max-width: 350px;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+  .work .info h3 {
+    margin-bottom: 5px; }
+  .work .info p {
+    color: #999; }
+  .work .info p::before {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background: #999;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    margin-right: 12px; }
+
 .work:hover img {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
