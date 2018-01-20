@@ -189,8 +189,7 @@ hr {
 
 body {
   overflow-x: hidden;
-  font-size: 18px;
-  letter-spacing: 2px; }
+  font-size: 18px; }
 
 .rotate {
   -webkit-animation: rotate 10s ease-in-out infinite;
