@@ -374,9 +374,9 @@ body {
   z-index: 99; }
   .contain-to-grid .top-bar {
     background: #fff;
-   -webkit-box-shadow: 0 6px 4px -4px black;
-	 -moz-box-shadow: 0 6px 4px -4px black;
-	  box-shadow: 0 6px 4px -4px black;
+   -webkit-box-shadow: 0 4px 2px -2px black;
+	 -moz-box-shadow: 0 4px 2px -2px black;
+	  box-shadow: 0 4px 2px -2px black;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
