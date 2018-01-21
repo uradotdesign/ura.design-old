@@ -337,7 +337,7 @@ body {
     transform: translateX(0); } }
 /* Navigation */
 .title-area h1 {
-  line-height: 1;
+  line-height: 0.5;
   padding-left: 15px; }
   .title-area h1 a {
     color: #333;
@@ -370,12 +370,14 @@ body {
 .contain-to-grid {
   background: transparent;
   position: fixed;
-  z-index: 99; }
+  z-index: 99;
+  height: 4rem; }
   .contain-to-grid .top-bar {
     -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
     box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
     background: #fff;
-    max-width: 100%; }
+    max-width: 100%;
+    height: 4rem; }
 
 .top-bar-section ul li > a {
   font-family: "Overpass";
