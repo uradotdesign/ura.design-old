@@ -1,14 +1,13 @@
 ---
 layout: post
-title: new way, new life
-author: hornyou
-date: 2016-04-06 06:48:03 +0800
-categories: travel, life
+title: Wikispeech Wikimedia project has a logo. Guess who designed it
+author: Redon Skikuli
+date: 2017-01-24 06:48:03 +0800
+categories: blogposts
 images:
 - images/@stock/post-2.jpg
-- images/@stock/post-3.jpg
 excerpt:
-  Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices - today I choose to feel life, not to deny my humanity but embrace it.
+  At Ura we <3 Wikipedia and other projects empowered by the Wikimedia Foundation such as Wikidata, Commons and Wikivoyage to mention a few. Actually, the organization has initiated and manages amazing projects in the filed of open knowledge and open source software, which labels it to our conscience as one of the most important pillars […]
 ---
 
 Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
