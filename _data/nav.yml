@@ -1,5 +1,5 @@
 - name: Home
-  path: {{ site.url }}
+  path: index
   section_id: home
 - name: About
   path: about
