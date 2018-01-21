@@ -69,7 +69,8 @@
     -webkit-filter: grayscale(0%); }
   .slick-slide:hover {
     filter: none;
-    -webkit-filter: grayscale(0%); }
+    -webkit-filter: grayscale(0%);
+    transition: .5s ease; }
   .slick-slide.slick-loading img {
     display: none; }
   .slick-slide.dragging img {
