@@ -1291,7 +1291,7 @@ form.update-form input.button:hover {
     color: #fff;
     text-transform: uppercase; }
   .footer .back-to-top a:hover {
-    color: #eee; }
+    color: #333; }
 
 /* fullscreen video */
 .video-bg {
