@@ -12,12 +12,9 @@
 - name: Logobridge
   path: logobridge.html
   section_id: works
-- name: Contact
-  path: contact.html
+- name: Request Design
+  path: request.html
   section_id: contact
-  children:
-  - name: Request Design
-    path: request.html
 - name: Blog
   path: blog/
   section_id: blog
