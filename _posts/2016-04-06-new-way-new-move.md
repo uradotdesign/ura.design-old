@@ -1,26 +1,16 @@
 ---
 layout: post
-title: new way, new move
-author: hornyou
-date: 2016-04-06 06:47:03 +0800
-categories: travel
+title: Hello open source design world
+author: Redon Skikuli
+date: 2017-01-03 11:00:00 +0200
+categories: blogposts
 images:
 - images/@stock/post-6.jpg
 excerpt:
-  Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
+  Hello design-onauts & free open source hacktivists and welcome to our blog! This will be our own space in the big ocean of chaotic, decentralized, beautiful and amazing flow of interactive information that is known in da hood as ‘the internet‘. We will share the latest works that make us proud, events we participate and […]
 ---
 
-Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
+Hello design-onauts & free open source hacktivists and welcome to our blog!
+This will be our own space in the big ocean of chaotic, decentralized, beautiful and amazing flow of interactive information that is known in da hood as <a href="https://xkcd.com/1348/"><strong style="color: #3399D4">‘the internet‘</strong></a>. We will share the latest <a href="https://github.com/uracreative/works">works</a> that make us proud, events we participate and organize, news about our team, information about the importance of open source design and the status of <a href="https://www.patreon.com/ura">our Patreon campaign</a> that aims better design for free open source initiatives.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.
-
-* A new command I give you: Love one another. As I have loved you, so you must love one another.
-* Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That's what real love amounts to - letting a person be what he really is.
-
-
-> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!""
-
-
-Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.
+See you around the <a href="http://knowyourmeme.com/memes/internets">internets</a> 🙂
