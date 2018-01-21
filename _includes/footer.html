@@ -26,3 +26,19 @@
 <script src="{{ "/bower_components/countto/jquery.countTo.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/appear/jquery.appear.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
+
+<!-- Matomo Analytics -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  / tracker methods like "setCustomDimension" should be called before "trackPageView" /
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//138.68.108.150/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Analytics Code -->
