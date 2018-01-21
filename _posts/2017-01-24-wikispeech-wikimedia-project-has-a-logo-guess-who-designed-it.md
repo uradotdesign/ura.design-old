@@ -10,17 +10,14 @@ excerpt:
   At Ura we <3 Wikipedia and other projects empowered by the Wikimedia Foundation such as Wikidata, Commons and Wikivoyage to mention a few. Actually, the organization has initiated and manages amazing projects in the filed of open knowledge and open source software, which labels it to our conscience as one of the most important pillars […]
 ---
 
-Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.
-
-* A new command I give you: Love one another. As I have loved you, so you must love one another.
-* Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That's what real love amounts to - letting a person be what he really is.
-
-
-> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!""
-
-
-Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.
+At Ura we <3 Wikipedia and other projects empowered by the <a href="https://www.wikimedia.org/" target="blank">Wikimedia Foundation</a> such as <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="blank">Wikidata</a>, <a href="https://commons.wikimedia.org/wiki/Main_Page" target="blank">Commons</a> and <a href="https://www.wikivoyage.org/" target="blank">Wikivoyage</a> to mention a few. Actually, the organization has initiated and manages amazing projects in the filed of open knowledge and open source software, which labels it to our conscience as one of the most important pillars of floss and open data culture. The latest addition to the list of the projects we really like, Wikimedia recently announced <a href="https://www.mediawiki.org/wiki/Wikispeech" target="blank">Wikispeech</a>, a text-to-speech tool with a focus on accessibility.
+<blockquote>
+‘The Wikispeech project aims to create an open source text-to-speech tool to make Wikimedia’s projects more accessible for people that have difficulties reading for different reasons. Wikispeech will be available as a MediaWiki extension. It will be a server based solution, which means that it can be used without having to install any software locally (something that is not possible on all devices used to access the Internet). All components will be open source and all data and documentation will be under a free license so that it can also be included on other platforms. The development of a text-to-speech extension for MediaWiki has been carefully investigated and planed during a pilot study in Autumn 2015.’
+Read the full blog post and the announcement <a href="https://blog.wikimedia.org/2016/12/20/wikispeech/" target="blank">here.
+</blockquote>
+<p>Being a non for profit Wikimedia has limited funds for many of its activities including design for some of the projects. That’s why a <a href="https://www.mediawiki.org/wiki/Wikispeech/Logo" target="blank">logo design competition</a> for the project was announced some months ago. Knowing the importance of the design in such an innovative project, but also having financial support from our <a href="https://www.patreon.com/ura" target="blank">amazing supporters of the Patreon campaign</a>, we worked and sent on different proposals and after a public discussion one of our proposal was chosen as the official logo of the initiative.
+The logo incorporates the look and feel of the main Wikimedia projects and also the color palette used by these projects. At the same time it features elements related to audio in order to make it easily recognizable as a project related to a text-to-speech system.</p>
+<img src="images/@stock/wikispeech.png" alt="wikispeech logo">
+<p>Some of us contribute to Wikipedia with article creation and editing, but also though the organization of events at hackerspaces and universities with the ultimate goal of engaging more and more people. We, the contributors of the open source culture and community members, have to understand that good design is essential to communicate quickly, easily and universally the main elements of these projects to everyone that has the potential to join our movement.</p>
+<p>We can only achieve this goal only if teams like ours here at Ura dedicate more and more time to make better design for open knowledge initiatives such as Wikispeech.  That’s why we ask your support from people like you though our Patreon campaign. More support from you means directly better design, and better design means more engaged and bigger floss communities.
+Help us hep floss initiatives communicate better with their audiences through open source design: https://www.patreon.com/ura!</p>
