@@ -20,4 +20,4 @@
   section_id: blog
   children:
     - name: Events
-      path: blog/
+      path: events
