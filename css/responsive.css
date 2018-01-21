@@ -36,7 +36,7 @@
 
   .top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
     background: transparent;
-    color: #666; } }
+    color: #3399d4; } }
 @media only screen and (max-width: 1240px) {
   .slides-navigation {
     display: none; } }
