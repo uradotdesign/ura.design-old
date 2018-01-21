@@ -60,7 +60,7 @@
 	  -webkit-filter: grayscale(1);
 	  filter: grayscale(1); }
 .slick-slide img:hover {
-    transition: .7s ease-in-out; 
+    transition: .5s ease-in-out; 
     opacity: 1;
 	  -webkit-filter: initial;
 	   filter: initial; }
