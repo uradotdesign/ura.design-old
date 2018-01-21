@@ -4568,8 +4568,9 @@ meta.foundation-mq-topbar {
         display: block;
         height: 0;
         width: 0;
-        border-color: rgba(51, 51, 51, 0.4) transparent transparent transparent;
-        border-top-style: solid;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #333333;
         margin-top: -2.5px;
         top: 3.125rem; }
     .top-bar-section .has-dropdown.moved {
