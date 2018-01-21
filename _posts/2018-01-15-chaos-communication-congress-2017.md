@@ -15,7 +15,7 @@ excerpt:
 <p>Our team, as a collective of creative individuals dedicated to work in the open, couldn’t miss the chance to be there. We share the same values with CCC when it comes to the use of free and open source tools for our work and that’s why Elio, one of our team members and the founder of Ura, was there on the last week of December to present at the FSFS assembly track.</p>
 
 <div class="large-12 large-centered centered-text columns">
-<img src="/images/@stock/elio-ccc.jpg" alt="34C3"><br />
+<img src="/images/@stock/elio-ccc.png" alt="34C3"><br />
 <i>During the Identihub presentation</i>
 </div>
 <div class="two spacing"></div>
