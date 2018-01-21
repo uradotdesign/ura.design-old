@@ -4222,7 +4222,8 @@ meta.foundation-mq-topbar {
         top: -1px; } }
   .top-bar .title-area {
     margin: 0;
-    position: relative; }
+    position: relative;
+    height: 4rem; }
   .top-bar .name {
     font-size: 16px;
     height: 6.25rem;
