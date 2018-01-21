@@ -19,7 +19,7 @@ The logo incorporates the look and feel of the main Wikimedia projects and also 
 <div class="large-12 large-centered centered-text columns">
 <img src="/images/@stock/wikispeech.png" alt="wikispeech logo">
 </div>
-
+<div class="two spacing"></div>
 <p>Some of us contribute to Wikipedia with article creation and editing, but also though the organization of events at hackerspaces and universities with the ultimate goal of engaging more and more people. We, the contributors of the open source culture and community members, have to understand that good design is essential to communicate quickly, easily and universally the main elements of these projects to everyone that has the potential to join our movement.</p>
 <p>We can only achieve this goal only if teams like ours here at Ura dedicate more and more time to make better design for open knowledge initiatives such as Wikispeech.  That’s why we ask your support from people like you though our Patreon campaign. More support from you means directly better design, and better design means more engaged and bigger floss communities.
 Help us hep floss initiatives communicate better with their audiences through open source design: <a href="https://www.patreon.com/ura" target="blank">https://www.patreon.com/ura!</a></p>
