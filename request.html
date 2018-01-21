@@ -34,6 +34,9 @@ section_id: contact
           <input class='required' name='subject' placeholder='SUBJECT' type='text'>
               <p>Tell us about your open source project, the more details, the better: *<br />
                     <textarea class='required' name='message' placeholder='Details'></textarea></p>
+              <p>Your budget (USD $) *<br />
+                    <blockquote>If your budget is 0, we suggest a pledge for Ura with at least $2 (suggested: $5) on Patreon. This allows us to keep helping projects and buy coffee when working.</blockquote>
+                  <input class='required' name='budget' placeholder='0' type='number' min="0" max="9999999"></p>
           <div class='spacing'></div>
           <input class='button small boxed blue simple' type='submit'>
         </form>
