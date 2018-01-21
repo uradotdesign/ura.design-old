@@ -16,7 +16,7 @@ At Ura we <3 Wikipedia and other projects empowered by the <a href="https://www.
 <p>Being a non for profit Wikimedia has limited funds for many of its activities including design for some of the projects. That’s why a <a href="https://www.mediawiki.org/wiki/Wikispeech/Logo" target="blank">logo design competition</a> for the project was announced some months ago. Knowing the importance of the design in such an innovative project, but also having financial support from our <a href="https://www.patreon.com/ura" target="blank">amazing supporters of the Patreon campaign</a>, we worked and sent on different proposals and after a public discussion one of our proposal was chosen as the official logo of the initiative.
 The logo incorporates the look and feel of the main Wikimedia projects and also the color palette used by these projects. At the same time it features elements related to audio in order to make it easily recognizable as a project related to a text-to-speech system.</p>
 
-<div class="large-12 large-centered columns">
+<div class="large-12 large-centered centered-text columns">
 <img src="/images/@stock/wikispeech.png" alt="wikispeech logo">
 </div>
 
