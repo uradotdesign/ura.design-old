@@ -4547,16 +4547,16 @@ meta.foundation-mq-topbar {
       color: #666; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       background: #333333;
-      line-height: 6.25rem;
-      padding: 0 1.25rem; }
+      line-height: 4rem;
+      padding: 0 1rem; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
         background: #222222; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       background: #AB8860;
       color: #FFFFFF;
-      line-height: 6.25rem;
-      padding: 0 1.25rem; }
+      line-height: 4rem;
+      padding: 0 1rem; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #96754f;
         color: #FFFFFF; }
