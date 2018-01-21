@@ -1,13 +1,13 @@
 ---
 layout: post
-title: new way, new born
-author: hornyou
-date: 2016-04-06 06:45:03 +0800
-categories: travel
+title: Hosting the first Open Source Design Workshop in Tirana
+author: Redon Skikuli
+date: 2017-02-11 12:00:00 +0200
+categories: blogposts
 images:
 - images/@stock/post-4.jpg
 excerpt:
-  Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain...
+  When we started our Patreon campaign we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was […]
 ---
 
 Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
