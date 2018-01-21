@@ -22,7 +22,12 @@
 
   .top-bar-section ul li {
     background: transparent;
-    animation: .5s ease-in; }
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
 
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: transparent;
