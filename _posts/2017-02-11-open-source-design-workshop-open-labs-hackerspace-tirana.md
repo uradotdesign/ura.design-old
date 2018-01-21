@@ -33,3 +33,28 @@ During the presentation the participants had the opportunity to:
 <div class="two spacing"></div>
 
 <p>In conclusion: it was a great first step in educating the next generation of visual designers about the values designing in the open. We definitely need more of your <a href="https://www.patreon.com/ura" target="blank">support though Patreon</a> to host even more workshops not only in Albania, but also other countries.<br /> Interested in the next events? Visit <a href="/events" target="blank">this dedicated page</a> from time to time, or follow us on Twitter.
+
+<div class="large-12 large-centered centered-text columns">
+<img src="/images/@stock/workshop-3.jpg" alt="workshop">
+</div>
+<div class="two spacing"></div>
+
+<div class="large-12 large-centered centered-text columns">
+<img src="/images/@stock/workshop-4.jpg" alt="workshop">
+</div>
+<div class="two spacing"></div>
+
+<div class="large-12 large-centered centered-text columns">
+<img src="/images/@stock/workshop-5.jpg" alt="workshop">
+</div>
+<div class="two spacing"></div>
+
+<div class="large-12 large-centered centered-text columns">
+<img src="/images/@stock/workshop-6.jpg" alt="workshop">
+</div>
+<div class="two spacing"></div>
+
+<div class="large-12 large-centered centered-text columns">
+<img src="/images/@stock/workshop-7.jpg" alt="workshop">
+</div>
+<div class="two spacing"></div>
