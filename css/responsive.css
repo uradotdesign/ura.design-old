@@ -21,7 +21,8 @@
     display: block !important; }
 
   .top-bar-section ul li {
-    background: transparent; }
+    background: transparent;
+    animation: .5s ease-in; }
 
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: transparent;
