@@ -60,10 +60,10 @@
 	  -webkit-filter: grayscale(1);
 	  filter: grayscale(1); }
 .slick-slide img:hover {
+    transition: .5s ease; 
     opacity: 1;
 	  -webkit-filter: initial;
-	  filter: initial;
-    transition: .5s ease; }
+	   filter: initial; }
   .slick-slide.slick-loading img {
     display: none; }
   .slick-slide.dragging img {
