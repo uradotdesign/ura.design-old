@@ -714,12 +714,12 @@ nav.wrapper {
     .post h2 a, .post h3 a, .post h4 a, .recent-post h2 a, .recent-post h3 a, .recent-post h4 a {
       color: #333; }
     .post h2 a:hover, .post h3 a:hover, .post h4 a:hover, .recent-post h2 a:hover, .recent-post h3 a:hover, .recent-post h4 a:hover {
-      color: #AB8860; }
+      color: #3399D4; }
   .post p.info, .recent-post p.info {
     font-size: 14px;
     margin-bottom: 30px; }
     .post p.info a, .recent-post p.info a {
-      color: #AB8860; }
+      color: #3399D4; }
     .post p.info a:hover, .recent-post p.info a:hover {
       color: #666; }
   .post .button:hover, .recent-post .button:hover {
