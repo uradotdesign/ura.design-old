@@ -4535,7 +4535,7 @@ meta.foundation-mq-topbar {
     left: 0 !important; }
     .top-bar-section ul {
       display: inline;
-      height: auto !important;
+      height: 4rem;
       width: auto; }
       .top-bar-section ul li {
         float: left; }
