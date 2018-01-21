@@ -59,4 +59,4 @@ During the presentation the participants had the opportunity to:
 </div>
 <div class="two spacing"></div>
 
-<i>Photos: <a href="http://andisrado.com" target="blank">Andis Rado</a>, (Creative Commons – Attribution-ShareAlike 4.0 International)
+<i>Photos: <a href="http://andisrado.com" target="blank">Andis Rado</a>, (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
