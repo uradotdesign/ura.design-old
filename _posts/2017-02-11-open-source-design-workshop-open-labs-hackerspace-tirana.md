@@ -11,3 +11,23 @@ excerpt:
 ---
 
 <p>When we started our <a href="https://www.patreon.com/ura" target="blank">Patreon campaign</a> we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field. We quickly understood that they have many questions about the usage of free open source tools in the process of designing for their needs.<br /> With this in mind it was clear that that we definitely need to educate the new generation of designers through workshops and talks about our philosophy. Without further delay we started organizing the first Open Source Design workshop at <a href="https://openlabs.cc/" target="blank">Open Labs hackerspace in Tirana</a>, home of the open source community in Albania.</p>
+
+<div class="large-12 large-centered centered-text columns">
+<img src="/images/@stock/workshop-1.jpg" alt="wikispeech logo">
+</div>
+<div class="two spacing"></div>
+
+<p>A room full of young designers was the best first positive feedback from the initiative. Youngsters are the best audience for us since we hope to find the next designer(s) in the room that will work based on the open source design ethics and not the way the proprietary market imposes.
+During the presentation the participants had the opportunity to:
+
+    learn the definition of open source design;
+    understand the importance of working with open source tools;
+    ways to use GIMP and Inkscape, two of the most used free open source design tools, in an effective and productive way;
+    preparation of print-ready files using open source tools.
+</p>
+
+<div class="large-12 large-centered centered-text columns">
+<img src="/images/@stock/workshop-2.jpg" alt="wikispeech logo">
+</div>
+<div class="two spacing"></div>
+
