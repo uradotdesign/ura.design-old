@@ -2,18 +2,18 @@
   path: index.html
   section_id: home
 - name: About
-  path: about.html
+  path: about
   section_id: pages
   children:
     - name: Jobs
-      path: jobs.html
+      path: jobs
     - name: Supporters
-      path: supporters.html
+      path: supporters
 - name: Logobridge
-  path: logobridge.html
+  path: logobridge
   section_id: works
 - name: Request Design
-  path: request.html
+  path: request
   section_id: contact
 - name: Blog
   path: blog/
