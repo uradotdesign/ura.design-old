@@ -19,12 +19,12 @@ excerpt:
 
 <p>A room full of young designers was the best first positive feedback from the initiative. Youngsters are the best audience for us since we hope to find the next designer(s) in the room that will work based on the open source design ethics and not the way the proprietary market imposes.
 During the presentation the participants had the opportunity to:
-   
-* learn the definition of open source design;
-* understand the importance of working with open source tools;
-* ways to use GIMP and Inkscape, two of the most used free open source design tools, in an effective and productive way;
-* preparation of print-ready files using open source tools.
-
+<ul>
+<li>learn the definition of open source design;</li>
+<li>understand the importance of working with open source tools;</li>
+<li>ways to use GIMP and Inkscape, two of the most used free open source design tools, in an effective and productive way;</li>
+<li>preparation of print-ready files using open source tools.</li>
+</ul>
 </p>
 
 <div class="large-12 large-centered centered-text columns">
