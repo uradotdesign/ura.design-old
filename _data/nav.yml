@@ -9,6 +9,8 @@
 - name: Logobridge
   path: logobridge
   section_id: works
+- name: Works
+  path: works
 - name: Request Design
   path: request
   section_id: contact
