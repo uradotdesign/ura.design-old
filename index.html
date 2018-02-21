@@ -127,6 +127,20 @@ clients:
   </div>
 </div>
 
+<div class="full light-grey no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='clients'>
+        {% for client in page.clients %}
+          <div><a href="{{client.url}}" target="blank"><img alt="" src="{{site.baseurl}}/{{client.image}}"></a></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+
 <div class="full no-padding">
   <div class="four spacing"></div>
   <div class="spacing"></div>
