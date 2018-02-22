@@ -1433,32 +1433,13 @@ input[type=text] {
     background-color: transparent;
     color: #333333;
     border: none;
-    border-bottom: 1px solid #333333;
     padding: 10px 0px;
     font-size: 16px;
-}
-
-input[type=text]:focus {
-    border-bottom: 1.5px solid #333333;
-}
-
-input[type=email] {
-    font-weight: 500;
-    background-color: transparent;
-    color: #333333;
-    border: none;
-    border-bottom: 1px solid #333333;
-    padding: 10px 0px;
-    font-size: 16px;
-}
-
-input[type=email]:focus {
-    border-bottom: 1.5px solid #333333;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
   border: 1px solid #333;
-  font-size: 14px;
+  font-size: 16px;
   background: none;
   color: #333;
   padding: 10px;
