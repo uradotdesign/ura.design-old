@@ -1426,6 +1426,44 @@ form.update-form input.button:hover {
     .sidebar .tags a:hover {
       border: 1px solid #AB8860; }
 
+/*Subscription Form Design*/
+
+input[type=text] {
+    font-weight: 500;
+    background-color: transparent;
+    color: #333333;
+    border: none;
+    border-bottom: 1px solid #333333;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+input[type=text]:focus {
+    border-bottom: 1.5px solid #333333;
+}
+
+input[type=email] {
+    font-weight: 500;
+    background-color: transparent;
+    color: #333333;
+    border: none;
+    border-bottom: 1px solid #333333;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+input[type=email]:focus {
+    border-bottom: 1.5px solid #333333;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  border: 1px solid #333;
+  background: none;
+  color: #333;
+  &:hover, &:focus, &:active, &.active {
+    color: #fff;
+  }   
+}
 
 
 /*Pager */
