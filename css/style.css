@@ -1460,6 +1460,7 @@ input[type=button], input[type=submit], input[type=reset] {
   border: 1px solid #333;
   background: none;
   color: #333;
+  padding: 20px;
   &:hover, &:focus, &:active, &.active {
     color: #fff;
   }   
