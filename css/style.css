@@ -1444,7 +1444,7 @@ input[type=button], input[type=submit], input[type=reset] {
   color: #333;
   padding: 10px;
   &:hover, &:focus, &:active, &.active {
-    background: #333;
+    background-color: #333;
     color: #fff;
   }   
 }
