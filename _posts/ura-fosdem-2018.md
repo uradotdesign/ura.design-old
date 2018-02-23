@@ -1,0 +1,49 @@
+---
+layout: post
+title: Ura at FOSDEM 2018
+author: Mariana Balla
+date: 2018-02-09 12:00:00 +0200
+categories: blogposts
+images:
+- images/@stock/post-1.jpg
+excerpt:
+  During last weekend the Ura team traveled to Brussels, Belgium to attend FOSDEM. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one). Just like at CCC, we strive to be at events which promote collaborative projects and initiatives. In addition […]
+---
+
+<p>During last weekend the Ura team traveled to Brussels, Belgium to attend <a href="https://fosdem.org/2018/" target="_blank">FOSDEM</a>. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one).  Just like at <a href=""CCC, we strive to be at events  which promote collaborative projects and initiatives. In addition to that, three members of the team were there as Mozilla Tech Speakers. It can be said that many of us wear various hats at the same time.</p>
+
+<p>Since she was going to attend the <a href="https://sha2017.org/" target="blank">SHA2017</a> Hacker Camp in the Netherlands, this was a great opportunity for her to also meet people from the <a href="http://opensourcedesign.net/" target="blank">Open Source Design</a> community and people from other open source projects we’ve been working with.<br />
+For those of you who haven’t heard of SHA before: this is an outdoor hacker camp which took place in the Netherlands on August 4th to 8th and was the successor of similar events which have been taking place every 4 years and thousands of visitors have been joining it. Thousands of activists,free-thinkers, hackers, geeks, scientists, makers and others from all over the world joined SHA2017 to share their ideas, thoughts and knowledge, to discuss, build and hack with others.</p>
+
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/tower.jpg" alt="tower at SHA2017"><br />
+<i>By Erik Albers (Own work) [CC0], via Wikimedia Commons</i>
+</div>
+<div class="two spacing"></div>
+
+<p>One of the things that Silva noticed during these hacking days was the fact that people were not talking so much about design in general, which is not that much of a surprise since the event is quite technical in general. But of course, there were so many people there and she also had the chance to meet some of those who were also concerned about the design of their products and would like to meet and talk to people who are experts of the field, and having projects like Open Source Design makes it easer to show them a place were they should go and ask for advice or help.</p>
+
+
+> Still Open Source Designing Anyway!! #sha2017 #sha2017camp @SHA2017Badge <a href="https://pic.twitter.com/rmejAIL1YM" target="blank">pic.twitter.com/rmejAIL1YM</a>
+  — Ura Design (@uracreative) August 7, 2017
+  
+<p>During her days at the camp Silva had the chance to meet <a href="https://twitter.com/seoul_victoria" target="blank">Victoria</a>, a UX Researcher/Designer who is part of the Open Source Design community. Victoria told her a bit more about the the community, what the people who are part of it have been working on and what are some of their future plans. She also met <a href="https://www.linkedin.com/in/hpbos" target="blank">Herman</a> one of our clients who is the founder of <a href="https://www.osso.nl/" target="blank">OSSO</a>, a company which specializes in open source infrastructure, development and operations. We have been working with them during the last months to improve the design for some of their products.</p>
+
+<p>The camping days were intensive, with so many great talks, workshops and hacking sessions. Silva says that having more presence in such events by people who work with design would help in increasing awareness about the importance of good design while building technological products.</p>
+
+<p>Check <a href="https://silva.arapi.tech/sha-2017-hacker-camp/" target="blank">her blog</a> for more details on the camp.</p>
+
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/sha1.jpg" alt="SHA2017"><br />
+</div>
+<div class="two spacing"></div>
+
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/sha2.jpg" alt="SHA2017"><br />
+</div>
+<div class="two spacing"></div>
+
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/sha3.jpg" alt="SHA2017"><br />
+</div>
+<div class="two spacing"></div>
