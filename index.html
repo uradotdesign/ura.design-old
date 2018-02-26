@@ -198,10 +198,10 @@ clients:
   <div class="row">
     <div class="large-6 columns">
       {% for testimonial in page.testimonials_left %}
-        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
           <div class="row">
             <div class="small-3 columns">
-              <img src="{{testimonial.avatar}}" alt="auhor">
+              <img src="{{testimonial.avatar}}" alt="author">
             </div>
             <div class="small-9 columns">
               <p>{{testimonial.content}}</p>
@@ -213,10 +213,10 @@ clients:
     </div>
     <div class="large-6 columns">
       {% for testimonial in page.testimonials_right %}
-        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.3 | times:forloop.index0 }}s">
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
           <div class="row">
             <div class="small-3 columns">
-              <img src="{{testimonial.avatar}}" alt="auhor">
+              <img src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
             </div>
             <div class="small-9 columns">
               <p>{{testimonial.content}}</p>
