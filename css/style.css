@@ -839,7 +839,7 @@ nav.wrapper {
     line-height: 1.2em;
     font-family: "Overpass";
     font-size: 48px;
-    color: #fff;
+    color: #333;
     letter-spacing: 1px;
     opacity: 0;
     -webkit-transform: translateY(-100px);
