@@ -829,7 +829,7 @@ nav.wrapper {
 /* slide */
 .slide-info {
   position: absolute;
-  width: 21%;
+  width: 35%;
   top: 25%;
   z-index: 2;
   left: 13%;
