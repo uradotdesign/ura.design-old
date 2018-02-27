@@ -837,8 +837,8 @@ nav.wrapper {
     text-transform: uppercase;
     line-height: 1.2em;
     font-family: "Overpass";
-    font-size: 66px;
-    letter-spacing: 4px;
+    font-size: 48px;
+    letter-spacing: 1px;
     opacity: 0;
     -webkit-transform: translateY(-100px);
     -moz-transform: translateY(-100px);
@@ -855,8 +855,8 @@ nav.wrapper {
       font-style: italic;
       font-weight: 300; }
   .slide-info p {
-    color: #333;
-    letter-spacing: 4px;
+    color: #fff;
+    letter-spacing: 1px;
     font-weight: 300;
     opacity: 0;
     -webkit-transform: translateY(-100px);
