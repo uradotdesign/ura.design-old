@@ -832,7 +832,8 @@ nav.wrapper {
   width: 21%;
   top: 25%;
   z-index: 2;
-  left: 13%; }
+  left: 13%;
+  color: #fff; }
   .slide-info h1 {
     text-transform: uppercase;
     line-height: 1.2em;
