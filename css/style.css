@@ -833,12 +833,13 @@ nav.wrapper {
   top: 25%;
   z-index: 2;
   left: 13%;
-  color: #fff; }
+  }
   .slide-info h1 {
     text-transform: uppercase;
     line-height: 1.2em;
     font-family: "Overpass";
     font-size: 48px;
+    color: #fff;
     letter-spacing: 1px;
     opacity: 0;
     -webkit-transform: translateY(-100px);
