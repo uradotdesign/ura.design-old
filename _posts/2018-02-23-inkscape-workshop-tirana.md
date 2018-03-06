@@ -5,7 +5,7 @@ author: Mariana Balla
 date: 2018-02-23 12:00:00 +0200
 categories: blogposts
 images:
-- images/@stock/post-1.jpg
+- images/@stock/Inkscape-Workshop-1.jpg
 excerpt:
   Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, […]
 ---
