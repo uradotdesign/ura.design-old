@@ -5,7 +5,7 @@ author: Mariana Balla
 date: 2018-01-15 12:00:00 +0200
 categories: blogposts
 images:
-- images/@stock/elio-ccc.jpg
+- images/@stock/elio-ccc.png
 excerpt:
   Chaos Communication Congress or simply CCC , is a four-day conference focusing on technology and social issues of our times. The organizers, the Chaos Computer Club, try to bring up to the spotlight privacy issues and the importance of the human rights on the digital world we “breathe” every day. Through workshops and presentations the […]
 ---
