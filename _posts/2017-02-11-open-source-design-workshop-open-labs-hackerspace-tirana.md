@@ -5,7 +5,7 @@ author: Redon Skikuli
 date: 2017-02-11 12:00:00 +0200
 categories: blogposts
 images:
-- images/@stock/post-4.jpg
+- images/@stock/osd_event.png
 excerpt:
  When we started our Patreon campaign we had a simple vision; to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was […]
 ---
