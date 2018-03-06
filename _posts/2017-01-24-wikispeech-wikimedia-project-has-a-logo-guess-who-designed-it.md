@@ -5,7 +5,7 @@ author: Redon Skikuli
 date: 2017-01-24 12:00:00 +0200
 categories: blogposts
 images:
-- images/@stock/post-2.jpg
+- images/@stock/ura-wikispeech.png
 excerpt:
   At Ura we <3 Wikipedia and other projects empowered by the Wikimedia Foundation such as Wikidata, Commons and Wikivoyage to mention a few. Actually, the organization has initiated and manages amazing projects in the filed of open knowledge and open source software, which labels it to our conscience as one of the most important pillars […]
 ---
