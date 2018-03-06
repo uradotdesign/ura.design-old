@@ -5,7 +5,7 @@ author: Mariana Balla
 date: 2018-01-09 12:00:00 +0200
 categories: blogposts
 images:
-- images/@stock/post-5.jpg
+- images/@stock/Ura_Work_Week.jpg
 excerpt:
   Working remotely can be comfortable and productive at the same time, but some time getting together with your co-workers, having coffee,discussing, brainstorming… is also good to have from time to time. At Ura we all work from home, so we have our "Ura work week" every 6 months as a way to bring the team […]
 ---
