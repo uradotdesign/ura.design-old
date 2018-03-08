@@ -28,6 +28,13 @@
 .spacing {
   height: 20px; }
 
+::selection {
+  background: #3399d4; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #3399d4; /* Gecko Browsers */
+}
+
 .two.spacing {
   height: 40px; }
 
