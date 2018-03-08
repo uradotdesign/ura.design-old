@@ -10,7 +10,7 @@
   path: logobridge
   section_id: works
 - name: Projects
-  path: works
+  path: projects
 - name: Request Design
   path: request
   section_id: contact
