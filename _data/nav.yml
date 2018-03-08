@@ -6,11 +6,14 @@
       path: jobs
     - name: Supporters
       path: supporters
+- name: Services
+  path: services
+  section_id: pages
+- name: Projects
+  path: projects
 - name: Logobridge
   path: logobridge
   section_id: works
-- name: Projects
-  path: projects
 - name: Request Design
   path: request
   section_id: contact
