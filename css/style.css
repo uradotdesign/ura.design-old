@@ -29,10 +29,13 @@
   height: 20px; }
 
 ::selection {
-  background: #3399d4; /* WebKit/Blink Browsers */
+  background: #3399d4;
+  color: white;     /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
-  background: #3399d4; /* Gecko Browsers */
+  background: #3399d4;
+  color: white;     /* Gecko Browsers */
 }
 
 .two.spacing {
