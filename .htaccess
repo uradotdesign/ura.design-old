@@ -32,5 +32,3 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
 </IfModule>
-
-AddType image/svg+xml .svg .svgz
