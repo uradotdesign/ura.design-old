@@ -4,7 +4,7 @@ section_id: home
 slides:
 - text: OPEN SOURCE DESIGN AND USABILITY SERVICES
   subtitle: Ura supports Open Source and Free Software Projects with Usability, Visual Identity and User Experience Design, no matter if small grassroots or established enterprise. We share Open Source Design principles.
-  overlay: on
+  overlay: overlay
   button:
     text: What is it?
     url: http://opensourcedesign.net
@@ -96,7 +96,7 @@ clients:
           </div>
           <div class="slide-left" style="background-color: {{ slide.bg_color }};">
           </div>
-          <div class="slide-right" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          <div class="slide-right {{ slide.overlay }}" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
           </div>
         </div>
       {% endfor %}
