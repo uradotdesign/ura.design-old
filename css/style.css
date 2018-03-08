@@ -106,13 +106,11 @@
 .full.image-bg-1 {
   background-image: url(../images/@stock/image-bg.jpg); }
 
-.overlay:before{
+.overlay {
   position: fixed;
-  content:" ";
+  content:"";
   top:0;
   left:0;
-  width:100%;
-  height:100%;
   display: block;
   z-index:0;
   background-color: rgba(51, 153, 212, 0.8);
