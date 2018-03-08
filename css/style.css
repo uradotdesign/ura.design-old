@@ -51,7 +51,7 @@
   background-image: url(../images/@stock/works-header.jpg); 
   background-size: auto; }
 
-.full.works.overlay {
+.works {
   background: rgba(51,153,112,0.8);
   overflow: hidden;
   height: 100%; }
