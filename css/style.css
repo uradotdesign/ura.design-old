@@ -502,7 +502,8 @@ ul.socials {
   transition-duration: 0.3s; }
   .icon-text i {
     color: #3399D4;
-    font-size: 60px; }
+    font-size: 60px;
+    padding: 0px 0px 40px 0px; }
 
 .icon-text::after {
   content: "";
