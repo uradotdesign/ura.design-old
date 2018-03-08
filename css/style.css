@@ -101,7 +101,7 @@
 .full.image-bg-1 {
   background-image: url(../images/@stock/image-bg.jpg); }
 
-.overlay {
+.overlay:before {
   position: absolute;
   content:" ";
   top:0;
