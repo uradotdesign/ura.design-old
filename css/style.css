@@ -992,7 +992,7 @@ nav.wrapper {
   background: #E4A48B; }
 
 .slides-navigation a {
-  color: #333333;
+  color: #fff;
   font-size: 36px;
   padding: 20px;
   -webkit-transform: translateX(0);
