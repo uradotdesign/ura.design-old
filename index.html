@@ -96,9 +96,7 @@ clients:
           </div>
           <div class="slide-left" style="background-color: {{ slide.bg_color }};">
           </div>
-          {$ for slide in page.slides %}
           <div class="slide-right overlay" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
-            {% endfor %} 
           </div>
         </div>
       {% endfor %}
