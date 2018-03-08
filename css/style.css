@@ -400,7 +400,7 @@ body {
   font-family: "Overpass";
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0px; }
+  letter-spacing: -0.5px; }
 
 .top-bar-section li:not(.has-form).has-dropdown .dropdown a:not(.button) {
   line-height: 45px;
