@@ -67,6 +67,9 @@
 .full.grey {
   background: #edebe7; }
 
+.full.works {
+  background-image: url(../images/@stock/works-header.png); }
+
 .full.white {
   background: #fff; }
 
@@ -103,7 +106,7 @@
 .full.image-bg-1 {
   background-image: url(../images/@stock/image-bg.jpg); }
 
-.overlay:before {
+.overlay:before{
   position: absolute;
   content:" ";
   top:0;
@@ -112,7 +115,7 @@
   height:100%;
   display: block;
   z-index:0;
-  background-color: rgba(52,153,112,0.8);
+  background-color: rgba(51, 153, 212, 0.8);
 }
 
 .no-padding {
