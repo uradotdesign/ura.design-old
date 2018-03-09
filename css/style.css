@@ -873,7 +873,7 @@ nav.wrapper {
     line-height: 1.2em;
     font-family: "Overpass";
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
     letter-spacing: 1px;
     opacity: 0;
@@ -890,7 +890,7 @@ nav.wrapper {
     transition-property: all; }
     .slide-info h1 span {
       font-style: normal;
-      font-weight: 700; }
+      font-weight: 800; }
   .slide-info p {
     color: #fff;
     letter-spacing: 1px;
