@@ -888,8 +888,8 @@ nav.wrapper {
     -moz-transition-property: all;
     transition-property: all; }
     .slide-info h1 span {
-      font-style: italic;
-      font-weight: 300; }
+      font-style: normal;
+      font-weight: 900; }
   .slide-info p {
     color: #fff;
     letter-spacing: 1px;
