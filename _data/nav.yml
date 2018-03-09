@@ -14,7 +14,7 @@
 - name: Logobridge
   path: logobridge
   section_id: works
-- name: Request Design
+- name: Request Service
   path: request
   section_id: contact
 - name: Blog
