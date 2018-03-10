@@ -38,6 +38,9 @@
   color: white;     /* Gecko Browsers */
 }
 
+.one.spacing {
+  height: 20px; }
+
 .two.spacing {
   height: 40px; }
 
@@ -210,7 +213,8 @@ hr {
   font-size: 24px;
   line-height: 1.2em;
   position: relative;
-  padding-right: 20px; }
+  padding-right: 20px;
+  color: white; }
 
 .header-quote i {
   font-size: 64px !important;
