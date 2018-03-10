@@ -70,8 +70,9 @@
 
   .slide-right {
     width: 100%;
-    left: 0; 
-    .overlay:before {
+    left: 0; }
+  
+  .slide-right.overlay:before {
   position: absolute;
   content:" ";
   top:0;
@@ -81,7 +82,8 @@
   display: block;
   z-index:0;
   background-color: rgba(51, 153, 212, 0.8); }
-    .overlay.grey:before {
+  
+  .slide-right.overlay.grey:before {
   position: absolute;
   content:" ";
   top:0;
@@ -91,7 +93,6 @@
   display: block;
   z-index:0;
   background-color: rgba(88, 89, 91, 0.8); }
-  }
 
   .slide-info {
     width: 100%;
