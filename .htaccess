@@ -32,3 +32,5 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
 </IfModule>
+
+ErrorDocument 404 /404
