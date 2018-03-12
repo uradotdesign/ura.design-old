@@ -16,6 +16,8 @@
 - name: Logobridge
   path: logobridge
   section_id: works
+- name: Request Service
+  path: request
 - name: Blog
   path: blog/
   section_id: blog
