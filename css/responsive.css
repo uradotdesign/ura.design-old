@@ -9,7 +9,7 @@
     transition-duration: 0.3s; }
 
   .top-bar-section .has-dropdown.hover > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
-    top: 60px; } }
+    top: 63px; } }
 @media only screen and (min-width: 1024px) {
   .top-bar-section .dropdown {
     top: 70px; }
