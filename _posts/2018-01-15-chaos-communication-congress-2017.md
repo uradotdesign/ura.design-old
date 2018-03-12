@@ -3,7 +3,7 @@ layout: post
 title: Chaos Communication Congress 2017 – We were there
 author: Mariana Balla
 date: 2018-01-15 12:00:00 +0200
-categories: blogposts
+categories: blog
 images:
 - images/@stock/elio-ccc.png
 excerpt:
