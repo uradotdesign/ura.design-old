@@ -3,7 +3,7 @@ layout: post
 title: Ura Work Week in November 2017
 author: Mariana Balla
 date: 2018-01-09 12:00:00 +0200
-categories: blogposts
+categories: blog
 images:
 - images/@stock/work-week.jpg
 excerpt:
