@@ -6,6 +6,8 @@
       path: jobs
     - name: Supporters
       path: supporters
+    - name: Contact
+      path: contact
 - name: Services
   path: services
   section_id: pages
