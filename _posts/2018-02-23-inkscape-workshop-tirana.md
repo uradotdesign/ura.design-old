@@ -3,7 +3,7 @@ layout: post
 title: Inkscape Workshop in Tirana
 author: Mariana Balla
 date: 2018-02-23 12:00:00 +0200
-categories: blog
+categories: 
 images:
 - images/@stock/Inkscape-Workshop-1.jpg
 excerpt:
