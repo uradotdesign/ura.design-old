@@ -33,4 +33,4 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
   Header append Vary User-Agent
 </IfModule>
 
-ErrorDocument 404 /404
+ErrorDocument 404 404
