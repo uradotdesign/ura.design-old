@@ -3,7 +3,7 @@ layout: post
 title: Wikispeech Wikimedia project has a logo. Guess who designed it
 author: Redon Skikuli
 date: 2017-01-24 12:00:00 +0200
-categories: blogposts
+categories: blog
 images:
 - images/@stock/ura-wikispeech.png
 excerpt:
