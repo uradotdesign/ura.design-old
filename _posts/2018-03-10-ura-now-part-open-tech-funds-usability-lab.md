@@ -2,10 +2,10 @@
 layout: post
 title: Inkscape Workshop in Tirana
 author: Mariana Balla
-date: 2018-02-23 12:00:00 +0200
+date: 2018-03-10 12:00:00 +0200
 categories: blogposts
 images:
-- images/@stock/Inkscape-Workshop-1.jpg
+- images/@stock/OTF.jpg
 excerpt:
   Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of Open Tech Fund’s Usability Lab. The Usability Lab aims to increase user safety and promote practical internet freedom by working with developers and technologists to improve the usability of open ­source circumvention and digital security […]
 ---
