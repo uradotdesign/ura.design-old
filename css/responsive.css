@@ -12,7 +12,7 @@
     top: 64px; } }
 @media only screen and (min-width: 1024px) {
   .top-bar-section .dropdown {
-    top: 70px; }
+    top: 50px; }
 
   #menu-toggler {
     display: none; }
