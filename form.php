@@ -43,7 +43,7 @@ if (array_key_exists('to', $_POST)) {
         //which will cause your messages to fail SPF checks.
         //Use an address in your own domain as the from address, put the submitter's address in a reply-to
         $mail->setFrom('form@ura.design', (empty($name) ? 'Contact form' : $name));
-        $mail->addAddress($to);
+        $mail->addAddress('anxhelo1995@gmail.com');
         $mail->addReplyTo($email, $name);
         $mail->Subject = 'Contact form: ' . $subject;
         $mail->Body = "Contact form submission\n\n" . $projectname . $message . $budget;
