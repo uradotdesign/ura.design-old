@@ -25,15 +25,6 @@ if (array_key_exists('to', $_POST)) {
         $name = '';
     }
     
-    //Validate to address
-    //Never allow arbitrary input for the 'to' address as it will turn your form into a spam gateway!
-    //Substitute appropriate addresses from your own domain, or simply use a single, fixed address
-    if (array_key_exists('to', $_POST) and in_array($_POST['to'], ['anxhelo1995'])) {
-        $to = $_POST['to'] . '@gmail.com';
-    } else {
-        $to = 'anxhelo1995@gmail.com';
-    }
-    
     //Make sure the address they provided is valid before trying to use it
     if (array_key_exists('email', $_POST) and PHPMailer::validateAddress($_POST['email'])) {
         $email = $_POST['email'];
