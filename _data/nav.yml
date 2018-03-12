@@ -2,12 +2,12 @@
   path: about
   section_id: pages
   children:
+    - name: Contact
+      path: contact
     - name: Jobs
       path: jobs
     - name: Supporters
       path: supporters
-    - name: Contact
-      path: contact
 - name: Services
   path: services
   section_id: pages
