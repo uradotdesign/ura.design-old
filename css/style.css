@@ -438,7 +438,7 @@ body {
 .top-bar-section li:not(.has-form).has-dropdown .dropdown a:not(.button) {
   line-height: 45px;
   font-family: "Overpass";
-  text-transform: capitalize; }
+  text-transform: uppercase; }
 
 /* member */
 .member {
