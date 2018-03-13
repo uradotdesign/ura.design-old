@@ -1,3 +1,17 @@
+- name: Blog
+  path: blog/
+  section_id: blog
+  children:
+    - name: Events
+      path: events
+- name: Services
+  path: services
+  section_id: pages
+- name: Projects
+  path: projects
+- name: Logobridge
+  path: logobridge
+  section_id: works
 - name: About
   path: about
   section_id: pages
@@ -8,17 +22,3 @@
       path: jobs
     - name: Supporters
       path: supporters
-- name: Services
-  path: services
-  section_id: pages
-- name: Projects
-  path: projects
-- name: Logobridge
-  path: logobridge
-  section_id: works
-- name: Blog
-  path: blog/
-  section_id: blog
-  children:
-    - name: Events
-      path: events
