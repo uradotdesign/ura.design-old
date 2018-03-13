@@ -33,3 +33,5 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
 </IfModule>
+
+ErrorDocument 404 /404.html
