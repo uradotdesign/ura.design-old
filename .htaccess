@@ -52,3 +52,6 @@ ExpiresByType application/x-javascript "access plus 1 month"
 ExpiresDefault "access plus 1 days"
 </IfModule>
 ## EXPIRES CACHING ##
+
+Header unset ETag
+FileETag None
