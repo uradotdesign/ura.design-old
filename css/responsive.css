@@ -123,6 +123,9 @@
     margin-bottom: 30px;
     display: inline-block; }
 
+  .post.alt {
+    padding: 0px 0px; }
+  
   .service-info {
     padding-top: 0; }
     .service-info h2 {
