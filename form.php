@@ -8,13 +8,6 @@ if (array_key_exists('to', $_POST)) {
     $msg = '';
     $email = '';
   
-    //Apply some basic validation and filtering to the subject
-    if (array_key_exists('subject', $_POST)) {
-        $subject = substr(strip_tags($_POST['subject']), 0, 255);
-    } else {
-        $subject = 'No subject given';
-    }
-  
     //Apply some basic validation and filtering to the name
     if (array_key_exists('name', $_POST)) {
         //Limit length and strip HTML tags
