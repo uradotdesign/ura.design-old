@@ -42,7 +42,7 @@ if (array_key_exists('to', $_POST)) {
         $mail->setFrom('form@ura.design', (empty($name) ? 'Contact form' : $name));
         $mail->addAddress('anxhelo1995@gmail.com');
         $mail->addReplyTo($email, $name);
-        $mail->Subject = 'Contact form: ' . $subject;
+        $mail->Subject = 'Contact form: Ura Design';
         $mail->Body = "Contact form submission\n\n" . $message;
         if (!$mail->send()) {
             $msg .= "Mailer Error: " . $mail->ErrorInfo;
