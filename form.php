@@ -7,7 +7,18 @@ if (array_key_exists('to', $_POST)) {
     $err = false;
     $msg = '';
     $email = '';
-  
+    $projectname = '';
+    $name = '';
+    $Logo = '';
+    $StyleGuide = '';
+    $Consultancy = '';
+    $Copywriting = '';
+    $Usability = '';
+    $Research = '';
+    $message = '';
+    $lab = '';
+    $budget = '';
+        
     //Apply some basic validation and filtering to the name
     if (array_key_exists('name', $_POST)) {
         //Limit length and strip HTML tags
