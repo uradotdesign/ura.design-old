@@ -55,3 +55,7 @@ ExpiresDefault "access plus 1 days"
 
 Header unset ETag
 FileETag None
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=31536000; preload" env=HTTPS
+</IfModule>
