@@ -1,5 +1,5 @@
 - name: Blog
-  path: blog/
+  path: /blog/
   section_id: blog
   children:
     - name: Events
