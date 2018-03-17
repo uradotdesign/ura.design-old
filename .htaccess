@@ -34,7 +34,7 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
   Header append Vary User-Agent
 </IfModule>
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 ../404.html
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
