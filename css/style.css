@@ -456,7 +456,10 @@ body {
 .member img.colored {
   display: none;
   position: absolute;
-  top: 0; }
+  top: 0;
+  transform: scale(1.08);
+  transition-duration: 0.5s;
+  border: solid #3399D4 4px; }
 
 .member:hover img.colored {
   display: block; }
