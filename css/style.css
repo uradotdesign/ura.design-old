@@ -321,6 +321,15 @@ body {
 .button.boxed.black:hover {
   color: #fff; }
 
+.button.boxed.tor {
+  border: 1px solid #7D4698;
+  background: none;
+  color: #333; }
+
+.button.boxed.black:hover {
+  color: #fff;
+  background: #7D4698; }
+
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
   background: none;
