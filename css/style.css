@@ -805,9 +805,9 @@ nav.wrapper {
   border: none;
   padding: 0; }
   .post.single .post-header {
-    min-height: 60vh;
+    min-height: 65vh;
     background-image: url(../images/@stock/post-big.jpg);
-    background-position: 50% top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
