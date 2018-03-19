@@ -39,7 +39,7 @@
     color: #3399d4; } }
 @media only screen and (max-width: 1240px) {
   .slides-navigation {
-    display: none; } }
+    display: block; } }
 @media only screen and (max-width: 1023px) {
   .top-bar-section.closed {
     display: none; } }
