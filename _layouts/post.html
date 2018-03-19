@@ -7,9 +7,12 @@ section_id: blog
 
 <div class="full">
   <div class="post single">
-    {% if page.images %}
+    {% if page.header %}
       <div class="post-header" style="background-image: url({{site.url}}/{{page.header[0]}})">
       </div>
+    else
+      <div class="two spacing"> 
+    </div>
     {% endif %}
     <div class="four spacing"></div>
     <div class="row">
