@@ -12,7 +12,7 @@ section_id: blog
       <div class="post alt">
         {% if post.images %}
           {% if post.images.size > 1 %}
-            <a href="{{post.url}}" class='two-images'>
+            <a href="{{post.url | replace:'.html',''}}" class='two-images'>
               <img src="{{site.url}}/{{post.images[0]}}" alt="post" class="left-image">
               <img src="{{site.url}}/{{post.images[1]}}" alt="post" class="right-image">
             </a>
