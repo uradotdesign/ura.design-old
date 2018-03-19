@@ -784,6 +784,11 @@ nav.wrapper {
     border: 1px solid #FF8635;
     background: none; }
 
+.post p.info span {
+  font-size: 14px;
+  background-color: #3399D4;
+  color: white; }
+
 .recent-post {
   margin-bottom: 0;
   border: none; }
