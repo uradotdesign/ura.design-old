@@ -801,6 +801,10 @@ nav.wrapper {
     .recent-post p.info a:hover {
       color: #AB8860; }
 
+.project-info h4 {
+    margin-bottom: 5px;
+  font-weight: 800; }
+
 .post.alt {
   border: none;
   padding: 0 40px; }
