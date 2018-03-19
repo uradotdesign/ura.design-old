@@ -787,7 +787,8 @@ nav.wrapper {
 .post p.info span {
   font-size: 14px;
   background-color: #3399D4;
-  color: white; }
+  color: white;
+  padding: 8px; }
 
 .recent-post {
   margin-bottom: 0;
