@@ -811,7 +811,7 @@ nav.wrapper {
   border: none;
   padding: 0; }
   .post.single .post-header {
-    min-height: 65vh;
+    min-height: 45vh;
     background-image: url(../images/@stock/post-big.jpg);
     background-position: center;
     background-repeat: no-repeat;
