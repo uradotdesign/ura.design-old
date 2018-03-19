@@ -12,16 +12,16 @@ section_id: blog
       <div class="post alt">
         {% if post.images %}
           {% if post.images.size > 1 %}
-            <a href="{{post.url | replace:'.html',''}}" class='two-images'>
+            <a href="{{ post.url | replace:'.html','' }}" class='two-images'>
               <img src="{{site.url}}/{{post.images[0]}}" alt="post" class="left-image">
               <img src="{{site.url}}/{{post.images[1]}}" alt="post" class="right-image">
             </a>
           {% else %}
-            <a href="{{post.url}}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+            <a href="{{ post.url | replace:'.html','' }}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
           {% endif %}
         {% endif %}
         <div class="post-content">
-          <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+          <h3><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
           <p class='info'>
             {% if post.categories != empty %}
               <span>
@@ -38,7 +38,7 @@ section_id: blog
           </p>
           <p>{{post.excerpt}}</p>
           <div class="spacing"></div>
-          <p><a href="{{post.url}}" class="button tiny blue simple boxed">Read more</a></p>
+          <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
       </div>
     {% endif %}
@@ -51,16 +51,16 @@ section_id: blog
       <div class="post alt">
         {% if post.images %}
           {% if post.images.size > 1 %}
-            <a href="{{post.url}}" class='two-images'>
+            <a href="{{ post.url | replace:'.html','' }}" class='two-images'>
               <img src="{{site.url}}/{{post.images[0]}}" alt="post" class="left-image">
               <img src="{{site.url}}/{{post.images[1]}}" alt="post" class="right-image">
             </a>
           {% else %}
-            <a href="{{post.url}}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+            <a href="{{ post.url | replace:'.html','' }}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
           {% endif %}
         {% endif %}
         <div class="post-content">
-          <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+          <h3><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
           <p class='info'>
             {% if post.categories != empty %}
               <span>
@@ -77,7 +77,7 @@ section_id: blog
           </p>
           <p>{{post.excerpt}}</p>
           <div class="spacing"></div>
-          <p><a href="{{post.url}}" class="button tiny blue simple boxed">Read more</a></p>
+          <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
       </div>
     {% endif %}
