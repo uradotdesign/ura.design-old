@@ -5,9 +5,9 @@ author: Mariana Balla
 date: 2018-03-19 12:00:00 +0200
 categories: 
 images:
-- images/@stock/home-banner.jpg
+- images/@stock/new-website.jpg
 header:
-- images/@stock/home-banner.jpg
+- images/@stock/new-website.jpg
 excerpt:
  Our new website is up and running! When Ura was founded we were just 2 people trying to build something in our free time. SInce then, we came a long way and others have joined us too. It was time for us to move away from WordPress to a more contribution friendly platform, such as Jekyll.[…]
 ---
