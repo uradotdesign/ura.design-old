@@ -41,7 +41,7 @@ section_id: blog
     <div class="row">
       <div class="small-6 columns">
         {% if page.previous.url %}
-          <a class="previous button boxed black" href='{{page.previous.url}}'>
+          <a class="previous button boxed black" href='{{page.previous.url | replace:'.html','' }}'>
             <i class='fa fa-angle-left'></i> Previous post
           </a>
         {% endif %}
@@ -49,7 +49,7 @@ section_id: blog
       </div>
       <div class="small-6 columns">
         {% if page.next.url %}
-          <a class="next button boxed black" href='{{page.next.url}}'>
+          <a class="next button boxed black" href='{{page.next.url | replace:'.html','' }}'>
             Next post <i class='fa fa-angle-right'></i>
           </a>
         {% endif %}
