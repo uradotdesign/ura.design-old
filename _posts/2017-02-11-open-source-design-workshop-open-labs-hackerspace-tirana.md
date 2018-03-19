@@ -52,11 +52,6 @@ During the presentation the participants had the opportunity to:
 <div class="two spacing"></div>
 
 <div class="large-12 large-centered centered-text columns">
-<img src="/images/@stock/workshop-6.jpg" alt="workshop">
-</div>
-<div class="two spacing"></div>
-
-<div class="large-12 large-centered centered-text columns">
 <img src="/images/@stock/workshop-7.jpg" alt="workshop">
 </div>
 <div class="two spacing"></div>
