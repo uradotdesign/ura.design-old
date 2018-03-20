@@ -345,9 +345,8 @@ body {
   color: #fff;
   background: #58595b; }
 
-.identihub-hover:hover {
-   filter: invert(100%); 
-  -webkit-filter: invert(100%); }
+.identihub-hover path:hover {
+   fill: #fff; }
 
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
