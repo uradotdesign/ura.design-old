@@ -367,6 +367,15 @@ body {
   color: #fff;
   background: #2BBBB0; }
 
+.button.boxed.mozilla {
+  border: 1px solid #ff2f29;
+  background: none;
+  color: #ff2f29; }
+
+.button.boxed.mozilla:hover {
+  color: #fff;
+  background: #ff2f29; }
+
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
   background: none;
