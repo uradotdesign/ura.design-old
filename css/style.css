@@ -345,7 +345,7 @@ body {
   color: #fff;
   background: #58595b; }
 
-.identihub-hover path:hover {
+.identihub-hover:hover path {
    fill: #fff; }
 
 .button.boxed.light-brown {
