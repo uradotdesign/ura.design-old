@@ -343,7 +343,8 @@ body {
 
 .button.boxed.sfk:hover {
   color: #000;
-  background: #f8ed33; }
+  background: #f8ed33;
+  border: 1px solid #f8ed33; }
 
 .button.boxed.identihub {
   border: 1px solid #58595b;
