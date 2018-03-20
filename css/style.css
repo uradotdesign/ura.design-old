@@ -527,8 +527,8 @@ body {
   display: none;
   position: absolute;
   top: 0;
-  animation: pulse 0.7s ease-in-out;
-  transition-duration: 0.5s; }
+  transform: scale(1.08);
+  transition-duration: 0.75s ease-in-out; }
 
 .member:hover img.colored {
   display: block; }
