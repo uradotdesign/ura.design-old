@@ -300,6 +300,9 @@ body {
 .button.openlabs::before {
   background: #2BBBB0; }
 
+.button.mozilla::before {
+  background: #fc9606; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -368,13 +371,13 @@ body {
   background: #2BBBB0; }
 
 .button.boxed.mozilla {
-  border: 1px solid #ff2f29;
+  border: 1px solid #fc9606;
   background: none;
-  color: #ff2f29; }
+  color: #fc9606; }
 
 .button.boxed.mozilla:hover {
   color: #fff;
-  background: #ff2f29; }
+  background: #fc9606; }
 
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
