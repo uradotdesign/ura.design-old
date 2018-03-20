@@ -294,9 +294,6 @@ body {
 .button.tor::before {
   background: #7D4698; }
 
-.button.identihub::before {
-  background: #58595b; }
-
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
