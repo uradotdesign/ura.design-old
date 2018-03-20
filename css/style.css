@@ -342,11 +342,8 @@ body {
   color: #58595b; }
 
 .button.boxed.identihub:hover {
-  color: #fff;
-  background: #58595b; }
-
-.identihub-hover::after {
-   content: '../images/@stock/identihub-hover.svg'; }
+  color: #58595b;
+  background: none; }
 
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
