@@ -294,6 +294,9 @@ body {
 .button.tor::before {
   background: #7D4698; }
 
+.button.identihub::before {
+  background: #58595b; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -332,6 +335,15 @@ body {
 .button.boxed.tor:hover {
   color: #fff;
   background: #7D4698; }
+
+.button.boxed.identihub {
+  border: 1px solid #58595b;
+  background: none;
+  color: #58595b; }
+
+.button.boxed.identihub:hover {
+  color: #fff;
+  background: #58595b; }
 
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
