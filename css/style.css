@@ -267,7 +267,7 @@ body {
   position: relative;
   z-index: 1;
   font-size: 12px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   padding: 12px 15px 10px; }
 
 .button::before {
