@@ -345,7 +345,7 @@ body {
   color: #fff;
   background: #58595b; }
 
-.identihub-hover:hover {
+.identihub-hover::after {
    content: '../images/@stock/identihub-hover.svg'; }
 
 .button.boxed.light-brown {
