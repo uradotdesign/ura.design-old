@@ -297,6 +297,9 @@ body {
 .button.sfk::before {
   background: #f8ed33; }
 
+.button.openlabs::before {
+  background: #2BBBB0; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -354,6 +357,15 @@ body {
 .button.boxed.identihub:hover {
   color: #58595b;
   background: none; }
+
+.button.boxed.openlabs {
+  border: 1px solid #2BBBB0;
+  background: none;
+  color: #2BBBB0; }
+
+.button.boxed.openlabs:hover {
+  color: #fff;
+  background: #2BBBB0; }
 
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
