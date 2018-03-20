@@ -303,6 +303,9 @@ body {
 .button.mozilla::before {
   background: #fc9606; }
 
+.button.openchain::before {
+  background: #00adbb; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -378,6 +381,15 @@ body {
 .button.boxed.mozilla:hover {
   color: #fff;
   background: #fc9606; }
+
+.button.boxed.openchain {
+  border: 1px solid #00adbb;
+  background: none;
+  color: #00adbb; }
+
+.button.boxed.openchain:hover {
+  color: #fff;
+  background: #00adbb; }
 
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
