@@ -343,7 +343,9 @@ body {
 
 .button.boxed.identihub:hover {
   color: #fff;
-  background: #58595b; }
+  background: #58595b;
+  filter: brightness(100%); 
+  -webkit-filter: brightness(100%); }
 
 .button.boxed.light-brown {
   border: 1px solid #dcbc98;
