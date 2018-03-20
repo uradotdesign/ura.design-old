@@ -291,6 +291,9 @@ body {
 .button.white::before {
   background: #fff; }
 
+.button.tor::before {
+  background: #7D4698; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
