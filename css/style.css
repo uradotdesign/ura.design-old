@@ -527,7 +527,7 @@ body {
   display: none;
   position: absolute;
   top: 0;
-  animation: pulse 1s ease-in-out;
+  animation: pulse 0.7s ease-in-out;
   transition-duration: 0.5s; }
 
 .member:hover img.colored {
