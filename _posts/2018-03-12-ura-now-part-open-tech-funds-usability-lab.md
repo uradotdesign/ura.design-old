@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ura is now part of Open Tech Fund’s &#58; Usability Lab
+title: Ura is now part of Open Tech Fund’s Usability Lab
 author: Mariana Balla
 date: 2018-03-12 12:00:00 +0200
 categories: 
