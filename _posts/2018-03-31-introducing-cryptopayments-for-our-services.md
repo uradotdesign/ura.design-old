@@ -9,7 +9,7 @@ images:
 header:
 - images/@stock/cryptocoins.jpg
 excerpt:
- Every day we try to understand the needs of our partners by taking their feedback seriously. During this process we have noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer.[...]
+ Every day we try to understand the needs of our partners by taking their feedback seriously. During this process we have noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer.[…]
 ---
 
 ![Cryptocoins](/images/@stock/cryptocoins.jpg)
