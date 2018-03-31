@@ -21,5 +21,6 @@ Interested in learning more? This 20+ minute long [John Oliver episode](https://
 
 Since you are here: if you would like to financially support [Identihub](https://identihub.co/), our newest open source project, you can always pledge us on [Patreon](https://www.patreon.com/ura). As you might know, a part of the project is funded by generous pledges on our Patreon. If you however prefer to do one-time crypto donations, you can do so by sending to these addresses: 
 
--**BTC**: 3ASpHrpnrgmhK2qrDJzryPuDuKp3iaEX6k
--**ETH**: 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c
+
+* **BTC**: 3ASpHrpnrgmhK2qrDJzryPuDuKp3iaEX6k
+* **ETH**: 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c
