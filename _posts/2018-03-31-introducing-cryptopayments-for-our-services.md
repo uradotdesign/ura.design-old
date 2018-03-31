@@ -10,8 +10,8 @@ header:
 - images/@stock/cryptocoins.jpg
 excerpt:
 Every day we try to understand the needs of our partners by taking their feedback seriously. During this process we have noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer. As a design studio that values highly any technology that empowers decentralization in our society, we have been positively surprised to see growing demand for payments of the services we offer in different **cryptocurrencies**. [...]
-
 ---
+
 ![Cryptocoins](/images/@stock/cryptocoins.jpg)
 
 Every day we try to understand the needs of our partners by taking their feedback seriously. During this process we have noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer. As a design studio that values highly any technology that empowers decentralization in our society, we have been positively surprised to see growing demand for payments of the services we offer in different **cryptocurrencies**. This is the reason that starting from today, we accept payments with some of the most reliable and established cryptocurrencies at the moment such as **Bitcoin**, **Ethereum** and **Litecoin**. If none of the above is your favorite cryptocurrency, [let us know](mailto: hello@ura.design) and our team will be more than happy to find a solution.
