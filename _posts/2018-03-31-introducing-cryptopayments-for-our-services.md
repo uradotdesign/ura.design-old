@@ -14,7 +14,7 @@ excerpt:
  Every day we try to understand the needs of our partners by taking their feedback seriously. During this process we have noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer.[…]
 ---
 
-We aim to iterate our processes continously based on the feedback and experiences we have with projects we are lucky to work with. With this in mind, we noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer. As a design studio which highly values decentralized platforms, we have been positively surprised to see growing demand for payment integration of different **cryptocurrencies**. This is the reason that starting from today, we accept payments with some of the most established cryptocurrencies at the moment such as **Bitcoin**, **Ethereum** and **Litecoin**. If none of the above works for you, let us know at <a href=“mailto:hello@ura.design”> and our team will be happy to find an alternative.
+We aim to iterate our processes continously based on the feedback and experiences we have with projects we are lucky to work with. With this in mind, we noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer. As a design studio which highly values decentralized platforms, we have been positively surprised to see growing demand for payment integration of different **cryptocurrencies**. This is the reason that starting from today, we accept payments with some of the most established cryptocurrencies at the moment such as **Bitcoin**, **Ethereum** and **Litecoin**. If none of the above works for you, [let us know](mailto:hello@ura.design) and our team will be happy to find an alternative.
 
 
 ![Cryptocurrency](/images/@stock/CryptoCurrencyBanner.jpg
@@ -28,4 +28,4 @@ As you might know, a part of the project is funded by generous pledges on our Pa
 
 
 * **BTC**: 3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1
-* **ETH (Hex) **: 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c
+* **ETH (Hex)**: 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c
