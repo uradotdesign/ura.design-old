@@ -17,7 +17,7 @@ excerpt:
 We aim to iterate our processes continously based on the feedback and experiences we have with projects we are lucky to work with. With this in mind, we noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer. As a design studio which highly values decentralized platforms, we have been positively surprised to see growing demand for payment integration of different **cryptocurrencies**. This is the reason that starting from today, we accept payments with some of the most established cryptocurrencies at the moment such as **Bitcoin**, **Ethereum** and **Litecoin**. If none of the above works for you, [let us know](mailto:hello@ura.design) and our team will be happy to find an alternative.
 
 <div class="large-10 large-centered centered-text columns">
-<img src="/images/@stock/CryptoCurrencyBanner.jpg" ><br />
+<img src="/images/@stock/CryptoCurrencyBanner.jpg">
 </div>
 <div class="two spacing"></div>
 
@@ -27,6 +27,24 @@ Interested in learning more? This 20+ minute long [John Oliver episode](https://
 Since you are here: if you would like to financially support [Identihub](https://identihub.co/), our open source assets hostings software, you can always pledge us on [Patreon](https://www.patreon.com/ura). The project itself is bootstrapped by the Ura team and other volunteers and no investors are involved, so we rely on your donations.
 As you might know, a part of the project is funded by generous pledges on our Patreon. If you however prefer to do one-time crypto donations, you can do so by sending to these addresses: 
 
+<div class="row">
+ 
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/bitcoin.png"><br />
+<i>Bitcoin</i>
+</div>
+<div class="two spacing"></div>
 
-* **BTC**: 3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1
-* **ETH (Hex)**: 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/ethereum.png"><br />
+<i>Ethereum</i>
+</div>
+<div class="two spacing"></div>
+
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/litecoin.png"><br />
+<i>Litecoin</i>
+</div>
+<div class="two spacing"></div>
+
+ </div>
