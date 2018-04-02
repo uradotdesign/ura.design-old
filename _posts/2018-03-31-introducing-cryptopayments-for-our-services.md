@@ -19,6 +19,10 @@ We aim to iterate our processes continously based on the feedback and experience
 
 ![Cryptocurrency](/images/@stock/CryptoCurrencyBanner.jpg
 )
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/CryptoCurrencyBanner.jpg" ><br />
+</div>
+<div class="two spacing"></div>
 
 In case you have missed the crypto hype: cryptocurrencies are a type of digital currencies, alternative currencies and virtual currencies. Cryptocurrencies use decentralized control as opposed to centralized electronic money and central banking systems. The decentralized control of each cryptocurrency works through a blockchain, which is a public transaction database, functioning as a distributed ledger. Bitcoin, created in 2009, was the first decentralized cryptocurrency. Since then, numerous other cryptocurrencies have been created. These are frequently called altcoins, as a blend of alternative coin.
 Interested in learning more? This 20+ minute long [John Oliver episode](https://www.youtube.com/watch?v=g6iDZspbRMg) explains in more detail and admittedly in a fund way how Blockchain and cryptocurrencies work. No worries, we are not building anything on the blockchain as of now. In the past we have been involved in crypto things, namely GPG Workshops and Cryptoparties as well, so we are well aware of the definition.
