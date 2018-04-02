@@ -32,10 +32,19 @@ As you might know, a part of the project is funded by generous pledges on our Pa
 <div class="large-10 large-centered centered-text columns">
 <img src="/images/@stock/bitcoin.png"><br />
 <i>Bitcoin</i>
+</div>
+<div class="two spacing"></div>
+
+<div class="large-10 large-centered centered-text columns">
 <img src="/images/@stock/ethereum.png"><br />
 <i>Ethereum</i>
+</div>
+<div class="two spacing"></div>
+
+<div class="large-10 large-centered centered-text columns">
 <img src="/images/@stock/litecoin.png"><br />
 <i>Litecoin</i>
 </div>
+<div class="two spacing"></div>
 
  </div>
