@@ -28,21 +28,21 @@ As you might know, a part of the project is funded by generous pledges on our Pa
 
 <div class="row">
   <div class="work-wrapper">
-    <a href="" target="blank" class="work space">
+    <a href="#" target="blank" class="work space">
               <img src="/images/@stock/bitcoin.png" alt="">
               <div class="info center">
                 <h5>Bitcoin</h5>
                 <h6>3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1</h6>
               </div>
      </a>
-       <a href="" target="blank" class="work space">
+       <a href="#" target="blank" class="work space">
               <img src="/images/@stock/ethereum.png" alt="">
               <div class="info center">
                 <h5>Ethereum</h5>
                 <h6>0x08c7eC3Ad8A58287c45cc776A72AA1401123710c</h6>
               </div>
    </a>
-       <a href="" target="blank" class="work space">
+       <a href="#" target="blank" class="work space">
               <img src="/images/@stock/litecoin.png" alt="">
               <div class="info center">
                 <h5>Litecoin</h5>
