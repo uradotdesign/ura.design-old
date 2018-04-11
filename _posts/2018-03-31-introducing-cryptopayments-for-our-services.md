@@ -6,7 +6,6 @@ date: 2018-03-31 12:00:00 +0200
 categories: 
 images:
 - images/@stock/CryptoCurrencyThumb.jpg
-
 header:
 - images/@stock/CryptoCurrencyBanner.jpg
 
@@ -42,7 +41,6 @@ As you might know, a part of the project is funded by generous pledges on our Pa
               <div class="info center">
                 <h5>Ethereum</h5>
                 <h6>0x08c7eC3Ad8A58287c45cc776A72AA1401123710c</h6>
-
               </div>
    </a>
        <a href="" target="blank" class="work space">
