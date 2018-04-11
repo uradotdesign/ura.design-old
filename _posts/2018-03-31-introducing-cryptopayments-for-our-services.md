@@ -30,6 +30,6 @@ As you might know, a part of the project is funded by generous pledges on our Pa
 <img src="/images/@stock/cryptos.jpg">
 </div>
 
-**Bitcoin address:** 3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1
-**Ethereum address:** 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c
+**Bitcoin address:** 3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1<br />
+**Ethereum address:** 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c<br />
 **Litecoin address:** MEm4dyJv7nqPw3p32CQKP3QdnwLtskUC5K
