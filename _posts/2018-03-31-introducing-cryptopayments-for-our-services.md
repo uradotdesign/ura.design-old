@@ -26,28 +26,18 @@ Interested in learning more? This 20+ minute long [John Oliver episode](https://
 Since you are here: if you would like to financially support [Identihub](https://identihub.co/), our open source assets hostings software, you can always pledge us on [Patreon](https://www.patreon.com/ura). The project itself is bootstrapped by the Ura team and other volunteers and no investors are involved, so we rely on your donations.
 As you might know, a part of the project is funded by generous pledges on our Patreon. If you however prefer to do one-time crypto donations, you can do so by sending to these addresses: 
 
+<div class="large-10 large-centered centered-text columns">
+<img src="/images/@stock/cryptos.jpg">
+</div>
+
 <div class="row">
-  <div class="work-wrapper">
-    <a href="#" target="blank" class="work space">
-              <img src="/images/@stock/bitcoin.png" alt="">
               <div class="info center">
-                <h5>Bitcoin</h5>
                 <h6>3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1</h6>
               </div>
-     </a>
-       <a href="#" target="blank" class="work space">
-              <img src="/images/@stock/ethereum.png" alt="">
               <div class="info center">
-                <h5>Ethereum</h5>
                 <h6>0x08c7eC3Ad8A58287c45cc776A72AA1401123710c</h6>
               </div>
-   </a>
-       <a href="#" target="blank" class="work space">
-              <img src="/images/@stock/litecoin.png" alt="">
               <div class="info center">
-                <h5>Litecoin</h5>
                 <h6>MEm4dyJv7nqPw3p32CQKP3QdnwLtskUC5K</h6>
               </div>
-   </a>
-      </div>
     </div>
