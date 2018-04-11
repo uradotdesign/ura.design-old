@@ -27,7 +27,6 @@ Since you are here: if you would like to financially support [Identihub](https:/
 As you might know, a part of the project is funded by generous pledges on our Patreon. If you however prefer to do one-time crypto donations, you can do so by sending to these addresses: 
 
 <div class="row">
- <div class="large-9 large-centered centered-text columns">
   <div class="work-wrapper">
     <a href="" target="blank" class="work space">
               <img src="/images/@stock/bitcoin.png" alt="">
@@ -52,4 +51,3 @@ As you might know, a part of the project is funded by generous pledges on our Pa
    </a>
       </div>
     </div>
-</div>
