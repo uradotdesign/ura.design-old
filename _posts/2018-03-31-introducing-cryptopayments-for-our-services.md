@@ -28,42 +28,36 @@ Since you are here: if you would like to financially support [Identihub](https:/
 As you might know, a part of the project is funded by generous pledges on our Patreon. If you however prefer to do one-time crypto donations, you can do so by sending to these addresses: 
 
 <div class="row">
- <div class="large-9 large-centered centered-text columns">
+ <div class="large-9 centered-text columns">
   <div class="work-wrapper">
               <img src="/images/@stock/bitcoin.png" alt="">
               <div class="info center">
                 <h5>Bitcoin</h5>
               </div>
-            </a>
               <img src="/images/@stock/ethereum.png" alt="">
               <div class="info center">
                 <h5>Ethereum</h5>
               </div>
-            </a>
               <img src="/images/@stock/litecoin.png" alt="">
               <div class="info center">
                 <h5>Litecoin</h5>
               </div>
-            </a>
       </div>
     </div>
 </div>
 
 <div class="row">
-  <div class="large-9 large-centered centered-text columns">
+  <div class="large-9 large-centered columns">
   <div class="work-wrapper">
               <div class="info center">
                 <h5>3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1</h5>
               </div>
-            </a>
               <div class="info center">
                 <h5>0x08c7eC3Ad8A58287c45cc776A72AA1401123710c</h5>
               </div>
-            </a>
               <div class="info center">
                 <h5>MEm4dyJv7nqPw3p32CQKP3QdnwLtskUC5K</h5>
               </div>
-            </a>
       </div>
     </div>
 </div>
