@@ -67,5 +67,3 @@ As you might know, a part of the project is funded by generous pledges on our Pa
       </div>
     </div>
 </div>
- 
- </div>
