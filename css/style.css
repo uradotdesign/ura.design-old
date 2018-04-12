@@ -860,6 +860,9 @@ nav.wrapper {
   color: white;
   padding: 8px; }
 
+.post-content p {
+  font-size: 18px; }
+
 .recent-post {
   margin-bottom: 0;
   border: none; }
