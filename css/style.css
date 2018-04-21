@@ -306,6 +306,9 @@ body {
 .button.openchain::before {
   background: #00adbb; }
 
+.button.enigmail::before {
+  background: #0077bb; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
