@@ -355,6 +355,15 @@ body {
   background: #f8ed33;
   border: 1px solid #f8ed33; }
 
+.button.boxed.enigmail {
+  border: 1px solid #0077bb;
+  background: none;
+  color: #0077bb; }
+
+.button.boxed.enigmail:hover {
+  color: #fff;
+  background: #0077bb; }
+
 .button.boxed.identihub {
   border: 1px solid #58595b;
   background: none;
