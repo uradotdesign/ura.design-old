@@ -5002,7 +5002,10 @@ blockquote, blockquote p {
   h5 {
     font-size: 1.125rem; }
   h6 {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  h3.blog {
+    font-size: 2.1rem;
+    margin-bottom: 10px; } }
 
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
