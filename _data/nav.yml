@@ -15,8 +15,8 @@
 - name: Logobridge
   path: logobridge
   section_id: works
-- name: Supporters
-  path: supporters
+- name: Support Us
+  path: support-us
 - name: About
   path: about
   section_id: pages
