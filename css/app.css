@@ -157,6 +157,9 @@ select {
 .column + .column.end, .columns + .columns.end {
   float: left; }
 
+.column + .column.end, .columns.blog + .columns.end {
+  float: left }
+
 @media only screen {
   .small-push-0 {
     position: relative;
@@ -890,7 +893,9 @@ select {
   .pull-11 {
     position: relative;
     right: 91.6666666667%;
-    left: auto; } }
+    left: auto; }
+   .large-1.blog {
+    width: 12%; } }
 
 .accordion {
   margin-bottom: 0; }
