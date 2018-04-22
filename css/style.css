@@ -84,6 +84,10 @@
 .full.light-grey {
   background: #f6f6f6; }
 
+.full.light-grey.blog {
+  background: #f6f6f6;
+  padding: 20px; }
+
 .full.light-cyan {
   background: #dae9ec; }
 
@@ -848,9 +852,11 @@ nav.wrapper {
     width: 260px;
     padding: 20px; }
   nav.wrapper a.previous {
-    float: right; }
+    float: right;
+    margin-top: 15px; }
   nav.wrapper a.next {
-    float: left; }
+    float: left;
+    margin-top: 15px; }
 
 /* post */
 .sticky.post.fixed {
