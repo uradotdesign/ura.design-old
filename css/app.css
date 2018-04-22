@@ -4449,7 +4449,7 @@ meta.foundation-mq-topbar {
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
-      right: 0; }
+      right: 6px; }
     .top-bar-section .has-dropdown.moved {
       position: static; }
       .top-bar-section .has-dropdown.moved > .dropdown {
