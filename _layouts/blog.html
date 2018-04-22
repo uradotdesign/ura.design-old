@@ -16,8 +16,8 @@ layout: default
 <div class="three spacing"></div>
       {{content}}
       {% if paginator %}
-      <div class="large-12 columns">
         <div class="pager">
+          <div class="large-12 columns">
           {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
               <a href="/blog" class="older">Older Entries <i class="fa fa-angle-double-right"></i></a>
@@ -36,7 +36,7 @@ layout: default
           {% else %}
             <!-- <span class="newer">Newer Entries</span> -->
           {% endif %}
+          </div>
         </div>
-</div>
 <div class="two spacing"></div>
       {% endif %}
