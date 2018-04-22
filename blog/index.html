@@ -7,7 +7,6 @@ section_id: blog
     {% for post in paginator.posts %}
   <div class="row">
   <div class="large-12 columns">
-      <hr>
     {% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 1 %}
     <div class="large-1 blog centered-text columns">
@@ -41,7 +40,6 @@ section_id: blog
     {% endif %}
     </div>
 </div>
-<div class="spacing"></div>
   {% endfor %}
 
 
@@ -80,7 +78,6 @@ section_id: blog
       </div>
     {% endif %}
       </div>
-<div class="spacing"></div>
 </div>
   {% endfor %}
 <div class="two spacing"></div>
