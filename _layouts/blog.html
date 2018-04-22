@@ -17,6 +17,7 @@ layout: default
 <div class="full text">
       {{content}}
       {% if paginator %}
+  <div class="large-12 columns">
         <div class="pager">
           {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
@@ -37,6 +38,7 @@ layout: default
             <!-- <span class="newer">Newer Entries</span> -->
           {% endif %}
         </div>
+  </div>
       {% endif %}
 </div>
 
