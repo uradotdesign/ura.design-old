@@ -8,7 +8,7 @@
   path: services
   section_id: pages
   children:
-   - name: Request Service
+   - name: Request
      path: request
 - name: Projects
   path: projects
