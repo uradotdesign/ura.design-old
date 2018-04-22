@@ -4,8 +4,6 @@ title: Blog
 section_id: blog
 ---
 
-
-<div class="large-12 columns">
   {% for post in paginator.posts %}
     {% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 1 %}
@@ -47,7 +45,7 @@ section_id: blog
 </div>
 
   
-  <div class="large-12 columns">
+<div class="large-12 columns">
   {% for post in paginator.posts %}
     {% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 1 %}
