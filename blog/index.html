@@ -21,7 +21,7 @@ section_id: blog
               </span>
               /
             {% endif %}
-            <h1 class="blogdate">{{ post.date | date: "%d" }}</h1>
+            <h1 class="blogdate"><a href="{{ post.url | replace:'.html','' }}">{{ post.date | date: "%d" }}</a></h1>
       <p>{{ post.date | date: "%B %Y" }}</p>
     </div>
     <div class="large-8 columns">
@@ -60,7 +60,7 @@ section_id: blog
               </span>
               /
             {% endif %}
-            <h1 class="blogdate">{{ post.date | date: "%d" }}</h1>
+            <h1 class="blogdate"><a href="{{ post.url | replace:'.html','' }}">{{ post.date | date: "%d" }}</a></h1>
       <p>{{ post.date | date: "%B %Y" }}</p>
     </div>
   <div class="large-8 columns">
