@@ -21,7 +21,8 @@ section_id: blog
               </span>
               /
             {% endif %}
-            <span>{{ post.date | date: "%B %d, %Y" }}</span>
+            <h1 class="blogdate">{{ post.date | date: "%d" }}</h1>
+      <p>{{ post.date | date: "%B %Y" }}</p>
     </div>
       <div class="post alt">
         {% if post.images %}
