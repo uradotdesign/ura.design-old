@@ -6,7 +6,7 @@ section_id: blog
 
     {% for post in paginator.posts %}
   <div class="row">
-  <div class="large-12 columns" style="border-bottom: 2px solid aliceblue;">
+  <div class="large-12 columns">
     {% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 1 %}
     <div class="large-1 blog centered-text columns">
@@ -41,6 +41,7 @@ section_id: blog
     </div>
 </div>
 <div class="spacing"></div>
+<hr>
   {% endfor %}
 
 
