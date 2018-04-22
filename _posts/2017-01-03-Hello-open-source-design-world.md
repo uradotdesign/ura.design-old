@@ -2,6 +2,7 @@
 layout: post
 title: Hello open source design world
 author: Redon Skikuli
+link: https://twitter.com/rskikuli
 date: 2017-01-03 11:00:00 +0200
 categories: 
 images:
