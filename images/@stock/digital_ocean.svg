@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="319.76208"
-   height="53.932297"
-   viewBox="0 0 128.16064 21.598479"
+   width="320"
+   height="70"
+   viewBox="0 0 128.256 28.033175"
    version="1.1"
    id="svg6"
    sodipodi:docname="digital_ocean.svg"
@@ -45,16 +45,16 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.64714413"
-     inkscape:cx="195.83913"
-     inkscape:cy="-127.40818"
+     inkscape:zoom="1.2942882"
+     inkscape:cx="210.5708"
+     inkscape:cy="-46.102335"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6" />
   <g
      id="g824"
-     transform="matrix(0.12790484,0,0,0.12790484,0,-0.06865387)">
+     transform="matrix(0.12790484,0,0,0.12790484,0.04767516,3.2087016)">
     <path
        id="path2"
        d="m 84.16,169 v -32.88 c 34.86,0 61.75,-34.37 48.31,-70.74 A 49,49 0 0 0 103.09,36 51.94,51.94 0 0 0 32.87,84.31 H 0 C 0,29.51 53.29,-13.83 111.55,4.11 a 81.43,81.43 0 0 1 53.29,53.3 C 182.77,115.7 139.44,169 84.16,169 Z"
