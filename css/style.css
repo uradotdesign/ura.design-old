@@ -203,6 +203,12 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 0px; }
 
+.blogdate h1 {
+  font-size: 90px;
+  color: #3399d4;
+  margin-bottom: 0px;
+  margin-top: -30px; }
+
 h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
   color: #fff; }
 
