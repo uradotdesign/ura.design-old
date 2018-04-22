@@ -9,13 +9,7 @@ section_id: blog
   {% for post in paginator.posts %}
     {% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 1 %}
-      <div class="post alt">
-        {% if post.images %}
-            <a href="{{ post.url | replace:'.html','' }}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
-        {% endif %}
-        <div class="post-content">
-          <h3><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
-          <p class='info'>
+    <div class="large-1 blog centered-text columns">
             {% if post.categories != empty %}
               <span>
                 {% for cat in post.categories %}
@@ -28,7 +22,14 @@ section_id: blog
               /
             {% endif %}
             <span>{{ post.date | date: "%B %d, %Y" }}</span>
-          </p>
+    </div>
+      <div class="post alt">
+        {% if post.images %}
+            <a href="{{ post.url | replace:'.html','' }}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+        {% endif %}
+        <div class="post-content">
+          <h3><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
+          
           <p>{{post.excerpt}}</p>
           <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
