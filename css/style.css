@@ -634,7 +634,7 @@ ul.socials {
     padding: 0; }
 
 .icon-text {
-  padding: 80px 60px;
+  padding: 30px 50px 0px 50px;
   background: none;
   color: #333;
   text-align: center;
@@ -650,7 +650,7 @@ ul.socials {
   .icon-text i {
     color: #3399D4;
     font-size: 60px;
-    padding: 0px 0px 40px 0px; }
+    padding: 0px 0px 20px 0px; }
 
 .icon-text::after {
   content: "";
