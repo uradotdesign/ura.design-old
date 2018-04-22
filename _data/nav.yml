@@ -12,9 +12,10 @@
      path: request
 - name: Projects
   path: projects
-- name: Logobridge
-  path: logobridge
-  section_id: works
+  children:
+   - name: Logobridge
+     path: logobridge
+     section_id: works
 - name: Support Us
   path: support-us
 - name: About
