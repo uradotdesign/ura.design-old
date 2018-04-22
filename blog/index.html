@@ -27,7 +27,7 @@ section_id: blog
     <div class="large-8 columns">
         <div class="post-content blog">
           <h3 class="blog"><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
-          <p class="author">by <a href="{{post.link}}">{{post.author}}</a></p>
+          <p class="author">by <a href="{{post.link}}" target="_blank">{{post.author}}</a></p>
           <p>{{post.excerpt}}</p>
           <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
@@ -67,7 +67,7 @@ section_id: blog
   <div class="large-8 columns">
         <div class="post-content blog">
           <h3 class="blog"><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
-          <p class="author">by <a href="{{post.link}}">{{post.author}}</a></p>
+          <p class="author">by <a href="{{post.link}}" target="_blank">{{post.author}}</a></p>
           <p>{{post.excerpt}}</p>
           <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
