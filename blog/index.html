@@ -24,16 +24,22 @@ section_id: blog
             <h1 class="blogdate">{{ post.date | date: "%d" }}</h1>
       <p>{{ post.date | date: "%B %Y" }}</p>
     </div>
+    <div class="large-8 columns">
       <div class="post alt">
-        {% if post.images %}
-            <a href="{{ post.url | replace:'.html','' }}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
-        {% endif %}
         <div class="post-content">
           <h3><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
-          
           <p>{{post.excerpt}}</p>
           <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
+      </div>
+  </div>
+    <div class="large-3 columns blog">
+       <div class="post alt">
+           {% if post.images %}
+            <a href="{{ post.url | replace:'.html','' }}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+           {% endif %}
+        </div>
+  </div>
       </div>
     {% endif %}
   {% endfor %}
