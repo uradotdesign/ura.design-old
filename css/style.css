@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 0px; }
 
-.blogdate h1 {
+h1.blogdate {
   font-size: 90px;
   color: #3399d4;
   margin-bottom: 0px;
