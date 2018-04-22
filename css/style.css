@@ -1630,7 +1630,7 @@ form.update-form input.button:hover {
 .pager {
   width: 97%;
   overflow: auto;
-  padding: 0 10px;
+  padding: 0px 50px 0px 50px;
 }
 .pager a {
   color: #999;
