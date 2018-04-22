@@ -7,13 +7,16 @@
 - name: Services
   path: services
   section_id: pages
-- name: Request Service
-  path: request
+  children:
+   - name: Request Service
+     path: request
 - name: Projects
   path: projects
 - name: Logobridge
   path: logobridge
   section_id: works
+- name: Supporters
+  path: supporters
 - name: About
   path: about
   section_id: pages
@@ -22,5 +25,3 @@
       path: contact
     - name: Jobs
       path: jobs
-    - name: Supporters
-      path: supporters
