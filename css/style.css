@@ -57,6 +57,9 @@
   position: relative;
   /* for work section and member section*/ }
 
+.full.blog {
+  padding: 100px 0px 0px 0px; }
+
 .full.new {
   padding: 100px 0;
   height: 100px;
