@@ -57,6 +57,21 @@
   position: relative;
   /* for work section and member section*/ }
 
+.full.new {
+  padding: 100px 0;
+  height: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  /* for work section and member section*/ }
+
+.full.text {
+  padding: 60px 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  /* for work section and member section*/ }
+
 .full.light {
   color: #fff; }
 
@@ -198,6 +213,21 @@ hr {
 .section-title {
   text-align: center;
   margin-bottom: 40px; }
+  .section-title h1 {
+    color: white; }
+  .section-title h2 {
+    margin-bottom: 0; }
+  .section-title p {
+    color: #999;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 5px; }
+
+
+.section-title.new {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 10px; }
   .section-title h1 {
     color: white; }
   .section-title h2 {
