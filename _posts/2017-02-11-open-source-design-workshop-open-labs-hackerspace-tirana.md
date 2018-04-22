@@ -2,6 +2,7 @@
 layout: post
 title: Hosting the first Open Source Design Workshop in Tirana
 author: Redon Skikuli
+link: https://twitter.com/rskikuli
 date: 2017-02-11 12:00:00 +0200
 categories: 
 images:
