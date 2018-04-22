@@ -16,7 +16,6 @@ layout: default
 <div class="three spacing"></div>
       {{content}}
       {% if paginator %}
-<div class="large-12 columns">
         <div class="pager">
           {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
@@ -38,6 +37,5 @@ layout: default
           {% endif %}
           </div>
 <div class="two spacing"></div>
-  </div>
       {% endif %}
 
