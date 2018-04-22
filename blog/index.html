@@ -25,13 +25,11 @@ section_id: blog
       <p>{{ post.date | date: "%B %Y" }}</p>
     </div>
     <div class="large-8 columns">
-      <div class="post alt">
         <div class="post-content blog">
           <h3><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
           <p>{{post.excerpt}}</p>
           <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
-      </div>
   </div>
     <div class="large-3 columns blog">
        <div class="post alt">
