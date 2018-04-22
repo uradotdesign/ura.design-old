@@ -5787,3 +5787,6 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+
+.large-12.columns.blog {
+    margin-bottom: 40px; }
