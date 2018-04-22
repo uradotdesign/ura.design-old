@@ -2,6 +2,7 @@
 layout: post
 title: Introducing cryptopayments for our services
 author: Mariana Balla
+  link: https://twitter.com/marianaballa1
 date: 2018-03-31 12:00:00 +0200
 categories: 
 images:
