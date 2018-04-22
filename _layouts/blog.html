@@ -16,10 +16,12 @@ layout: default
 
 <div class="full text">
   <div class="row">
-  <div class="large-12 columns">
+    <div class="large-12 columns">
 
       {{content}}
-
+    
+    </div>
+  </div>
       {% if paginator %}
         <div class="pager">
           {% if paginator.next_page %}
@@ -42,7 +44,5 @@ layout: default
           {% endif %}
         </div>
       {% endif %}
-    </div>
-  </div>
 </div>
 
