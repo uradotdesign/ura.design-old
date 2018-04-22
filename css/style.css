@@ -932,6 +932,9 @@ nav.wrapper {
   .post.alt .post-content {
     padding: 20px 40px; }
 
+post.alt .post-content.blog {
+    padding: 0px; }
+
 .post.single {
   border: none;
   padding: 0; }
