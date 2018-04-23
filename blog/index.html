@@ -34,7 +34,7 @@ section_id: blog
   </div>
     <div class="large-3 columns blog">
            {% if post.images %}
-            <a href="{{ post.url | replace:'.html','' }}"><img src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+            <a href="{{ post.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
            {% endif %}
     </div>
       </div>
