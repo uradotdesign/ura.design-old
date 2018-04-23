@@ -6,7 +6,7 @@ link: https://twitter.com/marianaballa1
 date: 2018-03-19 12:00:00 +0200
 categories: 
 images:
-- images/@stock/new-website.jpg
+- images/@stock/website_thumb.jpg
 header:
 - images/@stock/new-website.jpg
 excerpt:
