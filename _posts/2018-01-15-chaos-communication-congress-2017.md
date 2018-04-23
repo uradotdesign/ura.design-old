@@ -6,7 +6,7 @@ link: https://twitter.com/marianaballa1
 date: 2018-01-15 12:00:00 +0200
 categories: 
 images:
-- images/@stock/elio-ccc.png
+- images/@stock/34c3_thumb.png
 header:
 - images/@stock/elio-ccc.png
 excerpt:
