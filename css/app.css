@@ -4806,12 +4806,12 @@ p {
   font-family: inherit;
   font-size: 1rem;
   font-weight: normal;
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
     font-size: 1.34375rem;
-    line-height: 1.6; }
+    line-height: 1.4; }
   p aside {
     font-size: 0.875rem;
     font-style: italic;
@@ -5004,8 +5004,10 @@ blockquote, blockquote p {
   h6 {
     font-size: 1rem; }
   h3.blog {
-    font-size: 2.1rem;
-    margin-bottom: 10px; } }
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-weight: 800; } }
 
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
