@@ -8,7 +8,7 @@ section_id: blog
   <div class="row">
   <div class="large-12 columns">
     {% assign mod = forloop.index | modulo: 2 %}
-    {% if mod == 1 %}
+    {% if mod == 0 || mod == 1 %}
     <div class="large-1 blog centered-text columns">
             {% if post.categories != empty %}
               <span>
@@ -43,44 +43,3 @@ section_id: blog
 </div>
 <div class="spacing"></div>
   {% endfor %}
-
-    {% for post in paginator.posts %}
-  <div class="row">
-  <div class="large-12 columns">
-    {% assign mod = forloop.index | modulo: 2 %}
-    {% if mod == 0 %}
-      <div class="large-1 blog centered-text columns">
-            {% if post.categories != empty %}
-              <span>
-                {% for cat in post.categories %}
-                  <a href="#">{{cat | capitalize }}</a>
-                  {% unless forloop.last %}
-                      ,
-                  {% endunless %}
-                {% endfor %}
-              </span>
-              /
-            {% endif %}
-            <h1 class="blogdate"><a href="{{ post.url | replace:'.html','' }}">{{ post.date | date: "%d" }}</a></h1>
-      <p>{{ post.date | date: "%B %Y" }}</p>
-    </div>
-  <div class="large-8 columns">
-        <div class="post-content blog">
-          <h3 class="blog"><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
-          <p class="blogauthor">by <a href="{{post.link}}" target="_blank">{{post.author}}</a></p>
-          <p>{{post.excerpt}}</p>
-          <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
-        </div>
-  </div>
-    <div class="large-3 columns blog">
-           {% if post.images %}
-            <a href="{{ post.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
-           {% endif %}
-    </div>
-      </div>
-    {% endif %}
-      </div>
-</div>
-<div class="spacing"></div>
-  {% endfor %}
-<div class="two spacing"></div>
