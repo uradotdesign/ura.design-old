@@ -158,11 +158,11 @@
   .large-12.columns.table {
     display: table; }
   
-  .table .header-blog {
+   .header-blog {
     display:table-header-group; }
   
-  .table .middle-blog { 
+   .middle-blog { 
     display:table-row-group; }
   
-  .table .bottom-blog {
+   .bottom-blog {
     display:table-footer-group; } }
