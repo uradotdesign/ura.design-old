@@ -155,8 +155,8 @@
     width: 140px;
     padding: 10px; }
 
-  .large-12.columns.table {
-    display: table; }
+  .table {
+    display: table;
   
   #header {
     display:table-header-group; }
@@ -165,4 +165,4 @@
     display:table-row-group; }
   
   #bottom {
-    display:table-footer-group; } }
+    display:table-footer-group; } } }
