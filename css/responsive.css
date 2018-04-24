@@ -156,13 +156,13 @@
     padding: 10px; }
 
   .table {
-    display: table;
+    display: table; }
   
-  #header {
+  .header-blog {
     display:table-header-group; }
   
-  #middle { 
+  .middle-blog { 
     display:table-row-group; }
   
-  #bottom {
-    display:table-footer-group; } } }
+  .bottom-blog {
+    display:table-footer-group; } }
