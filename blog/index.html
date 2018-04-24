@@ -8,7 +8,7 @@ section_id: blog
   <div class="row">
   <div class="large-12 columns">
     {% assign mod = forloop.index | modulo: 2 %}
-    {% if mod == 0 && mod == 1 %}
+    {% if mod == 0 & mod == 1 %}
     <div class="large-1 blog centered-text columns">
             {% if post.categories != empty %}
               <span>
