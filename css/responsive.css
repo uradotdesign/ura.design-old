@@ -153,4 +153,16 @@
 
   nav.wrapper a {
     width: 140px;
-    padding: 10px; } }
+    padding: 10px; }
+
+  .large-12.columns.table {
+    display: table; }
+  
+  #header {
+    display:table-header-group; }
+  
+  #middle { 
+    display:table-row-group; }
+  
+  #bottom {
+    display:table-footer-group; } }
