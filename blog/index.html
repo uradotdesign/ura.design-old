@@ -32,7 +32,7 @@ section_id: blog
           <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
         </div>
   </div>
-    <div class="large-3 columns blog">
+    <div class="large-3 columns blog" style="margin-bottom: 30px;">
            {% if post.images %}
             <a href="{{ post.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
            {% endif %}
