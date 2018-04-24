@@ -153,16 +153,4 @@
 
   nav.wrapper a {
     width: 140px;
-    padding: 10px; }
-
-  .large-12.columns.table {
-    display: table; }
-  
-   .header-blog {
-    display:table-header-group; }
-  
-   .middle-blog { 
-    display:table-row-group; }
-  
-   .bottom-blog {
-    display:table-footer-group; } }
+    padding: 10px; } }
