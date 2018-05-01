@@ -1715,7 +1715,7 @@ p.blogauthor {
   margin: 1.563rem auto;
 }
 
-.post-list a {
+.post-list-tags a {
   display: block;
   border-bottom: 1px solid #dadada;
   padding: .625rem 0;
@@ -1743,10 +1743,6 @@ p.blogauthor {
   letter-spacing: .01rem;
 }
   
-.post-list.entry-date {
+.post-list-tags.entry-date {
   float: right;
-}
-
-.post-content {
-  padding: 2.5rem 0;
 }
