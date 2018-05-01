@@ -1709,3 +1709,8 @@ p.blogauthor {
   line-height: 2;
   letter-spacing: .01rem;
 }
+
+.post-list {
+  list-style: none;
+  margin: 1.563rem auto;
+}
