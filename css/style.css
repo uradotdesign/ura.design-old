@@ -1726,3 +1726,7 @@ p.blogauthor {
 .post-list.entry-date {
   float: right;
 }
+
+.post-content {
+  padding: 2.5rem 0;
+}
