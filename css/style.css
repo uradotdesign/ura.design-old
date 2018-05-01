@@ -1669,5 +1669,5 @@ p.blogauthor {
 .tags a:hover {
   color: white;
   background: #3399d4;
-  border: none;
+  border: 1px solid #3399d4;
 }
