@@ -3,6 +3,8 @@ layout: default
 title: "#Tags"
 ---
 
+<div class="full">
+
 <div class="tags">
 {% assign tags_list = site.tags %}
   {% if tags_list.first[0] == null %}
@@ -32,3 +34,5 @@ title: "#Tags"
         {% assign group = nil %}
     </ul>
 {% endfor %}
+
+</div>
