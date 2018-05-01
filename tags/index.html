@@ -21,7 +21,7 @@ title: "#Tags"
 
 {% for tag in site.tags  %}
     <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span>
-    <ul class="post-list">
+    <ul class="post-list-tags">
         {% assign pages_list = tag[1] %}
         {% for post in pages_list reversed %}
             {% if post.title != null %}
