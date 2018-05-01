@@ -1710,11 +1710,6 @@ p.blogauthor {
   letter-spacing: .01rem;
 }
 
-.post-list {
-  list-style: none;
-  margin: 1.563rem auto;
-}
-
 .post-list-tags a {
   display: block;
   border-bottom: 1px solid #dadada;
@@ -1735,6 +1730,7 @@ p.blogauthor {
   padding-right: 0;
   padding: 0 1.25rem;
   margin: 0 auto 1.875rem;
+  list-style: none;
   font-family: 'Overpass',sans-serif;
   font-weight: 300;
   font-style: normal;
