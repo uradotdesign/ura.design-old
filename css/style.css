@@ -1703,7 +1703,6 @@ p.blogauthor {
   padding: 0 1.25rem;
   margin: 0 auto 1.875rem;
   font-family: 'Overpass',sans-serif;
-  font-weight: 300;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 2;
@@ -1728,11 +1727,9 @@ p.blogauthor {
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-  padding: 0 1.25rem;
   margin: 0 auto 1.875rem;
   list-style: none;
   font-family: 'Overpass',sans-serif;
-  font-weight: 300;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 2;
