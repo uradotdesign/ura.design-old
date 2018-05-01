@@ -1665,3 +1665,9 @@ p.blogauthor {
   margin-bottom: .5rem;
   text-decoration: none;
 }
+
+.tags a:hover {
+  color: white;
+  background: transparent;
+  border: none;
+}
