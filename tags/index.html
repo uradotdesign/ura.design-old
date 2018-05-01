@@ -19,8 +19,8 @@ title: "#Tags"
 {% assign tags_list = nil %}
 </div>
 
-<div class="large-9 columns">
 {% for tag in site.tags  %}
+  <div class="large-9 columns">
     <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span>
     <ul class="post-list-tags">
         {% assign pages_list = tag[1] %}
@@ -34,6 +34,6 @@ title: "#Tags"
         {% assign pages_list = nil %}
         {% assign group = nil %}
     </ul>
-{% endfor %}
   </div>
+{% endfor %}
 </div>
