@@ -1690,3 +1690,22 @@ p.blogauthor {
   padding-right: 0;
 }
 
+.full.tags {
+  *zoom: 1;
+  width: auto;
+  max-width: 50rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 0 1.25rem;
+  margin: 0 auto 1.875rem;
+  font-family: 'Overpass',sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 2;
+  letter-spacing: .01rem;
+}
