@@ -20,7 +20,6 @@ title: "#Tags"
 </div>
 
 {% for tag in site.tags  %}
-  <div class="large-9 columns">
     <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span>
     <ul class="post-list-tags">
         {% assign pages_list = tag[1] %}
@@ -28,7 +27,6 @@ title: "#Tags"
             {% if post.title != null %}
             {% if group == null or group == post.group %}
             <li><a href="{{ site.url }}{{ post.url | replace:'.html','' }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%d %B %Y" }}</time></a></li>
-            </div>
             {% endif %}
             {% endif %}
         {% endfor %}
