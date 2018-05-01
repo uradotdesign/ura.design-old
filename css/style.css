@@ -1716,6 +1716,10 @@ p.blogauthor {
   transition: all .5s;
 }
 
+.post-list-tags a:hover {
+  color: #144866;
+}
+
 .post-list-tags {
   *zoom: 1;
   width: auto;
