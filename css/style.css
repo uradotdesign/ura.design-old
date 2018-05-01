@@ -1714,3 +1714,15 @@ p.blogauthor {
   list-style: none;
   margin: 1.563rem auto;
 }
+
+.post-list a {
+  display: block;
+  border-bottom: 1px solid #dadada;
+  padding: .625rem 0;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.post-list.entry-date {
+  float: right;
+}
