@@ -10,7 +10,7 @@ images:
 header:
 - images/@stock/workshop-1.jpg
 tags:
-- Open source Design
+- Open Source Design
 - Workshop
 - UX Design
 excerpt:
