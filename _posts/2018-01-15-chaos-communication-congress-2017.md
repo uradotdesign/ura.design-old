@@ -9,6 +9,11 @@ images:
 - images/@stock/34c3_thumb.png
 header:
 - images/@stock/elio-ccc.png
+tags:
+- Chaos Communication Congress
+- CCC
+- Identihub
+- Ura
 excerpt:
   Chaos Communication Congress or simply CCC , is a four-day conference focusing on technology and social issues of our times. The organizers, the Chaos Computer Club, try to bring up to the spotlight privacy issues and the importance of the human rights on the digital world we “breathe” every day. Through workshops and presentations the […]
 ---
