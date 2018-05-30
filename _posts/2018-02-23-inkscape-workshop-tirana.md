@@ -9,6 +9,11 @@ images:
 - images/@stock/Inkscape-Workshop-1-thumb.jpg
 header:
 - images/@stock/Inkscape-Workshop-1.jpg
+tags:
+- Inkscape
+- Open Source Design
+- Ura
+- workshop
 excerpt:
   Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, […]
 ---
