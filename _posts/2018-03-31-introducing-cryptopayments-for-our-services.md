@@ -9,6 +9,14 @@ images:
 - images/@stock/CryptoCurrencyThumb.jpg
 header:
 - images/@stock/CryptoCurrencyBanner.jpg
+tags:
+- cryptopayments
+- crypto
+- bitcoin
+- ethereum
+- litecoin
+- design
+- opensourcedesign
 
 excerpt:
  Every day we try to understand the needs of our partners by taking their feedback seriously. During this process we have noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer.[…]
