@@ -10,10 +10,10 @@ images:
 header:
 - images/@stock/home-banner.jpg
 tags:
-- open tech fund
+- Open Tech Fund
 - OTF
-- usability
-- UX design
+- Usability
+- UX Design
 - Ura
 - Internet Freedom
 excerpt:
