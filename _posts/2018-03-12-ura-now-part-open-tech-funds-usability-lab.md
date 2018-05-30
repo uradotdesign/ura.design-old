@@ -11,7 +11,6 @@ header:
 - images/@stock/home-banner.jpg
 tags:
 - Open Tech Fund
-- OTF
 - Usability
 - UX Design
 - Ura
