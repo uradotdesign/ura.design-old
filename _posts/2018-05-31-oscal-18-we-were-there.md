@@ -21,6 +21,7 @@ excerpt:
 Most members of the Ura team participated on the event, while some of us were part of the organizing team of the event. As the event's motto was "Open by Default" and as we share the exact same principal, we couldn't miss the chance to be there with a dedicated infobooth. We were happy to chat with open source contributors from different projects and to introduce them to [Open Source Design](https://opensourcedesign.net/) principles and the importance of better Usability and Design in open source.
 
 ![Ura](/images/@stock/OSCALMariana.jpg)
+<i>Ura at OSCAL18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 
 We also showed the latest developments of [Identihub](https://identihub.co/) and started promoting the upcoming [Open Source Design Summit](https://github.com/opensourcedesign/organization/issues/103) that will take place in Tirana upcoming November. Designers (and design enthusiasts) involved in open source will gather for the second time and collaborate on a common vision for the Open Source Design movement.
 
@@ -32,5 +33,6 @@ Renata interviewed 6 people of different ages and occupations. They had 5 tasks 
 This will set a solid base for the upcoming Usability Study which will shine light on potential issues where Thunderbird can be improved. We hope to pave the way to revitalize Thunderbird and improve Usability in a future version. Watch this space. 
 
 ![Renata Gegaj](/images/@stock/OSCALRenata.jpg)
+<i>During Renata Gegaj's interview – By Elio Qoshi (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 
 It was great to be part of OSCAL again. As the 5th anniversary of the conference, it marked a milestone for our local communities in Albania. We hope to see more Open Source Design enthusiasts at the next event!
