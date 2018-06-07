@@ -32,10 +32,13 @@ We also showed the latest developments of [Identihub](https://identihub.co/) and
 
 As part of our ongoing work with the [OTF Usability Lab](https://www.opentech.fund/lab/usability-lab), we have been helping [Thunderbird](https://www.thunderbird.net/en-US/) with a refreshed identity and are currently building up their new style guide followed by a Usability Study. For latter, we have worked with [Renata Gegaj](https://renatagegaj.wordpress.com/), a User Researcher and a fellow Open Source Designer who has worked in the past for [GNOME](https://www.gnome.org/) as part of the [Outreachy](https://www.outreachy.org/) program.
 
-Renata interviewed 6 people of different ages and occupations. They had 5 tasks given by Renata to complete and while they were doing so, she would observe if they encountered any blockers or pushbacks. 
-This will set a solid base for the upcoming Usability Study which will shine light on potential issues where Thunderbird can be improved. We hope to pave the way to revitalize Thunderbird and improve Usability in a future version. Watch this space. 
-
 ![Renata Gegaj](/images/@stock/OSCALRenata.jpg)
 <i>During Renata Gegaj's interview – By Elio Qoshi (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
+
+Renata interviewed 6 people of different ages and occupations. They had 5 tasks given by Renata to complete and while they were doing so, she would observe if they encountered any blockers or pushbacks. 
+This will set a solid base for the upcoming Usability Study which will shine light on potential issues where Thunderbird can be improved. We hope to pave the way to revitalize Thunderbird and improve Usability in a future version. Watch this space.
+
+![Ura](/images/@stock/OSCALRedon_Renata.jpg)
+<i>Renata and Redon from our team during OSCAL'18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 
 It was great to be part of OSCAL again. As the 5th anniversary of the conference, it marked a milestone for our local communities in Albania. We hope to see more Open Source Design enthusiasts at the next event!
