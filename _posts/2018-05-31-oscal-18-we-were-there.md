@@ -30,7 +30,7 @@ We also showed the latest developments of [Identihub](https://identihub.co/) and
 
 **Thunderbird User Interviews**
 
-As part of our ongoing work with the [OTF Usability Lab](https://www.opentech.fund/lab/usability-lab), we have been helping [Thunderbird](https://www.thunderbird.net/en-US/) with a refreshed identity and are currently building up their new style guide followed by a Usability Study. For latter, we have worked with [Renata Gegaj](https://renatagegaj.wordpress.com/), a User Researcher and a fellow Open Source Designer who has worked in the past for [GNOME](https://www.gnome.org/) as part of the [Outreachy](https://www.outreachy.org/) program.
+As part of our ongoing work with the [OTF Usability Lab](https://www.opentech.fund/lab/usability-lab), we have been helping [Thunderbird](https://www.thunderbird.net/en-US/) with a refreshed identity and are currently building up their new style guide followed by a Usability Study. For that, we have worked with [Renata Gegaj](https://renatagegaj.wordpress.com/), a User Researcher and a fellow Open Source Designer who has worked in the past for [GNOME](https://www.gnome.org/) as part of the [Outreachy](https://www.outreachy.org/) program.
 
 ![Renata Gegaj](/images/@stock/OSCALRenata.jpg)<br>
 <i>During Renata Gegaj's interview – By Elio Qoshi (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
