@@ -19,7 +19,7 @@ excerpt:
 [Open Source Conference Albania](https://oscal.openlabs.cc/) (OSCAL) is a two-days  annual open source event held in Tirana, Albania since 2014.  The conference gathers open source enthusiasts from all around the world with a considerable number of attendees being young students from the region of the Balkans. With a variety of different talks, workshops, info booths and community meetups, OSCAL brings together free libre open source technology users, developers, academics, governmental agencies and people who share the idea that software should be free and open for the local community and governments to develop and customize to its needs. This year the venue was the iconic Pyramid located in the center of the city, giving also an industrial architectural vibe to the conference for the first time.
 
 ![Opening Speach](/images/@stock/OSCAL_group_photo.jpg) <br>
-<i>Conference's group picture – By Andis Rado ([Creative Commons – Attribution-ShareAlike 4.0 International (https://commons.wikimedia.org/wiki/Category:OSCAL_2018_-_group_photos))</i>
+<i>Conference's group picture – By Andis Rado ( [Creative Commons – Attribution-ShareAlike 4.0 International (https://commons.wikimedia.org/wiki/Category:OSCAL_2018_-_group_photos) )</i>
 
 Most members of the Ura team participated on the event, while some of us were part of the organizing team of the event. As the event's motto was "Open by Default" and as we share the exact same principal, we couldn't miss the chance to be there with a dedicated infobooth. We were happy to chat with open source contributors from different projects and to introduce them to [Open Source Design](https://opensourcedesign.net/) principles and the importance of better Usability and Design in open source.
 
