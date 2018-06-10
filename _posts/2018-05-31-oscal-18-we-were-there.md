@@ -42,3 +42,6 @@ This will set a solid base for the upcoming Usability Study which will shine lig
 <i>Renata and Redon from our team during OSCAL'18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 
 It was great to be part of OSCAL again. As the 5th anniversary of the conference, it marked a milestone for our local communities in Albania. We hope to see more Open Source Design enthusiasts at the next event!
+
+
+Pictures acquired from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:OSCAL_2018). 
