@@ -36,7 +36,7 @@ As part of our ongoing work with the [OTF Usability Lab](https://www.opentech.fu
 <i>During Renata Gegaj's interview – By Elio Qoshi (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 
 Renata interviewed 6 people of different ages and occupations. They had 5 tasks given by Renata to complete and while they were doing so, she would observe if they encountered any blockers or pushbacks. 
-This will set a solid base for the upcoming Usability Study which will shine light on potential issues where Thunderbird can be improved. We hope to pave the way to revitalize Thunderbird and improve Usability in a future version. Watch this space.
+This will set a solid base for the upcoming Usability Study which will shine light on potential issues where Thunderbird can be improved. We hope to pave the way to revitalize Thunderbird and improve Usability in a future version.
 
 ![Ura](/images/@stock/OSCALRedon_Renata.jpg)<br>
 <i>Renata and Redon from our team during OSCAL'18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
