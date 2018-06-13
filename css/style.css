@@ -428,8 +428,8 @@ body {
   color: #1E5B96; }
 
 .button.boxed.reproduciblebuilds:hover {
-  color: #1E5B96;
-  background: none; }
+  color: #fff;
+  background: #1E5B96; }
 
 .button.boxed.openlabs {
   border: 1px solid #2BBBB0;
