@@ -352,6 +352,9 @@ body {
 .button.enigmail::before {
   background: #0077bb; }
 
+.button.reproduciblebuilds::before {
+  background: #1E5B96; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -417,6 +420,15 @@ body {
 
 .button.boxed.identihub:hover {
   color: #58595b;
+  background: none; }
+
+.button.boxed.reproduciblebuilds {
+  border: 1px solid #1E5B96;
+  background: none;
+  color: #1E5B96; }
+
+.button.boxed.reproduciblebuilds:hover {
+  color: #1E5B96;
   background: none; }
 
 .button.boxed.openlabs {
