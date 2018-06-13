@@ -43,4 +43,4 @@ While a live style guide is an ideal solution to offer powerful guidelines in on
 
 There you can also find the [style guide assets](https://demo.identihub.co/project/reproducible-builds) where Identihub should make it easier to link, share and convert them.
  
- Also head over to our portfolio page of Reproducible Builds!
+ Also head over to our [portfolio page](https://ura.design/projects/reproducible-builds) of Reproducible Builds
