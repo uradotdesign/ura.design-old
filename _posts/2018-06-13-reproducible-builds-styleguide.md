@@ -39,7 +39,7 @@ In the coming weeks, the official version will live on [https://reproducible-bui
 
 ### Identihub
 
-While a live style guide is an ideal solution to offer powerful guidelines in one place, creating an Identihub page is an accessible alternative which can be deployed right away without too much hassle. You
+While a live style guide is an ideal solution to offer powerful guidelines in one place, creating an Identihub page is an accessible alternative which can be deployed right away without too much hassle.
 
 There you can also find the [style guide assets](https://demo.identihub.co/project/reproducible-builds) where Identihub should make it easier to link, share and convert them.
  
