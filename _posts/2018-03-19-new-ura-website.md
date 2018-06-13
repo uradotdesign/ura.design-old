@@ -10,7 +10,6 @@ images:
 header:
 - images/@stock/new-website.jpg
 tags:
-- Ura
 - Website
 - GitHub Pages
 - Jekyll
