@@ -9,7 +9,6 @@ images:
 - images/@stock/work_week_2017.png
 tags:
 - Ura Work Week
-- Ura
 - Identihub
 excerpt:
   Working remotely can be comfortable and productive at the same time, but some time getting together with your co-workers, having coffee,discussing, brainstorming… is also good to have from time to time. At Ura we all work from home, so we have our "Ura work week" every 6 months as a way to bring the team […]
