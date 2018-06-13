@@ -9,7 +9,6 @@ images:
 - images/@stock/OSCAL_thumbnail.png
 tags:
 - OSCAL
-- Ura
 - Identihub
 - Open Source Design
 excerpt:
