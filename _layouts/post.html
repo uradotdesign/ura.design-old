@@ -23,9 +23,8 @@ section_id: blog
               </span>
               /
             {% endif %}
-            <span>{{page.date | date: "%B %d, %Y" }}</span>
+            <span>{{page.date | date: "%B %d, %Y" }}</span> by <a href="{{page.link}}" target="_blank">{{page.author}}</a>
           </p>
-          <p class="blogauthor">by <a href="{{post.link}}" target="_blank">{{post.author}}</a></p>
           {{content}}
         </div>
       </div>
