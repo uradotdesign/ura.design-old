@@ -26,7 +26,7 @@ section_id: blog
     </div>
     <div class="large-8 columns bottom-blog">
         <div class="post-content blog">
-          <h3 class="blog"><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
+          <h3 id="blog-title" class="blog"><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
           <p class="blogauthor">by <a href="{{post.link}}" target="_blank">{{post.author}}</a></p>
           <p>{{post.excerpt}}</p>
           <div class="tags">
