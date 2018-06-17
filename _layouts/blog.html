@@ -16,26 +16,33 @@ layout: default
 <div class="three spacing"></div>
       {{content}}
       {% if paginator %}
-        <div class="pager">
+<div class="full light-grey blog">
+  <nav class='wrapper'>
+    <div class="row">
+      <div class="small-6 columns">
           {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
-              <a href="/blog" class="older">Older Entries <i class="fa fa-angle-double-right"></i></a>
+              <a href="/blog" class="next button boxed black">Older Entries <i class="fa fa-angle-double-right"></i></a>
             {% else %}
               <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries <i class="fa fa-angle-double-right"></i></a>
             {% endif %}
           {% else %}
             <!-- <span class="older">Older Entries</span> -->
           {% endif %}
+      </div>
+       <div class="small-6 columns">
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-              <a href="/blog" class="newer"><i class="fa fa-angle-double-left"></i> Newer Entries</a>
+              <a href="/blog" class="previous button boxed black"><i class="fa fa-angle-double-left"></i> Newer Entries</a>
             {% else %}
               <a href="/blog/page{{ paginator.previous_page }}" class="newer"><i class="fa fa-angle-double-left"></i>Newer Entries</a>
             {% endif %}
           {% else %}
             <!-- <span class="newer">Newer Entries</span> -->
           {% endif %}
-          </div>
-<div class="two spacing"></div>
-      {% endif %}
+      </div>
+    </div>
+  </nav>
+</div>
+{% endif %}
 
