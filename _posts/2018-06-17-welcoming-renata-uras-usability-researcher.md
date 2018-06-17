@@ -32,7 +32,7 @@ It should be noted that a logo won't solve your user's problems, but it's enough
 
 To cater to those needs, we are excited to welcome Renata in our team! Renata is a Usability Researcher based in Prishtina (Kosova) who has been quite close with our communities, especially Fedora and GNOME. In the past she conducted Usability Testing for GNOME applications as part of her Outreachy internship. If you want to know more about Renata's work, you can [head over to her blog](https://renatagegaj.wordpress.com/2016/05/30/what-is-usability/).
 
-  ![Renata and Redon at OSCAL'18](https://ura.design/images/@stock/OSCALRedon_Renata.jpg)
+  ![Renata and Redon at OSCAL'18](https://ura.design/images/@stock/OSCALRedon_Renata.jpg)<br>
 <i>Renata and Redon during OSCAL'18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 
 Although only now officially part of the team, we have worked with Renata on [User Testing for Thunderbird, conducted at OSCAL'18 last month](https://ura.design/2018/05/31/oscal-18-we-were-there). Her next endeavour will be working on a more extensive research for [I2P](https://geti2p.net/en/) focused on Linux and Windows clients. Both Thunderbird and I2P are part of the Open Tech Fund Usability Lab which supported us throughout our work.
