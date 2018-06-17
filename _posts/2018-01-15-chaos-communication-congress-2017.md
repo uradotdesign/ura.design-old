@@ -4,11 +4,11 @@ title: Chaos Communication Congress 2017 – We were there
 author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-01-15 12:00:00 +0200
-categories: 
+categories:
 images:
-- images/@stock/34c3_thumb.png
+- images/blog/34c3_thumb.png
 header:
-- images/@stock/elio-ccc.png
+- images/blog/elio-ccc.png
 tags:
 - Chaos Communication Congress
 - CCC
@@ -22,7 +22,7 @@ excerpt:
 <p>Our team, as a collective of creative individuals dedicated to work in the open, couldn’t miss the chance to be there. We share the same values with CCC when it comes to the use of free and open source tools for our work and that’s why Elio, one of our team members and the founder of Ura, was there on the last week of December to present at the FSFS assembly track.</p>
 
 <div class="large-12 large-centered centered-text columns">
-<img src="/images/@stock/elio-ccc.png" alt="34C3"><br />
+<img src="/images/blog/elio-ccc.png" alt="34C3"><br />
 <i>During the Identihub presentation</i>
 </div>
 <div class="two spacing"></div>

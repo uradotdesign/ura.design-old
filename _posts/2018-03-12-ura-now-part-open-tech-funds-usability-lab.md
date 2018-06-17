@@ -4,11 +4,11 @@ title: Ura is now part of Open Tech Fund’s Usability Lab
 author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-03-12 12:00:00 +0200
-categories: 
+categories:
 images:
-- images/@stock/home-banner.jpg
+- images/blog/home-banner.jpg
 header:
-- images/@stock/home-banner.jpg
+- images/blog/home-banner.jpg
 tags:
 - Open Tech Fund
 - Usability
@@ -21,7 +21,7 @@ excerpt:
 <p>Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of <a href="https://www.opentech.fund/lab/usability-lab" target="_blank">Open Tech Fund’s Usability Lab</a>.</p>
 
 <div class="large-10 large-centered centered-text columns">
-<img src="/images/@stock/OTF.jpg" alt="OTF logo"><br />
+<img src="/images/blog/OTF.jpg" alt="OTF logo"><br />
 </div>
 <div class="two spacing"></div>
 

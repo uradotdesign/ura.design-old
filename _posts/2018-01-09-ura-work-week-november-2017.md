@@ -4,9 +4,9 @@ title: Ura Work Week in November 2017
 author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-01-09 12:00:00 +0200
-categories: 
+categories:
 images:
-- images/@stock/work_week_2017.png
+- images/blog/work_week_2017.png
 tags:
 - Ura Work Week
 - Identihub
@@ -19,7 +19,7 @@ At Ura we all work from home, so we have our <strong>"Ura work week"</strong> ev
 We had our first working week this November where all gathered in the city of Tirana. We would start our meetings in the morning, usually by having breakfast and some coffee first and then start working accordingly with our pre-made agenda.</p>
 
 <div class="large-10 large-centered centered-text columns">
-<img src="/images/@stock/work-week.jpg" alt="Ura Team at Code Week"><br />
+<img src="/images/blog/work-week.jpg" alt="Ura Team at Code Week"><br />
 <i>The Ura Team</i>
 </div>
 <div class="two spacing"></div>

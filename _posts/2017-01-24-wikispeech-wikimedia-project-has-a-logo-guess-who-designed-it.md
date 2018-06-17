@@ -4,11 +4,11 @@ title: Wikispeech Wikimedia project has a logo. Guess who designed it
 author: Redon Skikuli
 link: https://twitter.com/rskikuli
 date: 2017-01-24 12:00:00 +0200
-categories: 
+categories:
 images:
-- images/@stock/ura-wikispeech.png
+- images/blog/ura-wikispeech.png
 header:
-- images/@stock/ura-wikispeech.png
+- images/blog/ura-wikispeech.png
 tags:
 - Wikimedia
 - Wikispeech
@@ -27,7 +27,7 @@ At Ura we <3 Wikipedia and other projects empowered by the <a href="https://www.
 The logo incorporates the look and feel of the main Wikimedia projects and also the color palette used by these projects. At the same time it features elements related to audio in order to make it easily recognizable as a project related to a text-to-speech system.</p>
 
 <div class="large-12 large-centered centered-text columns">
-<img src="/images/@stock/wikispeech.png" alt="wikispeech logo">
+<img src="/images/blog/wikispeech.png" alt="wikispeech logo">
 </div>
 <div class="two spacing"></div>
 

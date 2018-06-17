@@ -4,11 +4,11 @@ title: Ura has a new website
 author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-03-19 12:00:00 +0200
-categories: 
+categories:
 images:
-- images/@stock/website_thumb.jpg
+- images/blog/website_thumb.jpg
 header:
-- images/@stock/new-website.jpg
+- images/blog/new-website.jpg
 tags:
 - Website
 - GitHub Pages
@@ -23,4 +23,4 @@ Whereas WordPress makes it quite difficult to open source a website, Jekyll allo
 
 Oh, last but not least, we also updated our logo! Head over to [its Identihub page](https://demo.identihub.co/project/uradesign) where it lives. It now has an updated wordmark with improved readability and adhering to our typography guidelines.
 
-![New Ura Logo](/images/@stock/new-website.jpg)
+![New Ura Logo](/images/blog/new-website.jpg)
