@@ -1765,10 +1765,10 @@ p.blogauthor {
   text-transform: none;
 }
 
-.blog a {
+#blog-title a {
   color: #333333;
 }
 
-.blog a:hover {
+#blog-title a:hover {
   color: #3399D4;
 }
