@@ -1767,6 +1767,7 @@ p.blogauthor {
 
 #blog-title a {
   color: #333333;
+  text-transform: none;
 }
 
 #blog-title a:hover {
