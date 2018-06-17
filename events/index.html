@@ -4,13 +4,13 @@ section_id: events
 title: Events
 ---
 
-{% for event in paginator.events %}
+{% for post in paginator.events %}
 <div class="row">
 <div class="large-12 columns table" style="border-bottom: 3px solid aliceblue;">
 {% assign mod = forloop.index | modulo: 1 %}
 {% if mod == 0 %}
 <div class="large-1 blog centered-text columns">
-        {% if events.categories != empty %}
+        {% if post.categories != empty %}
           <span>
             {% for cat in post.categories %}
               <a href="#">{{cat | capitalize }}</a>
@@ -21,24 +21,24 @@ title: Events
           </span>
           /
         {% endif %}
-        <h1 class="blogdate"><a href="{{ post.url | replace:'.html','' }}">{{ event.date | date: "%d" }}</h1>
-  <p id="post-month">{{ event.date | date: "%B %Y" }}</p></a>
+        <h1 class="blogdate"><a href="{{ post.url | replace:'.html','' }}">{{ post.date | date: "%d" }}</h1>
+  <p id="post-month">{{ post.date | date: "%B %Y" }}</p></a>
 </div>
 <div class="large-8 columns bottom-blog">
     <div class="post-content blog">
-      <h3 id="blog-title" class="blog"><a href="{{ post.url | replace:'.html','' }}">{{event.title}}</a></h3>
-      <p>{{event.excerpt}}</p>
+      <h3 id="blog-title" class="blog"><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
+      <p>{{post.excerpt}}</p>
       <div class="tags">
-         {% for tag in event.tags %}
+         {% for tag in post.tags %}
          <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
          {% endfor %}
       </div>
-      <p><a href="{{ event.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
+      <p><a href="{{ post.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
     </div>
 </div>
 <div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
-       {% if event.images %}
-        <a href="{{ event.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{event.images[0]}}" alt="post"></a>
+       {% if post.images %}
+        <a href="{{ post.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
        {% endif %}
 </div>
   </div>
