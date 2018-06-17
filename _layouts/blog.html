@@ -19,7 +19,7 @@ layout: default
 <div class="full light-grey blog">
   <nav class='wrapper'>
     <div class="row">
-      <div class="small-12 columns">
+      <div class="small-6 columns">
           {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
               <a href="/blog" class="previous button boxed black" style="float: right;">Older Entries <i class="fa fa-angle-double-right"></i></a>
@@ -30,7 +30,7 @@ layout: default
             <!-- <span class="older">Older Entries</span> -->
           {% endif %}
       </div>
-       <div class="small-12 columns">
+       <div class="small-6 columns">
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
               <a href="/blog" class="next button boxed black" style="float: left;"><i class="fa fa-angle-double-left"></i> Newer Entries</a>
