@@ -1764,3 +1764,11 @@ p.blogauthor {
 #page-title {
   text-transform: none;
 }
+
+.blog a {
+  color: #333333;
+}
+
+.blog a:hover {
+  color: #3399D4;
+}
