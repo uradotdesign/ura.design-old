@@ -22,7 +22,7 @@ section_id: blog
               /
             {% endif %}
             <h1 class="blogdate"><a href="{{ post.url | replace:'.html','' }}">{{ post.date | date: "%d" }}</a></h1>
-      <p>{{ post.date | date: "%B %Y" }}</p>
+      <p id="post-month">{{ post.date | date: "%B %Y" }}</p>
     </div>
     <div class="large-8 columns bottom-blog">
         <div class="post-content blog">
