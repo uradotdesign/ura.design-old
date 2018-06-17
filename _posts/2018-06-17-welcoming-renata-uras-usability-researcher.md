@@ -12,7 +12,7 @@ tags:
 - Open Source Design
 - Renata Gegaj
 excerpt:
-Open Source Design has gone a long way. In our early days we were mostly asked to design logos, imagery and color palettes for open source projects. We were usually aiming to look under the hood beyond visual design services, something we didn't often get the chance to.[…]
+ Open Source Design has gone a long way. In our early days we were mostly asked to design logos, imagery and color palettes for open source projects. We were usually aiming to look under the hood beyond visual design services, something we didn't often get the chance to.[…]
 ---
 
 Open Source Design has gone a long way. In our early days we were mostly asked to design logos, imagery and color palettes for open source projects. We were usually aiming to look under the hood beyond visual design services, something we didn't often get the chance to. However it's understandable that a logo was a low-hanging fruit for most open source projects and hence that's also what they asked for. 
