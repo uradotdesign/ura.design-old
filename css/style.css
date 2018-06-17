@@ -1754,3 +1754,8 @@ p.blogauthor {
 .post-list-tags .entry-date {
   float: right;
 }
+
+#post-month {
+  background-color: #3399D4;
+  padding: 8px; 
+}
