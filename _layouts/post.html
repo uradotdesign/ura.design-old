@@ -25,6 +25,7 @@ section_id: blog
             {% endif %}
             <span>{{page.date | date: "%B %d, %Y" }}</span>
           </p>
+          <p class="blogauthor">by <a href="{{post.link}}" target="_blank">{{post.author}}</a></p>
           {{content}}
         </div>
       </div>
