@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div style="background-color: #3399d4;" class="full new">
+  <div class="section-title new">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 style="color: #fff; font-size: 2rem;" class="wow slideInDown">Events</h1>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="three spacing"></div>
+      {{content}}
+      {% if paginator %}
+<div class="full light-grey blog">
+  <nav class='wrapper'>
+    <div class="row">
+      <div class="small-6 columns">
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+              <a href="/events" class="next button boxed black" style="float: right;"><i class="fa fa-angle-double-left"></i> Newer Entries</a>
+            {% else %}
+              <a href="/events/page{{ paginator.previous_page }}" class="next button boxed black" style="float: right;"><i class="fa fa-angle-double-left"></i>Newer Entries</a>
+            {% endif %}
+          {% else %}
+            <!-- <span class="newer">Newer Entries</span> -->
+          {% endif %}
+        </div>
+      <div class="small-6 columns">
+        {% if paginator.next_page %}
+            {% if paginator.next_page == 1 %}
+              <a href="/events" class="previous button boxed black" style="float: left;">Older Entries <i class="fa fa-angle-double-right"></i></a>
+            {% else %}
+              <a href="/events/page{{ paginator.next_page }}" class="previous button boxed black" style="float: left;">Older Entries <i class="fa fa-angle-double-right"></i></a>
+            {% endif %}
+          {% else %}
+            <!-- <span class="older">Older Entries</span> -->
+          {% endif %}
+      </div>
+    </div>
+  </nav>
+</div>
+{% endif %}

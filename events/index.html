@@ -1,71 +1,49 @@
 ---
-layout: default
-section_id: pages
+layout: events
+section_id: events
+title: Events
 ---
 
-<div style="background-color: #3399d4;" class="full new">
-    <div class="section-title new">
-      <div class="row">
-          <div class="medium-10 medium-centered columns">
-              <h1 style="color: #fff; font-size: 2rem;" class="wow slideInDown">Events</h1>
-          </div>
+{% for event in paginator.events %}
+<div class="row">
+<div class="large-12 columns table" style="border-bottom: 3px solid aliceblue;">
+{% assign mod = forloop.index | modulo: 1 %}
+{% if mod == 0 %}
+<div class="large-1 blog centered-text columns">
+        {% if events.categories != empty %}
+          <span>
+            {% for cat in post.categories %}
+              <a href="#">{{cat | capitalize }}</a>
+              {% unless forloop.last %}
+                  ,
+              {% endunless %}
+            {% endfor %}
+          </span>
+          /
+        {% endif %}
+        <h1 class="blogdate"><a href="{{ post.url | replace:'.html','' }}">{{ event.date | date: "%d" }}</h1>
+  <p id="post-month">{{ event.date | date: "%B %Y" }}</p></a>
+</div>
+<div class="large-8 columns bottom-blog">
+    <div class="post-content blog">
+      <h3 id="blog-title" class="blog"><a href="{{ post.url | replace:'.html','' }}">{{event.title}}</a></h3>
+      <p>{{event.excerpt}}</p>
+      <div class="tags">
+         {% for tag in event.tags %}
+         <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+         {% endfor %}
       </div>
+      <p><a href="{{ event.url | replace:'.html','' }}" class="button tiny blue simple boxed">Read more</a></p>
     </div>
-  </div>
 </div>
-  
-<div class="full">
-  <div class="row">
-   <div class="large-11 large-centered columns">
-    <p><strong>Below you will find a list of all our latest events and detailed information about them.</strong></p>
-     
-     <hr>
-     
-     <p><a href="oscal-2018"><h3>OSCAL’18 – Open Source Conference Albania 2018</h3></a></p>
-       <p>May 19, 2018 - May 20, 2018<br />
-         Tirana, Albania</p>
-       <p><a href="oscal-2018">More details <i class="fas fa-angle-double-right"></i></a></p>
-       
-     <hr>
-     
-       <p><a href="osd-workshop-2-tirana"><h3>Open Source Design Workshop #2</h3></a></p>
-       <p>17 February 2018<br />
-         Tirana, Albania</p>
-       <p><a href="osd-workshop-2-tirana">More details <i class="fas fa-angle-double-right"></i></a></p>
-       
-     <hr>
-     
-     
-     <p><a href="fosdem-2018"><h3>FOSDEM 2018</h3></a></p>
-     <p>February 3 @ 9:00 am - February 4 @ 5:00 pm<br />
-     ULB, Av. F. D. Roosevelt 50<br />
-       Brussels, 1050 Belgium</p>
-      <p><a href="fosdem-2018">More details <i class="fas fa-angle-double-right"></i></a></p>
-  
-  <hr>
-     
-     <p><a href="oscal-2017"><h3>OSCAL’17 – Open Source Conference Albania 2017</h3></a></p>
-     <p>May 13, 2017 - May 14, 2017<br />
-      Ofiçina – Harry Fultz, Rruga “Asim Vokshi” pranë Institutit “Harry T. Fultz”<br />
-       Tirana, Albania</p>
-     <p><a href="oscal-2017">More details <i class="fas fa-angle-double-right"></i></a></p>
-       
-   <hr>
-  
-     <p><a href="fosdem-2017"><h3>FOSDEM 2017</h3></a></p>
-     <p>February 5, 2017 @ 9:00 am-5:00 pm<br />
-     ULB, Av. F. D. Roosevelt 50<br />
-       Brussels, 1050 Belgium</p>
-     <p><a href="fosdem-2017">More details <i class="fas fa-angle-double-right"></i></a></p>
-       
-     <hr>
-  
-     <p><a href="osd-workshop-1-in-tirana"><h3>Open Source Design Workshop #1 in Tirana</h3></a></p>
-     <p>January 25, 2017 @ 5:00 pm-8:00 pm<br />
-     Open Labs Hackerspace, Rr. Pjetër Budi. Nr.67<br />
-       Tirana, Albania</p>
-     <p><a href="osd-workshop-1-in-tirana">More details <i class="fas fa-angle-double-right"></i></a></p>
- 
-    </div>
-  </div>
+<div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
+       {% if event.images %}
+        <a href="{{ event.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{event.images[0]}}" alt="post"></a>
+       {% endif %}
 </div>
+  </div>
+{% endif %}
+</div>
+</div>
+<div class="two spacing"></div>
+{% endfor %}
