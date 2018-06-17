@@ -1760,3 +1760,7 @@ p.blogauthor {
   padding: 8px;
   color: white;
 }
+
+#page-title {
+  text-transform: none;
+}
