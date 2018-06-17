@@ -306,7 +306,7 @@ body {
 
 /* button */
 .button {
-  text-transform: uppercase;
+  text-transform: none;
   position: relative;
   z-index: 1;
   font-size: 14px;
@@ -531,7 +531,7 @@ body {
     color: #333;
     font-size: 18px;
     font-family: "Overpass";
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 600;
     letter-spacing: 10px; }
     .title-area h1 a span {
@@ -569,13 +569,13 @@ body {
 .top-bar-section ul li > a {
   font-family: "Overpass";
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: -0.5px; }
 
 .top-bar-section li:not(.has-form).has-dropdown .dropdown a:not(.button) {
   line-height: 45px;
   font-family: "Overpass";
-  text-transform: uppercase; }
+  text-transform: none; }
 
 /* member */
 .member {
@@ -1265,7 +1265,7 @@ post.alt .post-content.blog {
     text-align: center;
     width: 100%; }
   .fullscreen h1 {
-    text-transform: uppercase;
+    text-transform: none;
     line-height: 1.1em;
     margin-bottom: 35px;
     opacity: 0;
@@ -1501,7 +1501,7 @@ form.update-form input.button:hover {
     margin-bottom: 5px; }
   .footer .back-to-top a {
     color: #fff;
-    text-transform: uppercase; }
+    text-transform: none; }
   .footer .back-to-top a:hover {
     color: #eee; }
 
