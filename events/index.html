@@ -5,7 +5,11 @@ title: Events
 ---
 
 {% for item in site.events %}
-<div class="row">
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.date }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
+<!-- <div class="row">
 <div class="large-12 columns table" style="border-bottom: 3px solid aliceblue;">
 {% assign mod = forloop.index | modulo: 1 %}
 {% if mod == 0 %}
@@ -46,4 +50,4 @@ title: Events
 </div>
 </div>
 <div class="two spacing"></div>
-{% endfor %}
+{% endfor %}  -->
