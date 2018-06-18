@@ -9,7 +9,7 @@
 title: Ura Design
 email: hello@ura.design
 description: > # this means to ignore newlines until "baseurl:"
-  Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. 
+  Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: uracreative
@@ -25,3 +25,7 @@ gems:
 
 paginate: 6
 paginate_path: "blog/older:num"
+
+collections:
+- events
+  output: true
