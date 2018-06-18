@@ -22,10 +22,10 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-compose
-  - jekyll-
 
 paginate: 6
 paginate_path: "blog/older:num"
 
 collections:
-- events
+  events:
+    output: true
