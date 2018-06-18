@@ -4,10 +4,10 @@ section_id: event
 title: Events
 ---
 
-{% for item in site.events %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.date }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% for event in site.events %}
+  <h2>{{ event.title }}</h2>
+  <p>{{ event.date }}</p>
+  <p><a href="{{ event.url }}">{{ event.title }}</a></p>
 {% endfor %}
 <!-- <div class="row">
 <div class="large-12 columns table" style="border-bottom: 3px solid aliceblue;">
