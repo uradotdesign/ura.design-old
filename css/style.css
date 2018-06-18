@@ -1069,6 +1069,7 @@ post.alt .post-content.blog {
   .slide-info p {
     color: #fff;
     letter-spacing: 1px;
+    font-size: 1.2rem;
     font-weight: 300;
     opacity: 0;
     -webkit-transform: translateY(-100px);
