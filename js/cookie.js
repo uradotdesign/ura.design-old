@@ -27,7 +27,7 @@ jQuery(function($) {
         var c_value = escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
         document.cookie = c_name + "=" + c_value+"; path=/";
 
-        $('#cookieConsent').hide('slow');
+        $('#cookieConsent').fadeOut('200');
     }
 
 
