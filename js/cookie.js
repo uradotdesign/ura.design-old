@@ -50,4 +50,8 @@ jQuery(function($) {
         setCookie_eu("cookies_consent", 1, 30);
     });
 
+    $("#cookieConsent #closeCookieConsent").click(function(){
+        $('#cookieConsent').fadeOut('200');
+    });
+
 });
