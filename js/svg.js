@@ -34,12 +34,3 @@ jQuery('img.svg').each(function(){
     }, 'xml');
 
 });
-
-$(document).ready(function(){
-    setTimeout(function () {
-        $("#cookieConsent").fadeIn(200);
-     }, 2500);
-    $("#closeCookieConsent, .cookieConsentOK").click(function() {
-        $("#cookieConsent").fadeOut(200);
-    });
-});
