@@ -46,7 +46,7 @@ jQuery(function($) {
         }
     }
 
-    $("#closeCookieConsent .cookieConsentOK").click(function(){
+    $("#cookieConsent .cookieConsentOK").click(function(){
         setCookie_eu("cookies_consent", 1, 30);
     });
 
