@@ -13,7 +13,7 @@ jQuery(function($) {
             $(document).ready(function(){
             setTimeout(function () {
                 $("#cookieConsent").fadeIn(200);
-             }, 4000);
+             }, 2500);
         });
         }
 
