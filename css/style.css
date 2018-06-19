@@ -1779,7 +1779,7 @@ p.blogauthor {
 #cookieConsent {
     background-color: rgba(20,20,20,0.8);
     min-height: 26px;
-    font-size: 14px;
+    font-size: 12px;
     color: #ccc;
     line-height: 26px;
     padding: 8px 0 8px 30px;
@@ -1801,7 +1801,6 @@ p.blogauthor {
     cursor: pointer;
     height: 20px;
     width: 20px;
-    margin: -15px 0 0 0;
     font-weight: bold;
 }
 #closeCookieConsent:hover {
@@ -1812,10 +1811,10 @@ p.blogauthor {
     color: #000;
     display: inline-block;
     border-radius: 5px;
-    padding: 0 20px;
+    padding: 0 10px;
     cursor: pointer;
     float: right;
-    margin: 0 60px 0 10px;
+    margin: 0 10px 0 5px;
 }
 #cookieConsent a.cookieConsentOK:hover {
     background-color: #E0C91F;

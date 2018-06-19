@@ -38,8 +38,8 @@ jQuery('img.svg').each(function(){
 $(document).ready(function(){
     setTimeout(function () {
         $("#cookieConsent").fadeIn(200);
-     }, 4000);
+     }, 2500);
     $("#closeCookieConsent, .cookieConsentOK").click(function() {
         $("#cookieConsent").fadeOut(200);
     });
-}); 
+});
