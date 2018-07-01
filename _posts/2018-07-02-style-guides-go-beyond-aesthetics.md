@@ -20,7 +20,7 @@ Oftentimes we witness the results of elitist practices upon users, usually worde
 
 A similar stigma often appears in Free Software / Open Source projects as well. The alternative "*Read the Documentation*" certainly would ensure that people would give a little more effort before repeating questions. With limited resources it's also understandable that this might be the most sane way for a project maintainer to channel user interactions. However is that by design or due to lack of resources? One could argue that it would make more sense to integrate those 'user lessons' right inside the application instead of a manual or documentation alone.
 
-## Manuals are the Minimum Viable Product of a Product's Usability.
+## Manuals are no replacement for good Usability
 
 Make a great manual and a mediocre application and you might be able to keep a user from running into blockers, however you won't be able to improve their workflow. The user is basically learning an app by heart, not by intuition.
 
