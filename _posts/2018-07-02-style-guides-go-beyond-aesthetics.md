@@ -3,7 +3,7 @@ layout: post
 title: Style Guides go Beyond Aesthetics
 author: Elio Qoshi
 link: https://elioqoshi.me/
-date: 2018-07-02 12:00:00 +0200
+date: 2018-06-02 12:00:00 +0200
 categories:
 images:
 - images/blog/osd_event.png
