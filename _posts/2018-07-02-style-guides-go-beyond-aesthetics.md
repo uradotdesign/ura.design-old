@@ -39,7 +39,7 @@ Facilitating consistency can be done via a range of tools, including Brand Guide
 
 > _Brand guidelines ensure consistency when many different people are working on a product. This is an important component for building trust with end-users. It's crucial for secure communication projects in particular because lay users can't assess the underlying cryptography. Instead, they assess how trustworthy something is by the user experience, and consistent brand expression is a key part of that. As a counterexample, consider how a sloppily-implemented logo in an email can alert people to a phishing scam by signaling untrustworthiness._
 
-Depending on the context, style guides can include various ingredients, including (but not limited to) Brand Guidelines, UI Components and Tone of Voice. Any of these can be prioritized depending on a project's needs.
+**Style guides serve as the primary meeting point of all those ingredients. They ensure that a project can be inclusive to diverse contributors, while helping them to communicate with users in one consistent voice throughout the whole range of mediums the project is present on**. Depending on the context, style guides can include various ingredients, including (but not limited to) Brand Guidelines, UI Components and Tone of Voice. A style guide has no specific definition and can vary from use case to use case, so depending on a project's needs, specific parts can be prioritized.
 
 ## Playing by the Rules
 
@@ -47,7 +47,7 @@ Depending on the context, style guides can include various ingredients, includin
 
 ![Icon Grid](https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a3057b8d33793832b6bf459035b8d37b&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb)
 
-At the end of the day, style guides serve as a playbook for software creators. It goes beyond the debate whether design decisions are justified or not, as long as it's covered within it. The style guide itself serves as a single source of truth to create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page and pursue the same goal. 
+At the end of the day, style guides serve as a playbook for software creators. It goes beyond the debate whether design decisions are justified or not, as long as it's covered within it. The style guide itself serves as a single source of truth to create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page and pursue the same goal during the whole life cycle of a project.
 
 ## Examples
 
