@@ -43,10 +43,9 @@ Facilitating consistency can be done via a range of tools, including Brand Guide
 
 ## Playing by the Rules
 
-[Sketch](https://www.sketchapp.com/) revolutionized Prototyping and UX Design years ago. Nowadays [](https://www.figma.com/) is gaining popularity, being praised by its focus on unified design systems accessible by all members of a project without reinventing components. Figma emphasized the need for consistency and streamlined the design process by integrating it within a powerful design system. It's one of the primary reasons designers are so excited about it.
+[Sketch](https://www.sketchapp.com/) revolutionized Prototyping and UX Design years ago. Nowadays [Figma](https://www.figma.com/) is gaining popularity, being praised by its focus on unified design systems accessible by all members of a project without reinventing components. Figma emphasized the need for consistency and streamlined the design process by integrating it within a powerful design system. It's one of the primary reasons designers are so excited about it.
 
 ![Icon Grid Display](/images/blog/IconGridBlurry.jpg)
-
 
 At the end of the day, style guides serve as a playbook for software creators. They go beyond the debate whether design decisions are justified or not, as long as it's covered within it. The style guide itself serves as a single source of truth to create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page and pursue the same goal during the whole life cycle of a project.
 
