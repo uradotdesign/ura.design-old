@@ -56,7 +56,7 @@ html, body {
 
 body {
   background: #fff;
-  color: #333333;
+  color: #343a40;
   cursor: auto;
   font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
@@ -4819,7 +4819,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #333333;
+  color: #343a40;
   font-family: "Overpass";
   font-style: normal;
   font-weight: bold;
