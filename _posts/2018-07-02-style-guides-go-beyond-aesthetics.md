@@ -53,5 +53,7 @@ At the end of the day, style guides serve as a playbook for software creators. T
 
 In the past we have implemented style guides for various projects, including [The Tor Project](https://ura.design/projects/tor-style-guide), Thunderbird and [Reproducible Builds](https://ura.design/projects/reproducible-builds). If you want to know more, we also suggest to read Simply Secure's blog entry on [Why Open-Source projects need Style Guides](https://simplysecure.org/blog/style-guide).
 
+Last but not least, the points touched upon in this article is the very reason we started building [Identihub](https://identihub.co). Have a look and try it out yourself! 
+
 If you like to explore the possibility of a style guide for your project, feel free to reach us by [email](mailto:hello@ura.design) or [Twitter](https://twitter.com/uracreative)
 
