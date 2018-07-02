@@ -47,7 +47,7 @@ Facilitating consistency can be done via a range of tools, including Brand Guide
 
 ![Icon Grid Display](/images/blog/IconGridBlurry.jpg)
 
-At the end of the day, style guides serve as a playbook for software creators. They go beyond the debate whether design decisions are justified or not, as long as it's covered within it. The style guide itself serves as a single source of truth to create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page and pursue the same goal during the whole life cycle of a project.
+At the end of the day, style guides serve as a playbook for software creators. They go beyond the debate whether design decisions are justified or not, as long as it's covered within it. They are a single source of truth to help create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page.
 
 ## Examples
 
