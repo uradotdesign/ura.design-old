@@ -355,6 +355,9 @@ body {
 .button.reproduciblebuilds::before {
   background: #1E5B96; }
 
+.button.thunderbird::before {
+  background: #0A84FF; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -430,6 +433,15 @@ body {
 .button.boxed.reproduciblebuilds:hover {
   color: #fff;
   background: #1E5B96; }
+
+.button.boxed.thunderbird {
+  border: 1px solid #0A84FF;
+  background: none;
+  color: #0A84FF; }
+
+.button.boxed.thunderbird:hover {
+  color: #fff;
+  background: #0A84FF; }
 
 .button.boxed.openlabs {
   border: 1px solid #2BBBB0;
