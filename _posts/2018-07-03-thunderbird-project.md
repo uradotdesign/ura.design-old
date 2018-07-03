@@ -6,7 +6,7 @@ link: https://lushka.al
 date: 2018-07-03 12:00:00 +0200
 categories:
 images:
-- images/blog/osd_event.png
+- images/blog/thumb_thunderbird.png
 tags:
 - Style Guides
 - Brand Guidelines
