@@ -18,7 +18,7 @@ excerpt:
 
 Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped [redesign the Thunderbird Conversations add-on](https://github.com/protz/thunderbird-conversations/issues/967) and even now our email infrastructure is powered by [ProtonMail and ProtonMail Bridge](https://protonmail.com/bridge/) via Thunderbird.
 
-Unfortunately, Mozilla moving away from Thunderbird created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird. As a comparison, Firefox latest logo makeovers happened in 2010, 2013 and 2017. Respectively, the last update to the Thunderbird logo and branding was 2010. 
+Unfortunately, [Mozilla moving away from Thunderbird](https://blog.mozilla.org/thunderbird/2017/05/thunderbirds-future-home/) created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird. As a comparison, Firefox latest logo makeovers happened in 2010, 2013 and 2017. Respectively, the last update to the Thunderbird logo and branding was 2010. 
 
 The good news however is that efforts to revitalize Thunderbird have gained momentum again. Monterail have visualized their vision of a new Thunderbird UI, Thunderbird itself has now a [Community Manager, Ryan Sipes](https://twitter.com/ryanleesipes), and a new Project Council was recently appointed. [We didn't hesitate to jump on board](https://twitter.com/elioqoshi/status/972067552846319616). 
 
