@@ -39,12 +39,14 @@ Thunderbird was the first project we conducted a Usability Study on. This was po
 ![Thunderbird Usability Research](/images/projects/thunderbird_1.png)
 
 ## Style Guide
-We talk a lot about style guides as you might have noticed. In fact, recently we wrote an article about why they are so important. Thunderbird is no exception. We developed a full [style guide for Thunderbird](https://thunderbird.ura.design), based on the [Photon Design system](https://design.firefox.com) used by Firefox. As latter is quite extensive (Firefox use cases are way broader than Thunderbird's), we tweaked it to apply in Thunderbird's case. It's a living style guide and has lots of room for improvement in the future. However the next step is to implement all these design decisions. If the style guide describes patterns and guidelines well, but they aren't put into practice, the impact of a style guide is minimal. Hence, we look forward to see those changes be implemented and continue supporting the Thunderbird project with that task.
+We talk a lot about style guides as you might have noticed. In fact, recently we wrote an article about why they are so important. Thunderbird is no exception. We developed a full [style guide for Thunderbird](https://thunderbird.ura.design), based on the [Photon Design system](https://design.firefox.com) used by Firefox. As latter is quite extensive (Firefox use cases are way broader than Thunderbird's), we tweaked it to apply in Thunderbird's case. It's a living style guide and has lots of room for improvement in the future. However the next step is to implement all these design decisions. If the style guide describes patterns and guidelines well, but they aren't put into practice, the impact of a style guide is minimal. Hence, we look forward to see those changes be implemented and continue supporting Thunderbird with that task.
+
+We also create an [Identihub page](https://demo.identihub.co/project/thunderbird#/) where you can easily access the Thunderbird assets.
 
 ![Thunderbird Style Guide](/images/projects/thunderbird_2.png)
 
 ## More to come
-Furthermore, we are helpign with the [redesign of the Thunderbird website](https://github.com/thundernest/thunderbird-website/issues/31) putting the style guide finally into practice as well. If you'd like to get involved, reach out to us or just contribute to the GitHub issue!
+Furthermore, we are helping with the [redesign of the Thunderbird website](https://github.com/thundernest/thunderbird-website/issues/31) putting the style guide finally into practice as well. If you'd like to get involved, reach out to us or just contribute to the GitHub issue!
 
 [Explore this work on our portfolio](https://ura.design/projects/thunderbird)
 
