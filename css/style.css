@@ -334,6 +334,9 @@ body {
 .button.white::before {
   background: #fff; }
 
+.button.blog::before {
+  background: #74c0fc; }
+
 .button.tor::before {
   background: #7D4698; }
 
@@ -396,6 +399,15 @@ body {
 .button.boxed.tor:hover {
   color: #fff;
   background: #7D4698; }
+
+.button.boxed.blog {
+  border: 1px solid #4dabf7;
+  background: none;
+  color: #4dabf7; }
+
+.button.boxed.blog:hover {
+  color: #fff;
+  background: #4dabf7; }
 
 .button.boxed.sfk {
   border: 1px solid #000;
