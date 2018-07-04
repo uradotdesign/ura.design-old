@@ -3,7 +3,7 @@ layout: post
 title: Thunderbird Style Guide and Usability Study
 author: Anxhelo Lushka
 link: https://lushka.al
-date: 2018-07-03 12:00:00 +0200
+date: 2018-07-04 12:00:00 +0200
 categories:
 images:
 - images/blog/thumb_thunderbird.png
@@ -15,8 +15,6 @@ tags:
 excerpt:
  To be inline with the new Firefox Photon Design system, we worked on a fork specifically tailored for Thunderbird, including a revamped logo and word mark. We also set the stage for an upcoming UI redesign in the future by conducting a small Usability Study specifically tailored on security features out-of-the-box within Thunderbird.[…]
 ---
-
-[Check out this work on our portfolio](https://ura.design/projects/thunderbird)
 
 Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped [redesign the Thunderbird Conversations add-on](https://github.com/protz/thunderbird-conversations/issues/967) and even now our email infrastructure is powered by [ProtonMail and ProtonMail Bridge](https://protonmail.com/bridge/) via Thunderbird.
 
@@ -47,4 +45,6 @@ We talk a lot about style guides as you might have noticed. In fact, recently we
 
 ## More to come
 Furthermore, we are helpign with the [redesign of the Thunderbird website](https://github.com/thundernest/thunderbird-website/issues/31) putting the style guide finally into practice as well. If you'd like to get involved, reach out to us or just contribute to the GitHub issue!
+
+[Explore this work on our portfolio](https://ura.design/projects/thunderbird)
 
