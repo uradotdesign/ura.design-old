@@ -13,7 +13,7 @@ tags:
 - Open Source Design
 - Thunderbird
 excerpt:
- One of the reasons we love helping communities that create and support open source projects is the direct and explicit communication we have with those folks.[…]
+ To be inline with the new Firefox Photon Design system, we worked on a fork specifically tailored for Thunderbird, including a revamped logo and word mark. We also set the stage for an upcoming UI redesign in the future by conducting a small Usability Study specifically tailored on security features out-of-the-box within Thunderbird.[…]
 ---
 
 Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped [redesign the Thunderbird Conversations add-on](https://github.com/protz/thunderbird-conversations/issues/967) and even now our email infrastructure is powered by [ProtonMail and ProtonMail Bridge](https://protonmail.com/bridge/) via Thunderbird.
@@ -27,20 +27,20 @@ This marked the start of a wonderful collaboration. In Open Source we often time
 To be inline with the new Firefox Photon Design system, we worked on a fork specifically tailored for Thunderbird, including a revamped logo and word mark. We also set the stage for an upcoming UI redesign in the future by conducting a small Usability Study specifically tailored on security features out-of-the-box within Thunderbird. We would like to thank Open Technology Fund for supporting this work towards the Thunderbird project as part of its Usability Lab.
 
 ## New Logo
-Quite a few months ago designers involed on the Thunderbird project filed a new [issue on Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1404648) and started discussing for a possibly redesigned logo for the e-mail client software. Elio Qoshi, Ura's creative leader and founder, as part of the greater Mozilla community got into the discussion and together with the community they came up with a revamped logo. The continious consultation among the community members and Ryan Sipes, Thunderbird's Community Manager, resauleted on a remodeled logo which was included on the Thunderbird 60 release.
+After the Firefox logo was revamped in 2017, a Thunderbird contributor filed a [ticket on Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1404648) suggesting to follow Firefox' lead and redesign the Thunderbird logo according to the new Photon Design guidelines. Funnily, this coincided with our own experiments on how Thunderbird's logo could be like so we joined the conversation on Bugzilla. We want to thank the great support we got from Ryan Sipes, Thunderbird's Community Manager, who helped facilitate communication with the Thunderbird Community. The new logo will appear in Thunderbird 60.
 
 ![Thunderbird Revamped Logo](/images/projects/thunderbird_logo.png)
 
-## Usability research
-For quite some time now we offer Usability Research services as we are collaborating with Renata Gegaj, our Usability Research expert. Thunderbird was the first project Renata was involed in as part of the Ura team as she conducted a full usability study on real users. During [Open Source Conferense Albania (OSCAL)](https://osc.al) 2018, Renata selected 6 people of different ages and occupations and assigned them 9 tasks to complete while using the software. While users would do so, she observed wheather they encountered any blockers and noted them down in order to prepare a full report for the Thunderbird Legal Council which will help the project's developers and designers to improve their users' experience with the software in the future.
+## Usability Stduy
+Thunderbird was the first project we conducted a Usability Study on. This was possible due to Renata joining our team recently and expanding upon the services Ura offers support. Renata conducted user interviews during [Open Source Conference Albania (OSCAL)](https://osc.al) 2018. The tests were done with 5 testers from different backgrounds, asked to accomplish 9 different tasks. You can read the final Thunderbid Usablity Study here
 
 ![Thunderbird Usability Research](/images/projects/thunderbird_1.png)
 
-## Styleguide
-We strongly support the idea that organizations and communities should have their brand mediums in one corner placed carefully, that's why we came up with the initial idea of [Identihub](https://identihub.co) ,our first software. Although, styleguides are a different type of having your brands' visual details in one place. As we've done in the past for the [Tor Project](https://styleguide.torproject.org) and [Reproducible Builds](https://reproducible-builds.org/style), for Thunderbird we developed a full [styleguide](https://ura.design/projects/thunderbird) for them based on [Firefox's structure](https://design.firefox.com), keeping the Mozilla vibe. There you can find all the details regarding Thunderbird's logo like colors, typography, icons and license.
+## Style Guide
+We talk a lot about style guides as you might have noticed. In fact, recently we wrote an article about why they are so important. Thunderbird is no exception. We developed a full [style guide for Thunderbird](https://thunderbird.ura.design), based on the [Photon Design system](https://design.firefox.com) used by Firefox. As latter is quite extensive (Firefox use cases are way broader than Thunderbird's), we tweaked it to apply in Thunderbird's case. It's a living style guide and has lots of room for improvement in the future. However the next step is to implement all these design decisions. If the style guide describes patterns and guidelines well, but they aren't put into practice, the impact of a style guide is minimal. Hence, we look forward to see those changes be implemented and continue supporting the Thunderbird project with that task.
 
 ![Thunderbird Style Guide](/images/projects/thunderbird_2.png)
 
-## New website
-Furthermore, we [decided to help](https://github.com/thundernest/thunderbird-website/issues/31) Thunderbird by redesigning their website following clear guidelines. This is still underway and you can check our progress on the issue linked above.
+## More to come
+Furthermore, we are helpign with the [redesign of the Thunderbird website](https://github.com/thundernest/thunderbird-website/issues/31) putting the style guide finally into practice as well. If you'd like to get involved, reach out to us or just contribute to the GitHub issue!
 
