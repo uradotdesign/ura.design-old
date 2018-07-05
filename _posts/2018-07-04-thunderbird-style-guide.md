@@ -3,7 +3,7 @@ layout: post
 title: Thunderbird Style Guide and Usability Study
 author: Anxhelo Lushka
 link: https://lushka.al
-date: 2018-07-05 10:00:00 +0200
+date: 2018-07-05 08:00:00 +0200
 categories:
 images:
 - images/blog/thumb_thunderbird.png
