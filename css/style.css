@@ -1844,3 +1844,6 @@ p.blogauthor {
     background-color: #E0C91F;
 }
 /*Cookie Consent End*/
+
+#phplist {
+  display: none; }
