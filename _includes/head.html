@@ -11,12 +11,10 @@
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
   <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
-  <meta property="og:image" content="{{ page.images }}">
   {% else %}
   <meta property="og:title" content="{{ site.title }}">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:image" content="{{ page.images }}">
   {% endif %}
   {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -27,6 +25,11 @@
   {% for tag in page.tags %}
   <meta property="article:tag" content="{{ tag }}">
   {% endfor %}
+  {% endif %}
+  {% if page.image %}
+  <meta content="{{ page.image }}" property="og:image">
+  {% else %}
+  <meta content="/images/main/icon.png" property="og:image">
   {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
