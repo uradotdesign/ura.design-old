@@ -45,10 +45,15 @@
   <link rel="stylesheet" href="{{ "/css/responsive.css" | prepend: site.baseurl }}"/>
 
   <script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/lazyload.js" | prepend: site.baseurl }}"></script>
-  <script>
-		new LazyLoad();
-	</script>
+	
+   <script type="text/javascript">
+   $(window).load(function() {
+    if (window.localStorage && !localStorage['faded']) {
+        localStorage['faded'] = true;
+        $('body').hide().fadeIn(1000);
+        }
+    });
+    </script>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
