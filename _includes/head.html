@@ -6,6 +6,8 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   
+  <!-- Metadata -->
+  
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}">
@@ -27,11 +29,13 @@
   {% endfor %}
   {% endif %}
   {% if page.images %}
-  <meta content="{{ page.images }}" property="og:image">
+  <meta content="{{ page.images[[0]] }}" property="og:image">
   {% else %}
   <meta content="/images/main/icon.png" property="og:image">
   {% endif %}
-
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@uracreative" />
+  
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
   <link href="{{ "/fonts/overpass/overpass.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/css/superslides.css" | prepend: site.baseurl }}"/>
