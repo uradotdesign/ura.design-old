@@ -29,13 +29,13 @@
   {% endfor %}
   {% endif %}
   {% if page.images %}
-  <meta content="{{ site.url}}{{ page.images }}" property="og:image">
+  <meta content="{{ site.url}}/{{ page.images }}" property="og:image">
   {% else %}
   <meta content="/images/main/icon.png" property="og:image">
   {% endif %}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@uracreative" />
-  <meta name="twitter:image" content="{{ site.url }}{{ page.images }}" />
+  <meta name="twitter:image" content="{{ site.url }}/{{ page.images }}" />
   
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
   <link href="{{ "/fonts/overpass/overpass.css" | prepend: site.baseurl }}" rel="stylesheet">
