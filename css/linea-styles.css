@@ -9,7 +9,7 @@
     url("../fonts/linea/linea-basic-10.svg#linea-basic-10") format("svg");
   font-weight: normal;
   font-style: normal;
-
+  font-display: auto;
 }
 
 [data-icon]:before {
