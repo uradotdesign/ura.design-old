@@ -7,8 +7,6 @@ date: 2018-03-12 12:00:00 +0200
 categories:
 images:
 - images/blog/home-banner.jpg
-header:
-- images/blog/home-banner.jpg
 tags:
 - Open Tech Fund
 - Usability

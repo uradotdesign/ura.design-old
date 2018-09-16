@@ -7,8 +7,6 @@ date: 2018-03-19 12:00:00 +0200
 categories:
 images:
 - images/blog/website_thumb.jpg
-header:
-- images/blog/new-website.jpg
 tags:
 - Website
 - GitHub Pages

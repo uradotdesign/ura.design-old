@@ -7,8 +7,6 @@ date: 2018-02-23 12:00:00 +0200
 categories:
 images:
 - images/blog/Inkscape-Workshop-1-thumb.jpg
-header:
-- images/blog/Inkscape-Workshop-1.jpg
 tags:
 - Inkscape
 - Open Source Design

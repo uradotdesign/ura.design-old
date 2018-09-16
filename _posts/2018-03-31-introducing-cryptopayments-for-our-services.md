@@ -7,8 +7,6 @@ date: 2018-03-31 12:00:00 +0200
 categories:
 images:
 - images/blog/CryptoCurrencyThumb.jpg
-header:
-- images/blog/CryptoCurrencyBanner.jpg
 tags:
 - Cryptopayments
 - Open Source Design
