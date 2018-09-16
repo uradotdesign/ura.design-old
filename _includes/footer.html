@@ -30,7 +30,6 @@
 <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/svg.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/cookie.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/lazyload.js" | prepend: site.baseurl }}"></script>
 
 <!-- Matomo -->
 <script type="text/javascript">
@@ -46,11 +45,6 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
-</script>
-
-<script>
-$document.ready(function) {
-  lazyload(); }
 </script>
 
 <noscript><p><img src="//analytics.ura.design/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
