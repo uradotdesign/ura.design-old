@@ -1,301 +1,173 @@
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+/*!
+ * Lazy Load - JavaScript plugin for lazy loading images
+ *
+ * Copyright (c) 2007-2017 Mika Tuupola
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Project home:
+ *   https://appelsiini.net/projects/lazyload
+ *
+ * Version: 2.0.0-beta.2
+ *
+ */
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+(function (root, factory) {
+    if (typeof exports === "object") {
+        module.exports = factory(root);
+    } else if (typeof define === "function" && define.amd) {
+        define([], factory(root));
+    } else {
+        root.LazyLoad = factory(root);
+    }
+}) (typeof global !== "undefined" ? global : this.window || this.global, function (root) {
 
-(function (global, factory) {
-	(typeof exports === 'undefined' ? 'undefined' : _typeof(exports)) === 'object' && typeof module !== 'undefined' ? module.exports = factory() : typeof define === 'function' && define.amd ? define(factory) : global.LazyLoad = factory();
-})(this, function () {
-	'use strict';
+    "use strict";
 
-	var getInstanceSettings = function getInstanceSettings(customSettings) {
-		var defaultSettings = {
-			elements_selector: "img",
-			container: document,
-			threshold: 300,
-			data_src: "src",
-			data_srcset: "srcset",
-			data_sizes: "sizes",
-			class_loading: "loading",
-			class_loaded: "loaded",
-			class_error: "error",
-			callback_load: null,
-			callback_error: null,
-			callback_set: null,
-			callback_enter: null
-		};
+    const defaults = {
+        src: "data-src",
+        srcset: "data-srcset",
+        selector: ".lazyload"
+    };
 
-		return _extends({}, defaultSettings, customSettings);
-	};
+    /**
+    * Merge two or more objects. Returns a new object.
+    * @private
+    * @param {Boolean}  deep     If true, do a deep (or recursive) merge [optional]
+    * @param {Object}   objects  The objects to merge together
+    * @returns {Object}          Merged values of defaults and options
+    */
+    const extend = function ()  {
 
-	var dataPrefix = "data-";
-	var processedDataName = "was-processed";
-	var processedDataValue = "true";
+        let extended = {};
+        let deep = false;
+        let i = 0;
+        let length = arguments.length;
 
-	var getData = function getData(element, attribute) {
-		return element.getAttribute(dataPrefix + attribute);
-	};
+        /* Check if a deep merge */
+        if (Object.prototype.toString.call(arguments[0]) === "[object Boolean]") {
+            deep = arguments[0];
+            i++;
+        }
 
-	var setData = function setData(element, attribute, value) {
-		return element.setAttribute(dataPrefix + attribute, value);
-	};
+        /* Merge the object into the extended object */
+        let merge = function (obj) {
+            for (let prop in obj) {
+                if (Object.prototype.hasOwnProperty.call(obj, prop)) {
+                    /* If deep merge and property is an object, merge properties */
+                    if (deep && Object.prototype.toString.call(obj[prop]) === "[object Object]") {
+                        extended[prop] = extend(true, extended[prop], obj[prop]);
+                    } else {
+                        extended[prop] = obj[prop];
+                    }
+                }
+            }
+        };
 
-	var setWasProcessed = function setWasProcessed(element) {
-		return setData(element, processedDataName, processedDataValue);
-	};
+        /* Loop through each object and conduct a merge */
+        for (; i < length; i++) {
+            let obj = arguments[i];
+            merge(obj);
+        }
 
-	var getWasProcessed = function getWasProcessed(element) {
-		return getData(element, processedDataName) === processedDataValue;
-	};
+        return extended;
+    };
 
-	function purgeElements(elements) {
-		return elements.filter(function (element) {
-			return !getWasProcessed(element);
-		});
-	}
+    function LazyLoad(images, options) {
+        this.settings = extend(defaults, options || {});
+        this.images = images || document.querySelectorAll(this.settings.selector);
+        this.observer = null;
+        this.init();
+    }
 
-	/* Creates instance and notifies it through the window element */
-	var createInstance = function createInstance(classObj, options) {
-		var event;
-		var eventString = "LazyLoad::Initialized";
-		var instance = new classObj(options);
-		try {
-			// Works in modern browsers
-			event = new CustomEvent(eventString, { detail: { instance: instance } });
-		} catch (err) {
-			// Works in Internet Explorer (all versions)
-			event = document.createEvent("CustomEvent");
-			event.initCustomEvent(eventString, false, false, { instance: instance });
-		}
-		window.dispatchEvent(event);
-	};
+    LazyLoad.prototype = {
+        init: function() {
 
-	/* Auto initialization of one or more instances of lazyload, depending on the 
-     options passed in (plain object or an array) */
-	function autoInitialize(classObj, options) {
-		if (!options.length) {
-			// Plain object
-			createInstance(classObj, options);
-		} else {
-			// Array of objects
-			for (var i = 0, optionsItem; optionsItem = options[i]; i += 1) {
-				createInstance(classObj, optionsItem);
-			}
-		}
-	}
+            /* Without observers load everything and bail out early. */
+            if (!root.IntersectionObserver) {
+                this.loadImages();
+                return;
+            }
 
-	var setSourcesInChildren = function setSourcesInChildren(parentTag, attrName, dataAttrName) {
-		for (var i = 0, childTag; childTag = parentTag.children[i]; i += 1) {
-			if (childTag.tagName === "SOURCE") {
-				var attributeValue = getData(childTag, dataAttrName);
-				if (attributeValue) {
-					childTag.setAttribute(attrName, attributeValue);
-				}
-			}
-		}
-	};
+            let self = this;
+            let observerConfig = {
+                root: null,
+                rootMargin: "0px",
+                threshold: [0]
+            };
 
-	var setAttributeIfNotNullOrEmpty = function setAttributeIfNotNullOrEmpty(element, attrName, value) {
-		if (!value) {
-			return;
-		}
-		element.setAttribute(attrName, value);
-	};
+            this.observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function (entry) {
+                    if (entry.intersectionRatio > 0) {
+                        self.observer.unobserve(entry.target);
+                        let src = entry.target.getAttribute(self.settings.src);
+                        let srcset = entry.target.getAttribute(self.settings.srcset);
+                        if ("img" === entry.target.tagName.toLowerCase()) {
+                            if (src) {
+                                entry.target.src = src;
+                            }
+                            if (srcset) {
+                                entry.target.srcset = srcset;
+                            }
+                        } else {
+                            entry.target.style.backgroundImage = "url(" + src + ")";
+                        }
+                    }
+                });
+            }, observerConfig);
 
-	var setSources = function setSources(element, settings) {
-		var sizesDataName = settings.data_sizes,
-		    srcsetDataName = settings.data_srcset,
-		    srcDataName = settings.data_src;
+            this.images.forEach(function (image) {
+                self.observer.observe(image);
+            });
+        },
 
-		var srcDataValue = getData(element, srcDataName);
-		switch (element.tagName) {
-			case "IMG":
-				{
-					var parent = element.parentNode;
-					if (parent && parent.tagName === "PICTURE") {
-						setSourcesInChildren(parent, "srcset", srcsetDataName);
-					}
-					var sizesDataValue = getData(element, sizesDataName);
-					setAttributeIfNotNullOrEmpty(element, "sizes", sizesDataValue);
-					var srcsetDataValue = getData(element, srcsetDataName);
-					setAttributeIfNotNullOrEmpty(element, "srcset", srcsetDataValue);
-					setAttributeIfNotNullOrEmpty(element, "src", srcDataValue);
-					break;
-				}
-			case "IFRAME":
-				setAttributeIfNotNullOrEmpty(element, "src", srcDataValue);
-				break;
-			case "VIDEO":
-				setSourcesInChildren(element, "src", srcDataName);
-				setAttributeIfNotNullOrEmpty(element, "src", srcDataValue);
-				break;
-			default:
-				if (srcDataValue) {
-					element.style.backgroundImage = 'url("' + srcDataValue + '")';
-				}
-		}
-	};
+        loadAndDestroy: function () {
+            if (!this.settings) { return; }
+            this.loadImages();
+            this.destroy();
+        },
 
-	var isBot = "onscroll" in window && !/glebot/.test(navigator.userAgent);
+        loadImages: function () {
+            if (!this.settings) { return; }
 
-	var runningOnBrowser = typeof window !== "undefined";
+            let self = this;
+            this.images.forEach(function (image) {
+                let src = image.getAttribute(self.settings.src);
+                let srcset = image.getAttribute(self.settings.srcset);
+                if ("img" === image.tagName.toLowerCase()) {
+                    if (src) {
+                        image.src = src;
+                    }
+                    if (srcset) {
+                        image.srcset = srcset;
+                    }
+                } else {
+                    image.style.backgroundImage = "url(" + src + ")";
+                }
+            });
+        },
 
-	var supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
+        destroy: function () {
+            if (!this.settings) { return; }
+            this.observer.disconnect();
+            this.settings = null;
+        }
+    };
 
-	var supportsClassList = runningOnBrowser && "classList" in document.createElement("p");
+    root.lazyload = function(images, options) {
+        return new LazyLoad(images, options);
+    };
 
-	var addClass = function addClass(element, className) {
-		if (supportsClassList) {
-			element.classList.add(className);
-			return;
-		}
-		element.className += (element.className ? " " : "") + className;
-	};
+    if (root.jQuery) {
+        const $ = root.jQuery;
+        $.fn.lazyload = function (options) {
+            options = options || {};
+            options.attribute = options.attribute || "data-src";
+            new LazyLoad($.makeArray(this), options);
+            return this;
+        };
+    }
 
-	var removeClass = function removeClass(element, className) {
-		if (supportsClassList) {
-			element.classList.remove(className);
-			return;
-		}
-		element.className = element.className.replace(new RegExp("(^|\\s+)" + className + "(\\s+|$)"), " ").replace(/^\s+/, "").replace(/\s+$/, "");
-	};
-
-	var callCallback = function callCallback(callback, argument) {
-		if (callback) {
-			callback(argument);
-		}
-	};
-
-	var loadString = "load";
-	var errorString = "error";
-
-	var removeListeners = function removeListeners(element, loadHandler, errorHandler) {
-		element.removeEventListener(loadString, loadHandler);
-		element.removeEventListener(errorString, errorHandler);
-	};
-
-	var addOneShotListeners = function addOneShotListeners(element, settings) {
-		var onLoad = function onLoad(event) {
-			onEvent(event, true, settings);
-			removeListeners(element, onLoad, onError);
-		};
-		var onError = function onError(event) {
-			onEvent(event, false, settings);
-			removeListeners(element, onLoad, onError);
-		};
-		element.addEventListener(loadString, onLoad);
-		element.addEventListener(errorString, onError);
-	};
-
-	var onEvent = function onEvent(event, success, settings) {
-		var element = event.target;
-		removeClass(element, settings.class_loading);
-		addClass(element, success ? settings.class_loaded : settings.class_error); // Setting loaded or error class
-		callCallback(success ? settings.callback_load : settings.callback_error, element);
-	};
-
-	function revealElement(element, settings, force) {
-		if (!force && getWasProcessed(element)) {
-			return; // element has already been processed and force wasn't true
-		}
-		callCallback(settings.callback_enter, element);
-		if (["IMG", "IFRAME", "VIDEO"].indexOf(element.tagName) > -1) {
-			addOneShotListeners(element, settings);
-			addClass(element, settings.class_loading);
-		}
-		setSources(element, settings);
-		setWasProcessed(element);
-		callCallback(settings.callback_set, element);
-	}
-
-	/* entry.isIntersecting needs fallback because is null on some versions of MS Edge, and
-    entry.intersectionRatio is not enough alone because it could be 0 on some intersecting elements */
-	var isIntersecting = function isIntersecting(element) {
-		return element.isIntersecting || element.intersectionRatio > 0;
-	};
-
-	var getObserverSettings = function getObserverSettings(settings) {
-		return {
-			root: settings.container === document ? null : settings.container,
-			rootMargin: settings.threshold + "px"
-		};
-	};
-
-	var LazyLoad = function LazyLoad(customSettings, elements) {
-		this._settings = getInstanceSettings(customSettings);
-		this._setObserver();
-		this.update(elements);
-	};
-
-	LazyLoad.prototype = {
-		_setObserver: function _setObserver() {
-			var _this = this;
-
-			if (!supportsIntersectionObserver) {
-				return;
-			}
-			var revealIntersectingElements = function revealIntersectingElements(entries) {
-				entries.forEach(function (entry) {
-					if (isIntersecting(entry)) {
-						var element = entry.target;
-						_this.load(element);
-						_this._observer.unobserve(element);
-					}
-				});
-				_this._elements = purgeElements(_this._elements);
-			};
-			this._observer = new IntersectionObserver(revealIntersectingElements, getObserverSettings(this._settings));
-		},
-
-		loadAll: function loadAll() {
-			var _this2 = this;
-
-			this._elements.forEach(function (element) {
-				_this2.load(element);
-			});
-			this._elements = purgeElements(this._elements);
-		},
-
-		update: function update(elements) {
-			var _this3 = this;
-
-			var settings = this._settings;
-			var nodeSet = elements || settings.container.querySelectorAll(settings.elements_selector);
-
-			this._elements = purgeElements(Array.prototype.slice.call(nodeSet)); // nodeset to array for IE compatibility
-
-			if (isBot || !this._observer) {
-				this.loadAll();
-				return;
-			}
-
-			this._elements.forEach(function (element) {
-				_this3._observer.observe(element);
-			});
-		},
-
-		destroy: function destroy() {
-			var _this4 = this;
-
-			if (this._observer) {
-				purgeElements(this._elements).forEach(function (element) {
-					_this4._observer.unobserve(element);
-				});
-				this._observer = null;
-			}
-			this._elements = null;
-			this._settings = null;
-		},
-
-		load: function load(element, force) {
-			revealElement(element, this._settings, force);
-		}
-	};
-
-	/* Automatic instances creation if required (useful for async script loading!) */
-	var autoInitOptions = window.lazyLoadOptions;
-	if (runningOnBrowser && autoInitOptions) {
-		autoInitialize(LazyLoad, autoInitOptions);
-	}
-
-	return LazyLoad;
+    return LazyLoad;
 });

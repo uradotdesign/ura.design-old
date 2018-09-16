@@ -126,7 +126,7 @@ clients:
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <img src="images/main/icon.svg" alt="" class="wow flipInY" data-wow-duration="2s" data-wow-delay="0.1s">
+        <img data-src="images/main/icon.svg" alt="" class="lazyload wow flipInY" data-wow-duration="2s" data-wow-delay="0.1s">
         <div class="spacing"></div>
         <h2>Design, but Open</h2>
       </div>
@@ -158,7 +158,7 @@ clients:
     <div class='large-12 columns'>
       <div class='clients'>
         {% for client in page.clients %}
-          <div><a href="{{client.url}}" target="blank"><img alt="" src="{{site.baseurl}}/{{client.image}}" width="200px" height="120px"></a></div>
+          <div><a href="{{client.url}}" target="blank"><img alt="" class="lazyload" data-src="{{site.baseurl}}/{{client.image}}" width="200px" height="120px"></a></div>
         {% endfor %}
       </div>
     </div>
@@ -181,7 +181,7 @@ clients:
         <div class="quote wow slideInLeft" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
           <div class="row">
             <div class="small-3 columns">
-              <img src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
+              <img class="lazyload" data-src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
             </div>
             <div class="small-9 columns">
               <p>{{testimonial.content}}</p>
@@ -196,7 +196,7 @@ clients:
         <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
           <div class="row">
             <div class="small-3 columns">
-              <img src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
+              <img class="lazyload" data-src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
             </div>
             <div class="small-9 columns">
               <p>{{testimonial.content}}</p>
@@ -226,7 +226,7 @@ clients:
     {% for work in page.works_left %}
       <div class="work-wrapper">
         <a href="{{work.link_to}}" class="work">
-          <img src="{{site.url}}/{{work.image}}" alt="">
+          <img data-src="{{site.url}}/{{work.image}}" alt="" class="lazyload">
           <div class="info">
             <h3>{{work.title}}</h3>
             <p>{{work.categories}}</p>
@@ -239,7 +239,7 @@ clients:
     {% for work in page.works_middle %}
       <div class="work-wrapper">
         <a href="{{work.link_to}}" class="work">
-          <img src="{{site.url}}/{{work.image}}" alt="">
+          <img data-src="{{site.url}}/{{work.image}}" alt="" class="lazyload">
           <div class="info">
             <h3>{{work.title}}</h3>
             <p>{{work.categories}}</p>
@@ -252,7 +252,7 @@ clients:
     {% for work in page.works_right %}
       <div class="work-wrapper">
         <a href="{{work.link_to}}" class="work">
-          <img src="{{site.url}}/{{work.image}}" alt="">
+          <img data-src="{{site.url}}/{{work.image}}" alt="" class="lazyload">
           <div class="info">
             <h3>{{work.title}}</h3>
             <p>{{work.categories}}</p>
