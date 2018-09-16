@@ -110,7 +110,7 @@ clients:
           </div>
           <div class="slide-left" style="background-color: {{ slide.bg_color }};">
           </div>
-          <div class="slide-right {{ slide.overlay }}" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          <div class="slide-right {{ slide.overlay }} lazy" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
           </div>
         </div>
       {% endfor %}
@@ -135,8 +135,8 @@ clients:
   <div class="row">
     <div class="large-10 large-centered columns">
       <p>Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software. We specialize in UX Design, Design Systems Research and Visual Identity.</p>
-        <p>Our work can be seen across various Open Source projects such as <a href="https://mozilla.org" target="_blank">Mozilla</a>, <a href="https://www.torproject.org" target="_blank">The Tor Project</a> and <a href="https://www.linuxfoundation.org" target="_blank">The Linux Foundation</a>.</p>
-      <p>We also develop <a href="https://identihub.co" target="_blank">Identihub</a>, Open Source Software to self-host visual assets and identities to ease collaboration between designers and developers.</p>
+        <p>Our work can be seen across various Open Source projects such as <a href="https://mozilla.org" target="_blank" rel="noopener">Mozilla</a>, <a href="https://www.torproject.org" target="_blank" rel="noopener">The Tor Project</a> and <a href="https://www.linuxfoundation.org" target="_blank" rel="noopener">The Linux Foundation</a>.</p>
+      <p>We also develop <a href="https://identihub.co" target="_blank" rel="noopener">Identihub</a>, Open Source Software to self-host visual assets and identities to ease collaboration between designers and developers.</p>
       <div class="two spacing"></div>
       <div class="centered-text">
       <a href="about" class="button boxed blue">Learn more</a>
@@ -158,7 +158,7 @@ clients:
     <div class='large-12 columns'>
       <div class='clients'>
         {% for client in page.clients %}
-          <div><a href="{{client.url}}" target="blank"><img alt="" class="lazy" data-src="{{site.baseurl}}/{{client.image}}" width="200px" height="120px"></a></div>
+          <div><a href="{{client.url}}" target="blank" rel="noopener"><img alt="" class="lazy" data-src="{{site.baseurl}}/{{client.image}}" width="200px" height="120px"></a></div>
         {% endfor %}
       </div>
     </div>
@@ -185,7 +185,7 @@ clients:
             </div>
             <div class="small-9 columns">
               <p>{{testimonial.content}}</p>
-              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
+              <a href="{{testimonial.twitter}}" rel="noopener"><p class="author">{{testimonial.author}}</p></a>
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@ clients:
             </div>
             <div class="small-9 columns">
               <p>{{testimonial.content}}</p>
-              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
+              <a href="{{testimonial.twitter}}" rel="noopener"><p class="author">{{testimonial.author}}</p></a>
             </div>
           </div>
         </div>
@@ -270,7 +270,7 @@ clients:
   <div id="newsletter" class='row'>
     <div class='medium-10 medium-centered centered-text columns'>
       <p>Stay updated with our Newsletter!</p>
-      <a class="button boxed black" href="https://uradesign.hosted.phplist.com/lists/?p=subscribe&id=1" target="_blank">SUBSCRIBE</a>
+      <a class="button boxed black" href="https://uradesign.hosted.phplist.com/lists/?p=subscribe&id=1" target="_blank" rel="noopener">SUBSCRIBE</a>
     </div>
   <div class="two spacing"></div>
 </div>
