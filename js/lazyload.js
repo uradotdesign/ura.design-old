@@ -26,7 +26,7 @@
     "use strict";
 
     const defaults = {
-        src: "data-src",
+        src: "src",
         srcset: "data-srcset",
         selector: ".lazyload"
     };
@@ -163,7 +163,7 @@
         const $ = root.jQuery;
         $.fn.lazyload = function (options) {
             options = options || {};
-            options.attribute = options.attribute || "data-src";
+            options.attribute = options.attribute || "src";
             new LazyLoad($.makeArray(this), options);
             return this;
         };
