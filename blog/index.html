@@ -27,7 +27,7 @@ section_id: blog
     <div class="large-8 columns bottom-blog">
         <div class="post-content blog">
           <h3 id="blog-title" class="blog"><a href="{{ post.url | replace:'.html','' }}">{{post.title}}</a></h3>
-          <p class="blogauthor">by <a href="{{post.link}}" target="_blank">{{post.author}}</a></p>
+          <p class="blogauthor">by <a href="{{post.link}}" target="_blank" rel="noopener">{{post.author}}</a></p>
           <p>{{post.excerpt}}</p>
           <div class="tags">
              {% for tag in post.tags %}
@@ -39,7 +39,7 @@ section_id: blog
   </div>
     <div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
            {% if post.images %}
-            <a href="{{ post.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+            <a href="{{ post.url | replace:'.html','' }}"><img class="lazy" style="display: block; margin: auto;" data-src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
            {% endif %}
     </div>
       </div>
