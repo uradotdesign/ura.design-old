@@ -26,7 +26,7 @@
     "use strict";
 
     const defaults = {
-        src: "src",
+        src: "data-src",
         srcset: "data-srcset",
         selector: ".lazyload"
     };
