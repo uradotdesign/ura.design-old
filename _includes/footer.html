@@ -47,12 +47,11 @@
   })();
 </script>
 
-<script type="text/javascript" charset="utf-8">
-  window.addEventListener("load", function(event) {
-      console.log("LOAD!");
-      lazyload();
-  });
-  </script>
+<script>
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
 
 <noscript><p><img src="//analytics.ura.design/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Matomo Code -->
