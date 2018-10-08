@@ -36,7 +36,10 @@ works_right:
   link_to: enigmail
   image: images/projects/enigmail_overview.png
   categories: Visual Identity
-
+- title: LibOCon 2018 Visual Identity
+  link_to: libocon
+  image: images/projects/libocon_overview.png
+  categories: Visual Identity
 ---
 
 <div class="full new" style="background-color: #3399d4;">
@@ -56,7 +59,7 @@ works_right:
     {% for work in page.works_left %}
       <div class="work-wrapper">
         <a href="{{work.link_to}}" class="work">
-          <img src="{{site.url}}/{{work.image}}" alt="">
+          <img src="{{site.baseurl}}/{{work.image}}" alt="">
           <div class="info">
             <h3>{{work.title}}</h3>
             <p>{{work.categories}}</p>
@@ -69,7 +72,7 @@ works_right:
     {% for work in page.works_middle %}
       <div class="work-wrapper">
         <a href="{{work.link_to}}" class="work">
-          <img src="{{site.url}}/{{work.image}}" alt="">
+          <img src="{{site.baseurl}}/{{work.image}}" alt="">
           <div class="info">
             <h3>{{work.title}}</h3>
             <p>{{work.categories}}</p>
@@ -82,7 +85,7 @@ works_right:
     {% for work in page.works_right %}
       <div class="work-wrapper">
         <a href="{{work.link_to}}" class="work">
-          <img src="{{site.url}}/{{work.image}}" alt="">
+          <img src="{{site.baseurl}}/{{work.image}}" alt="">
           <div class="info">
             <h3>{{work.title}}</h3>
             <p>{{work.categories}}</p>
