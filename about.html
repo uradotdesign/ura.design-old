@@ -97,8 +97,8 @@ members:
     {% for member in page.members %}
       <div class="medium-4 columns">
         <div class="member">
-          <img src="{{site.url}}/{{member.avatar}}" alt="">
-          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+          <img class="lazy" data-src="{{site.url}}/{{member.avatar}}" alt="">
+          <img class="colored" data-src="{{site.url}}/{{member.avatar_hover}}" alt="">
           <div class="member-info">
             <h4>{{member.name}}</h4>
             <p class="position">{{member.position}}</p>

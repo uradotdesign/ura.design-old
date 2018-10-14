@@ -27,9 +27,17 @@
 <script src="{{ "/js/jquery.validate.js" | prepend: site.baseurl }}"></script>
 <!-- <script src="{{ "/bower_components/countto/jquery.countTo.js" | prepend: site.baseurl }}"></script> -->
 <script src="{{ "/bower_components/appear/jquery.appear.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/svg.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/cookie.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lazyload.min.js" | prepend: site.baseurl }}"></script>
+
+<script>
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
 
 <!-- Matomo -->
 <script type="text/javascript">

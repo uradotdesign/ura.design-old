@@ -39,7 +39,7 @@ section_id: blog
   </div>
     <div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
            {% if post.images %}
-            <a href="{{ post.url | replace:'.html','' }}"><img style="display: block; margin: auto;" src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
+            <a href="{{ post.url | replace:'.html','' }}"><img class="lazy" style="display: block; margin: auto;" data-src="{{site.url}}/{{post.images[0]}}" alt="post"></a>
            {% endif %}
     </div>
       </div>

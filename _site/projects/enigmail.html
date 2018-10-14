@@ -29,7 +29,7 @@
   <meta name="twitter:image:src" content="https://ura.design/" />
   
   <link rel="stylesheet" href="/css/app.css">
-  <link href="/fonts/overpass/overpass.css" rel="stylesheet">
+  <link rel="stylesheet" href="/fonts/overpass/overpass.css">
   <link rel="stylesheet" href="/css/superslides.css"/>
   <link rel="stylesheet" href="/css/slick-theme.css"/>
   <link rel="stylesheet" href="/css/slick.css"/>
@@ -39,9 +39,7 @@
   <link rel="stylesheet" href="/css/fontawesome-all.css"/>
   <link rel="stylesheet" href="/css/style.css"/>
   <link rel="stylesheet" href="/css/responsive.css"/>
-
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  
+    
   <link rel="canonical" href="http://localhost:4000/projects/enigmail.html">
   <link rel="alternate" type="application/rss+xml" title="Ura Design" href="http://localhost:4000/feed.xml">
 </head>
@@ -160,9 +158,9 @@
 <div class="full text">
   <div class="row">
     <div class="large-8 columns">
-      <img src="../images/projects/enigmail.png" alt="">
+      <img class="lazy" data-src="../images/projects/enigmail.png" alt="">
       <div class="spacing"></div>
-      <img src="../images/projects/enigmail_icons.png" alt="">
+      <img class="lazy" data-src="../images/projects/enigmail_icons.png" alt="">
       <div class="spacing"></div>
     </div>
     <div class="large-4 columns">
@@ -179,7 +177,7 @@
         <p><span>Visual Identity</span></p>
          <hr>
         <a class="button boxed black" href="https://github.com/uracreative/works/tree/master/Enigmail" target="_blank"><i class="fab fa-github"></i> Sources</a><br />
-         <a class="button boxed identihub" href="https://demo.identihub.co/project/enigmail" target="_blank"><img src="../images/projects/identihub.svg" > Identihub</a><br />
+         <a class="button boxed identihub" href="https://demo.identihub.co/project/enigmail" target="_blank"><img class="lazy" data-src="../images/projects/identihub.svg" > Identihub</a><br />
         <a class="button boxed enigmail" href="https://enigmail.net" target="_blank"><i class="fas fa-globe"></i> Website</a>
       </div>
     </div>
@@ -199,7 +197,7 @@
       <div class="large-4 columns">
         <div class="work-wrapper">
           <a href="openlabs" class="work">
-            <img src="../images/projects/openlabs.jpg" alt="">
+            <img class="lazy" data-src="../images/projects/openlabs.jpg" alt="">
             <div class="info">
               <h3>Open Labs</h3>
               <p>Rebranding</p>
@@ -210,7 +208,7 @@
       <div class="large-4 columns">
         <div class="work-wrapper">
           <a href="tor-style-guide" class="work">
-          <img src="../images/projects/tor_thumb.png" alt="">
+          <img class="lazy" data-src="../images/projects/tor_thumb.png" alt="">
           <div class="info">
             <h3>Tor Style Guide</h3>
             <p>Style Guide</p>
@@ -221,7 +219,7 @@
       <div class="large-4 columns">
         <div class="work-wrapper">
           <a href="mozilla-l10n" class="work">
-            <img src="../images/projects/mozilla-l10n.jpg" alt="">
+            <img class="lazy" data-src="../images/projects/mozilla-l10n.jpg" alt="">
             <div class="info">
               <h3>Mozilla L10N T-shirts</h3>
               <p>Print</p>
@@ -269,9 +267,17 @@
 <script src="/js/jquery.validate.js"></script>
 <!-- <script src="/bower_components/countto/jquery.countTo.js"></script> -->
 <script src="/bower_components/appear/jquery.appear.js"></script>
+<script src="/bower_components/modernizr/modernizr.js"></script>
 <script src="/js/app.js"></script>
 <script src="/js/svg.js"></script>
 <script src="/js/cookie.js"></script>
+<script src="/js/lazyload.min.js"></script>
+
+<script>
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
 
 <!-- Matomo -->
 <script type="text/javascript">

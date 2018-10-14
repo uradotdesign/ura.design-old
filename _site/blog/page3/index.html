@@ -29,7 +29,7 @@
   <meta name="twitter:image:src" content="https://ura.design/" />
   
   <link rel="stylesheet" href="/css/app.css">
-  <link href="/fonts/overpass/overpass.css" rel="stylesheet">
+  <link rel="stylesheet" href="/fonts/overpass/overpass.css">
   <link rel="stylesheet" href="/css/superslides.css"/>
   <link rel="stylesheet" href="/css/slick-theme.css"/>
   <link rel="stylesheet" href="/css/slick.css"/>
@@ -39,9 +39,7 @@
   <link rel="stylesheet" href="/css/fontawesome-all.css"/>
   <link rel="stylesheet" href="/css/style.css"/>
   <link rel="stylesheet" href="/css/responsive.css"/>
-
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  
+    
   <link rel="canonical" href="http://localhost:4000/blog/page3/">
   <link rel="alternate" type="application/rss+xml" title="Ura Design" href="http://localhost:4000/feed.xml">
 </head>
@@ -187,7 +185,7 @@
   </div>
     <div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
            
-            <a href="/2017/08/25/ura-sha-2017"><img style="display: block; margin: auto;" src="http://localhost:4000/images/blog/sha1-thumb.jpg" alt="post"></a>
+            <a href="/2017/08/25/ura-sha-2017"><img class="lazy" style="display: block; margin: auto;" data-src="http://localhost:4000/images/blog/sha1-thumb.jpg" alt="post"></a>
            
     </div>
       </div>
@@ -224,7 +222,7 @@
   </div>
     <div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
            
-            <a href="/2017/02/11/open-source-design-workshop-open-labs-hackerspace-tirana"><img style="display: block; margin: auto;" src="http://localhost:4000/images/blog/osd_event.png" alt="post"></a>
+            <a href="/2017/02/11/open-source-design-workshop-open-labs-hackerspace-tirana"><img class="lazy" style="display: block; margin: auto;" data-src="http://localhost:4000/images/blog/osd_event.png" alt="post"></a>
            
     </div>
       </div>
@@ -263,7 +261,7 @@
   </div>
     <div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
            
-            <a href="/2017/01/24/wikispeech-wikimedia-project-has-a-logo-guess-who-designed-it"><img style="display: block; margin: auto;" src="http://localhost:4000/images/blog/ura-wikispeech.png" alt="post"></a>
+            <a href="/2017/01/24/wikispeech-wikimedia-project-has-a-logo-guess-who-designed-it"><img class="lazy" style="display: block; margin: auto;" data-src="http://localhost:4000/images/blog/ura-wikispeech.png" alt="post"></a>
            
     </div>
       </div>
@@ -300,7 +298,7 @@
   </div>
     <div class="large-3 columns blog middle-blog" style="margin-bottom: 30px;">
            
-            <a href="/2017/01/03/Hello-open-source-design-world"><img style="display: block; margin: auto;" src="http://localhost:4000/images/blog/hello_world.png" alt="post"></a>
+            <a href="/2017/01/03/Hello-open-source-design-world"><img class="lazy" style="display: block; margin: auto;" data-src="http://localhost:4000/images/blog/hello_world.png" alt="post"></a>
            
     </div>
       </div>
@@ -367,9 +365,17 @@
 <script src="/js/jquery.validate.js"></script>
 <!-- <script src="/bower_components/countto/jquery.countTo.js"></script> -->
 <script src="/bower_components/appear/jquery.appear.js"></script>
+<script src="/bower_components/modernizr/modernizr.js"></script>
 <script src="/js/app.js"></script>
 <script src="/js/svg.js"></script>
 <script src="/js/cookie.js"></script>
+<script src="/js/lazyload.min.js"></script>
+
+<script>
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
 
 <!-- Matomo -->
 <script type="text/javascript">
