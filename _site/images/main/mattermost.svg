@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35.024178"
+   height="34.928646"
+   viewBox="0 0 35.024177 34.928647"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="mattermost.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <svg:metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Logo Blue</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     id="namedview21"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="4.0892922"
+     inkscape:cx="-9.1412268"
+     inkscape:cy="13.959024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g14" />
+  <script />
+  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <svg:title
+     id="title2">Logo Blue</svg:title>
+  <svg:desc
+     id="desc4">Created with Sketch.</svg:desc>
+  <svg:defs
+     id="defs6" />
+  <svg:g
+     id="UI-Kit"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(7.9921562e-5,-87.982066)">
+    <svg:g
+       id="Logos"
+       transform="translate(-346,-426)">
+      <svg:g
+         id="Logo-Blue"
+         transform="translate(346,426)">
+        <svg:g
+           id="g14">
+          <svg:g
+             id="icon"
+             style="fill:#3399d4;fill-opacity:1">
+            <svg:path
+               d="m 27.802764,91.315432 0.184414,3.706757 c 3.013304,3.320008 4.202719,8.021811 2.702677,12.440831 -2.23919,6.59643 -9.622781,10.064 -16.491507,7.74499 C 7.32941,112.88921 3.5763205,105.66173 5.8155104,99.065306 7.3204557,94.631613 11.149443,91.611394 15.584117,90.811743 l 2.396102,-2.823336 C 10.504954,87.786634 3.4524539,92.414021 0.92907481,99.847734 -2.1712108,108.98132 2.7397422,118.89201 11.898185,121.9841 c 9.158442,3.09187 19.096325,-1.80596 22.196824,-10.93956 2.519114,-7.42159 -0.251356,-15.356649 -6.292245,-19.729108 z"
+               id="path9"
+               inkscape:connector-curvature="0"
+               style="stroke-width:0.28542456;fill:#3399d4;fill-opacity:1" />
+            <svg:path
+               d="m 23.509625,102.25331 -0.126851,-5.182108 -0.101695,-2.981948 -0.06886,-2.583291 c 0,0 0.01428,-1.245721 -0.0292,-1.538493 -0.0092,-0.06166 -0.02857,-0.111624 -0.0518,-0.155423 l -0.0087,-0.01829 -0.01002,-0.01594 c -0.04775,-0.08228 -0.123223,-0.149044 -0.220654,-0.182 -0.09956,-0.0336 -0.202749,-0.0253 -0.29229,0.01318 l -0.0055,0.0022 -0.03092,0.01574 c -0.04243,0.02062 -0.08571,0.04741 -0.127917,0.08824 -0.212982,0.206025 -0.960232,1.20426 -0.960232,1.20426 l -1.628385,2.010503 -1.897012,2.307102 -3.257197,4.039503 c 0,0 -1.494711,1.860395 -1.164473,4.150485 0.330453,2.28989 2.037508,3.40549 3.361877,3.85262 1.324155,0.44713 3.359743,0.59511 5.017124,-1.02396 1.657166,-1.61908 1.602802,-4.00229 1.602802,-4.00229 z"
+               id="path11"
+               inkscape:connector-curvature="0"
+               style="stroke-width:0.28542456;fill:#3399d4;fill-opacity:1" />
+          </svg:g>
+        </svg:g>
+      </svg:g>
+    </svg:g>
+  </svg:g>
+</svg:svg>

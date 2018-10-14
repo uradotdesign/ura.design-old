@@ -18,8 +18,7 @@ github_username:  uracreative
 # Build settings
 markdown: kramdown
 
-
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-compose
 
