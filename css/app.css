@@ -3435,7 +3435,7 @@ ul.pagination {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: '"Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;

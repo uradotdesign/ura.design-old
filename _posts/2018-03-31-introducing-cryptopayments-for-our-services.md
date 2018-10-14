@@ -7,6 +7,8 @@ date: 2018-03-31 12:00:00 +0200
 categories:
 images:
 - images/blog/CryptoCurrencyThumb.jpg
+header:
+- images/blog/CryptoCurrencyBanner.jpg
 tags:
 - Cryptopayments
 - Open Source Design
@@ -19,7 +21,7 @@ excerpt:
 We aim to iterate our processes continously based on the feedback and experiences we have with projects we are lucky to work with. With this in mind, we noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer. As a design studio which highly values decentralized platforms, we have been positively surprised to see growing demand for payment integration of different **cryptocurrencies**. This is the reason that starting from today, we accept payments with some of the most established cryptocurrencies at the moment such as **Bitcoin**, **Ethereum** and **Litecoin**. If none of the above works for you, [let us know](mailto:hello@ura.design) and our team will be happy to find an alternative.
 
 <div class="large-10 large-centered columns">
-<img class="lazy" data-src="/images/blog/CryptoCurrencyBanner.jpg">
+<img src="/images/blog/CryptoCurrencyBanner.jpg">
 </div>
 <div class="two spacing"></div>
 

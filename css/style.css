@@ -361,9 +361,6 @@ body {
 .button.thunderbird::before {
   background: #0A84FF; }
 
-.button.libocon::before {
-  background: #11A500; }
-
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -457,15 +454,6 @@ body {
 .button.boxed.thunderbird:hover {
   color: #fff;
   background: #0A84FF; }
-
-.button.boxed.libocon {
-  border: 1px solid #11A500;
-  background: none;
-  color: #11A500; }
-
-.button.boxed.libocon:hover {
-  color: #fff;
-  background: ##11A500; }
 
 .button.boxed.openlabs {
   border: 1px solid #2BBBB0;
