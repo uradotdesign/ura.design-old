@@ -24,7 +24,7 @@ layout: default
             {% if paginator.previous_page == 1 %}
               <a href="/blog" class="next button boxed black" style="float: right;"><i class="fa fa-angle-double-left"></i> Newer Entries</a>
             {% else %}
-              <a href="/blog/older{{ paginator.previous_page }}" class="next button boxed black" style="float: right;"><i class="fa fa-angle-double-left"></i>Newer Entries</a>
+              <a href="/blog/page{{ paginator.previous_page }}" class="next button boxed black" style="float: right;"><i class="fa fa-angle-double-left"></i>Newer Entries</a>
             {% endif %}
           {% else %}
             <!-- <span class="newer">Newer Entries</span> -->
@@ -35,7 +35,7 @@ layout: default
             {% if paginator.next_page == 1 %}
               <a href="/blog" class="previous button boxed black" style="float: left;">Older Entries <i class="fa fa-angle-double-right"></i></a>
             {% else %}
-              <a href="/blog/older{{ paginator.next_page }}" class="previous button boxed black" style="float: left;">Older Entries <i class="fa fa-angle-double-right"></i></a>
+              <a href="/blog/page{{ paginator.next_page }}" class="previous button boxed black" style="float: left;">Older Entries <i class="fa fa-angle-double-right"></i></a>
             {% endif %}
           {% else %}
             <!-- <span class="older">Older Entries</span> -->
