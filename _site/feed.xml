@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ura Design</title>
+    <description>Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 22 Oct 2018 00:03:35 +0200</pubDate>
+    <lastBuildDate>Mon, 22 Oct 2018 00:03:35 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>LibOCon 2018 Visual Identity</title>
+        <description>&lt;p&gt;As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the &lt;a href=&quot;https://libocon.org&quot;&gt;LibreOffice Conference&lt;/a&gt; (short LibOCon). The conference is organized by the local &lt;a href=&quot;https://openlabs.cc&quot;&gt;Open Labs Hackerspace&lt;/a&gt; community, with which we share a lot of values and goals together.&lt;/p&gt;
+
+&lt;p&gt;We were particularly delighted to support this year’s edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania. We hope to see more happening outside the usual western spots like Berlin, London and welcome more projects to contribute locally. With &lt;a href=&quot;https://libreoffice.org&quot;&gt;LibreOffice&lt;/a&gt; being the most used alternative to proprietary Office software, we were eager to chime in and help out. With more than 130 contributors coming together for 4 days, Tirana became the focus point of everything LibreOffice and Document Freedom related, even the Mayor of Tirana attended. Further, LibOCon was also a great opportunity to invite friends at the &lt;a href=&quot;https://opensourcedesign.net/summit&quot;&gt;Open Source Design Summit&lt;/a&gt; in November, held at the same Venue (Oficina).&lt;/p&gt;
+
+&lt;p&gt;For creating a visual identity of LibOCon 2018, we had to consider two main elements: the &lt;a href=&quot;https://en.wikipedia.org/wiki/Clock_Tower%2C_Tirana&quot;&gt;clock tower&lt;/a&gt;, a local element from Tirana, and an element of LibreOffice brand. The most difficult and interesting part of the whole creative process was finding a balance between those two elements.&lt;/p&gt;
+
+&lt;h2 id=&quot;logo-concept&quot;&gt;Logo Concept&lt;/h2&gt;
+
+&lt;p&gt;Let’s start it with the logo. For this year conference, &lt;a href=&quot;https://elioqoshi.me&quot;&gt;Elio&lt;/a&gt;  — the creator of LibOCon 2018 logo sketched a monoline icon of the clock tower of the city, inside a hexagonal frame as the logo. The clock tower is one of the most popular and most recognizable symbols of Tirana. It is a part of old buildings ensemble of the city center, and it belongs to the city since the beginning of the 19th century.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/post_libocon_logo.png&quot; alt=&quot;LibOCon Main Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the logotype, Elio also used a slab and open source font as &lt;a href=&quot;https://www.fontsquirrel.com/fonts/zilla-slab&quot;&gt;Zilla Slab&lt;/a&gt; [bold] al la &lt;a href=&quot;https://en.wikipedia.org/wiki/Aaron_Draplin&quot;&gt;Aaron Draplin&lt;/a&gt; style. We also picked the LibreOffice green and composed it with black and white, to keep it connected with the brand and make it clear. The [template for the] logo is also easily adapted to next conferences: &lt;em&gt;we can change the city, the year below and replace Tirana clock tower with a certain symbol from the host city&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;poster-concept&quot;&gt;Poster concept&lt;/h2&gt;
+
+&lt;p&gt;Stamps are always closely connected with a certain place and manifest a big event for that place. The idea of the stamp tower came after a brainstorm “how to make an event big”. We see the LibOCon with the importance of a big event not only for the LibreOffice community but even for the city of Tirana. We are working at the local level to make LibreOffice accessible and useful for everyone who works in the public sector. LibOCon 2018 is a big opportunity to show off the benefits of LibreOffice to the actors we are working with.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/post_libocon_posters.png&quot; alt=&quot;LibOCon Posters&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The dates and the venue of the conference are composed in a seal, as they stay for real in postcards. The stamp with the clock tower, the seal of the venue and posters vintage texture make the participants feel like they’re a postcard, as a souvenir from Tirana. The green color of the brand guidelines makes the poster easily identifiable for the community.&lt;/p&gt;
+
+&lt;p&gt;Working on the visual identity of LibOCon 2018 is one of my first experiences toward &lt;a href=&quot;https://opensourcedesign.net&quot;&gt;open source design&lt;/a&gt;. From my personal point of view, the extension of LibOCon 2018 is the reflection on FLOSS platforms’ necessity and my self-commitment to contribute on them. This experience was a good example how a passionate work, a healthy feedback and the desire for learning led us to a fruitful collaboration and paramount outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ura.design/projects/libocon&quot;&gt;Explore this work on our portfolio&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 20 Oct 2018 08:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/10/20/libocon-2018-visual-identity.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/20/libocon-2018-visual-identity.html</guid>
+        
+        <category>Visual Identity</category>
+        
+        <category>Conference</category>
+        
+        <category>Open Source Design</category>
+        
+        <category>LibreOffice</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Thunderbird Style Guide and Usability Study</title>
+        <description>&lt;p&gt;Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped &lt;a href=&quot;https://github.com/protz/thunderbird-conversations/issues/967&quot;&gt;redesign the Thunderbird Conversations add-on&lt;/a&gt; and even now our email infrastructure is powered by &lt;a href=&quot;https://protonmail.com/bridge/&quot;&gt;ProtonMail and ProtonMail Bridge&lt;/a&gt; via Thunderbird.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, &lt;a href=&quot;https://blog.mozilla.org/thunderbird/2017/05/thunderbirds-future-home/&quot;&gt;Mozilla moving away from Thunderbird&lt;/a&gt; created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird. As a comparison, Firefox latest logo makeovers happened in 2010, 2013 and 2017. Respectively, the last update to the Thunderbird logo and branding was 2010.&lt;/p&gt;
+
+&lt;p&gt;The good news however is that efforts to revitalize Thunderbird have gained momentum again. Monterail have visualized their vision of a new Thunderbird UI, Thunderbird itself has now a &lt;a href=&quot;https://twitter.com/ryanleesipes&quot;&gt;Community Manager, Ryan Sipes&lt;/a&gt;, and a new Project Council was recently appointed. &lt;a href=&quot;https://twitter.com/elioqoshi/status/972067552846319616&quot;&gt;We didn’t hesitate to jump on board&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-the-stage&quot;&gt;Setting the Stage&lt;/h2&gt;
+
+&lt;p&gt;This marked the start of a wonderful collaboration. In Open Source we often times encounter resistance and hesitation to change. It’s something we acknowledge and can understand, considering there are contributors who have been involved for years and suddenly someone out of the blue suggests doing a number of changes. We respect that. However the Thunderbird project has been welcoming to suggestions and help, allowing us to enjoy the process thoroughly beyond simply handing off the deliverables.&lt;/p&gt;
+
+&lt;p&gt;To be inline with the new Firefox Photon Design system, we worked on a fork specifically tailored for Thunderbird, including a revamped logo and word mark. We also set the stage for an upcoming UI redesign in the future by conducting a small Usability Study specifically tailored on security features out-of-the-box within Thunderbird. We would like to thank &lt;a href=&quot;https://opentech.fund&quot;&gt;Open Technology Fund&lt;/a&gt; for supporting this work towards the Thunderbird project as part of its &lt;a href=&quot;https://ura.design/2018/03/12/ura-now-part-open-tech-funds-usability-lab&quot;&gt;Usability Lab&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/thunderbird_logo.png&quot; alt=&quot;Thunderbird Revamped Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;new-logo&quot;&gt;New Logo&lt;/h2&gt;
+&lt;p&gt;After the Firefox logo was revamped in 2017, a Thunderbird contributor filed a &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1404648&quot;&gt;ticket on Bugzilla&lt;/a&gt; suggesting to follow Firefox’ lead and redesign the Thunderbird logo according to the new Photon Design guidelines. Funnily, this coincided with our own experiments on how Thunderbird’s logo could be like so we joined the conversation on Bugzilla. We want to thank the great support we got from Ryan Sipes, Thunderbird’s Community Manager, who helped facilitate communication with the Thunderbird Community. The new logo will appear in Thunderbird 60.&lt;/p&gt;
+
+&lt;h2 id=&quot;usability-study&quot;&gt;Usability Study&lt;/h2&gt;
+&lt;p&gt;Thunderbird was the first project we conducted a Usability Study on. This was possible due to Renata joining our team recently and expanding upon the services Ura offers support. Renata conducted user interviews during &lt;a href=&quot;https://osc.al&quot;&gt;Open Source Conference Albania (OSCAL)&lt;/a&gt; 2018. The tests were done with 5 testers from different backgrounds, asked to accomplish 9 different tasks. &lt;a href=&quot;https://github.com/uracreative/works/raw/master/Thunderbird/Thunderbird%20Usability%20Study.pdf&quot;&gt;You can read the final Thunderbid Usability Study here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/thunderbird_1.png&quot; alt=&quot;Thunderbird Usability Research&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;style-guide&quot;&gt;Style Guide&lt;/h2&gt;
+&lt;p&gt;We talk a lot about style guides as you might have noticed. In fact, recently we wrote an article about why they are so important. Thunderbird is no exception. We developed a full &lt;a href=&quot;https://thunderbird.ura.design&quot;&gt;style guide for Thunderbird&lt;/a&gt;, based on the &lt;a href=&quot;https://design.firefox.com&quot;&gt;Photon Design system&lt;/a&gt; used by Firefox. As latter is quite extensive (Firefox use cases are way broader than Thunderbird’s), we tweaked it to apply in Thunderbird’s case. It’s a living style guide and has lots of room for improvement in the future. However the next step is to implement all these design decisions. If the style guide describes patterns and guidelines well, but they aren’t put into practice, the impact of a style guide is minimal. Hence, we look forward to see those changes be implemented and continue supporting Thunderbird with that task.&lt;/p&gt;
+
+&lt;p&gt;We also create an &lt;a href=&quot;https://demo.identihub.co/project/thunderbird#/&quot;&gt;Identihub page&lt;/a&gt; where you can easily access the Thunderbird assets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/thunderbird_2.png&quot; alt=&quot;Thunderbird Style Guide&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;more-to-come&quot;&gt;More to come&lt;/h2&gt;
+&lt;p&gt;Furthermore, we are helping with the &lt;a href=&quot;https://github.com/thundernest/thunderbird-website/issues/31&quot;&gt;redesign of the Thunderbird website&lt;/a&gt; putting the style guide finally into practice as well. If you’d like to get involved, reach out to us or just contribute to the GitHub issue!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ura.design/projects/thunderbird&quot;&gt;Explore this work on our portfolio&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 05 Jul 2018 08:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/07/05/thunderbird-style-guide.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/05/thunderbird-style-guide.html</guid>
+        
+        <category>Style Guides</category>
+        
+        <category>Usability Study</category>
+        
+        <category>Open Source Design</category>
+        
+        <category>Thunderbird</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Style Guides go Beyond Aesthetics</title>
+        <description>&lt;p&gt;Oftentimes we witness the results of elitist practices upon users, usually worded in the form of the acronym &lt;strong&gt;RTFM&lt;/strong&gt; or “&lt;em&gt;Read The Freaking Manual”&lt;/em&gt;. User manuals have their place, but up to which point can we expect users to learn by reading instead of doing?&lt;/p&gt;
+
+&lt;p&gt;A similar stigma often appears in Free Software / Open Source projects as well. The alternative “&lt;em&gt;Read the Documentation&lt;/em&gt;” certainly would ensure that people would give a little more effort before repeating questions. With limited resources it’s also understandable that this might be the most sane way for a project maintainer to channel user interactions. However is that by design or due to lack of resources? One could argue that it would make more sense to integrate those ‘user lessons’ right inside the application instead of a manual or documentation alone.&lt;/p&gt;
+
+&lt;h2 id=&quot;manuals-are-no-replacement-for-good-usability&quot;&gt;Manuals are no replacement for good Usability&lt;/h2&gt;
+
+&lt;p&gt;Make a great manual and a mediocre application and you might be able to keep a user from running into blockers, however you won’t be able to improve their workflow. The user is basically learning an app by heart, not by intuition.&lt;/p&gt;
+
+&lt;p&gt;This is where Usability and User Experience come into play:  An alternative to the traditional manual, created by a researcher or designer instead of an engineer, so to speak.&lt;/p&gt;
+
+&lt;p&gt;Unlike a manual though, a delightful User Experience doesn’t ask to be read, it is seamlessly integrated into the application in a human-centric nature. Not the other way around.&lt;/p&gt;
+
+&lt;p&gt;There is a strong connection between Usability and a user’s emotional feedback: When an application lacks usability, the amount of time it takes the user to accomplish that task is not only higher, it also brings along  negative forms of feedback such as frustration and impatience. If this happens in the case of privacy-enhancing software, those emotions can quickly turn into fear and breach of trust, putting the stakes higher. At that point, usability is not only a commodity anymore.&lt;/p&gt;
+
+&lt;h2 id=&quot;consistency-is-key&quot;&gt;Consistency is Key&lt;/h2&gt;
+
+&lt;p&gt;User Experience is shaped by the usage of patterns and aesthetics familiar to the user within the same software. Unsurprisingly, users don’t like change. If change and inconsistencies confuse users, we can conclude that consistent design decisions create trust; it feels familiar and the user has witnessed it in the past.&lt;/p&gt;
+
+&lt;p&gt;Facilitating consistency can be done via a range of tools, including Brand Guidelines and a Tone of Voice. As early as 3 years ago, our friends at &lt;a href=&quot;https://simplysecure.org/blog/nostalgia-trust-and-brand&quot;&gt;Simply Secure highlighted the importance of Brand Guidelines in relation to creating user trust&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Brand guidelines ensure consistency when many different people are working on a product. This is an important component for building trust with end-users. It’s crucial for secure communication projects in particular because lay users can’t assess the underlying cryptography. Instead, they assess how trustworthy something is by the user experience, and consistent brand expression is a key part of that. As a counterexample, consider how a sloppily-implemented logo in an email can alert people to a phishing scam by signaling untrustworthiness.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Style guides serve as a single source of truth for design decisions and guidelines. They also ensure that a project can be inclusive to diverse contributors, while helping them to communicate with users in one consistent voice throughout the whole range of mediums the project is present on&lt;/strong&gt;. Depending on the context, style guides can include various ingredients, including (but not limited to) Brand Guidelines, UI Components and Tone of Voice. A style guide has no specific definition and can vary from use case to use case, so depending on a project’s needs, specific parts can be prioritized.&lt;/p&gt;
+
+&lt;h2 id=&quot;playing-by-the-rules&quot;&gt;Playing by the Rules&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sketchapp.com/&quot;&gt;Sketch&lt;/a&gt; revolutionized Prototyping and UX Design years ago. Nowadays &lt;a href=&quot;https://www.figma.com/&quot;&gt;Figma&lt;/a&gt; is gaining popularity, being praised by its focus on unified design systems accessible by all members of a project without reinventing components. Figma emphasized the need for consistency and streamlined the design process by integrating it within a powerful design system. It’s one of the primary reasons designers are so excited about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/IconGridBlurry.jpg&quot; alt=&quot;Icon Grid Display&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, style guides serve as a playbook for software creators. They go beyond the debate whether design decisions are justified or not, as long as it’s covered within it. They are a single source of truth to help create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page.&lt;/p&gt;
+
+&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
+
+&lt;p&gt;In the past we have implemented style guides for various projects, including &lt;a href=&quot;https://ura.design/projects/tor-style-guide&quot;&gt;The Tor Project&lt;/a&gt;, Thunderbird and &lt;a href=&quot;https://ura.design/projects/reproducible-builds&quot;&gt;Reproducible Builds&lt;/a&gt;. If you want to know more, we also suggest to read Simply Secure’s blog entry on &lt;a href=&quot;https://simplysecure.org/blog/style-guide&quot;&gt;Why Open-Source projects need Style Guides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last but not least, the points touched upon in this article is the very reason we started building &lt;a href=&quot;https://identihub.co&quot;&gt;Identihub&lt;/a&gt;. Have a look and try it out yourself!&lt;/p&gt;
+
+&lt;p&gt;If you like to explore the possibility of a style guide for your project, feel free to reach us by &lt;a href=&quot;mailto:hello@ura.design&quot;&gt;email&lt;/a&gt; or &lt;a href=&quot;https://twitter.com/uracreative&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 Jul 2018 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/07/02/style-guides-go-beyond-aesthetics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/02/style-guides-go-beyond-aesthetics.html</guid>
+        
+        <category>Style Guides</category>
+        
+        <category>Brand Guidelines</category>
+        
+        <category>Open Source Design</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcoming Renata, Ura's Usability Researcher</title>
+        <description>&lt;p&gt;Open Source Design has gone a long way. In our early days we were mostly asked to design logos, imagery and color palettes for open source projects. We were usually aiming to look under the hood beyond visual design services, something we didn’t often get the chance to. However it’s understandable that a logo was a low-hanging fruit for most open source projects and hence that’s also what they asked for.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that a logo won’t solve your user’s problems, but it’s enough to start a conversation and explore opportunities underneath the surface of visual design. As part of this conversation we are expanding the services we are offering to include Usability Research and their accompanying studies.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“&lt;em&gt;Usability testing is the process of identifying usability problems,
+collecting qualitative and quantitative data to determine the
+participant’s satisfaction with a product. Usability evaluation
+focuses on how well users can learn to use a program to achieve their
+goals and on the same time measure the product’s capacity in
+accomplishing its intended purpose During a test, participants will
+try to complete typical tasks while observers watch, listen and takes
+notes. Usability Studies also can be conducted remotely and have both
+synchronous and asynchronous testings using different techniques with
+potential users.&lt;/em&gt; “&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To cater to those needs, we are excited to welcome Renata in our team! Renata is a Usability Researcher based in Prishtina (Kosovo) who has been quite close with our communities, especially Fedora and GNOME. In the past she conducted Usability Testing for GNOME applications as part of her Outreachy internship. If you want to know more about Renata’s work, you can &lt;a href=&quot;https://renatagegaj.wordpress.com/2016/05/30/what-is-usability/&quot;&gt;head over to her blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ura.design/images/blog/OSCALRedon_Renata.jpg&quot; alt=&quot;Renata and Redon at OSCAL'18&quot; /&gt;&lt;br /&gt;
+&lt;i&gt;Renata and Redon during OSCAL’18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Although only now officially part of the team, we have worked with Renata on &lt;a href=&quot;https://ura.design/2018/05/31/oscal-18-we-were-there&quot;&gt;User Testing for Thunderbird, conducted at OSCAL’18 last month&lt;/a&gt;. Her next endeavour will be working on a more extensive research for &lt;a href=&quot;https://geti2p.net/en/&quot;&gt;I2P&lt;/a&gt; focused on Linux and Windows clients. Both Thunderbird and I2P are part of the Open Tech Fund Usability Lab which supported us throughout our work.&lt;/p&gt;
+
+&lt;p&gt;Want to work with us? We welcome any request ranging from hobbyist open source developer, to international organizations which have established design processes but want to benefit from an additional perspective.&lt;/p&gt;
+
+&lt;p&gt;You can reach us via our &lt;a href=&quot;https://ura.design/request&quot;&gt;Request Design form&lt;/a&gt; or at &lt;a href=&quot;mailto:hello@ura.design&quot;&gt;hello@ura.design&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jun 2018 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/06/17/welcoming-renata-uras-usability-researcher.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/17/welcoming-renata-uras-usability-researcher.html</guid>
+        
+        <category>Usability Research</category>
+        
+        <category>Open Source Design</category>
+        
+        <category>Renata Gegaj</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Reproducible Builds Style Guide</title>
+        <description>&lt;p&gt;Earlier this year, we announced our involvement with &lt;a href=&quot;http://opentech.fund/lab/usability-lab&quot;&gt;Open Tech Fund’s Usability Lab&lt;/a&gt;, providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the &lt;a href=&quot;https://ura.design/2018/03/12/ura-now-part-open-tech-funds-usability-lab&quot;&gt;announcement on our blog.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/rb_header.png&quot; alt=&quot;Reproducible Builds Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://reproducible-builds.org&quot;&gt;Reproducible Builds&lt;/a&gt; has been the first project we supported as part of the Usability Lab. Reproducible Builds represents a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.&lt;/p&gt;
+
+&lt;p&gt;We have been in talks with the Reproducible Builds community since late 2017 where they were looking to have a new logo to represent the project. Going a step further, we met with Holger, a core contributor to the project at this year’s FOSDEM. During our conversations we decided to provide a full fledged style guide via the support of OTF’s Usability Lab.&lt;/p&gt;
+
+&lt;p&gt;The following weeks consisted of various IRC meetings and iterations on logo proposals which were presented on &lt;a href=&quot;https://identihub.co&quot;&gt;Identihub&lt;/a&gt;, our Free Software platform for hosting visual identites and assets. While the logo process has been quite extensive and we had a few delays, we were able to pin down a final logo throughout a selection voted by the community.&lt;/p&gt;
+
+&lt;p&gt;With the logo being decided upon, we had a clear path going forward, implementing the visual identity in a live style guide, inspired from the &lt;a href=&quot;https://styleguide.torproject.org&quot;&gt;Tor style guide&lt;/a&gt; we helped set the foundations for in 2016.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/RB_image_1.jpg&quot; alt=&quot;Colors Section&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The style guide itself features visuals, assets and components ready to be used in Reproducible Builds projects. Additionally, the style guide is free of any 3rd party trackers (including Google Fonts), external libraries and works also with JavaScript disabled / Tor High Security Mode. We even made sure that the style guide is responsive and should work fine on all resolutions.&lt;/p&gt;
+
+&lt;p&gt;The style guide is now migrated to &lt;a href=&quot;https://salsa.debian.org/reproducible-builds/reproducible-styleguide&quot;&gt;Debian infrastructure&lt;/a&gt;, but you can view a &lt;a href=&quot;https://uracreative.github.io/reproducible-builds-styleguide/&quot;&gt;live version on GitHub pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the coming weeks, the official version will live on &lt;a href=&quot;https://reproducible-builds.org/style&quot;&gt;https://reproducible-builds.org/style&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;identihub&quot;&gt;Identihub&lt;/h3&gt;
+
+&lt;p&gt;While a live style guide is an ideal solution to offer powerful guidelines in one place, creating an Identihub page is an accessible alternative which can be deployed right away without too much hassle.&lt;/p&gt;
+
+&lt;p&gt;There you can also find the &lt;a href=&quot;https://demo.identihub.co/project/reproducible-builds&quot;&gt;style guide assets&lt;/a&gt; where Identihub should make it easier to link, share and convert them.&lt;/p&gt;
+
+&lt;p&gt;Also head over to our &lt;a href=&quot;https://ura.design/projects/reproducible-builds&quot;&gt;portfolio page&lt;/a&gt; of Reproducible Builds!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Jun 2018 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/06/13/reproducible-builds-styleguide.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/13/reproducible-builds-styleguide.html</guid>
+        
+        <category>Reproducible Builds</category>
+        
+        <category>Open Tech Fund</category>
+        
+        <category>Usability Lab</category>
+        
+        <category>Style Guide</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>OSCAL'18 - We were there!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://oscal.openlabs.cc/&quot;&gt;Open Source Conference Albania&lt;/a&gt; (OSCAL) is a two-days  annual open source event held in Tirana, Albania since 2014.  The conference gathers open source enthusiasts from all around the world with a considerable number of attendees being young students from the region of the Balkans. With a variety of different talks, workshops, info booths and community meetups, OSCAL brings together free libre open source technology users, developers, academics, governmental agencies and people who share the idea that software should be free and open for the local community and governments to develop and customize to its needs. This year the venue was the iconic Pyramid located in the center of the city, giving also an industrial architectural vibe to the conference for the first time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/OSCAL_group_photo.jpg&quot; alt=&quot;Opening Speach&quot; /&gt; &lt;br /&gt;
+&lt;i&gt;Conference’s group picture – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Most members of the Ura team participated on the event, while some of us were part of the organizing team of the event. As the event’s motto was “Open by Default” and as we share the exact same principal, we couldn’t miss the chance to be there with a dedicated infobooth. We were happy to chat with open source contributors from different projects and to introduce them to &lt;a href=&quot;https://opensourcedesign.net/&quot;&gt;Open Source Design&lt;/a&gt; principles and the importance of better Usability and Design in open source.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/OSCALMariana.jpg&quot; alt=&quot;Ura&quot; /&gt;
+&lt;i&gt;Mariana at our infobooth during OSCAL’18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;We also showed the latest developments of &lt;a href=&quot;https://identihub.co/&quot;&gt;Identihub&lt;/a&gt; and started promoting the upcoming &lt;a href=&quot;https://github.com/opensourcedesign/organization/issues/103&quot;&gt;Open Source Design Summit&lt;/a&gt; that will take place in Tirana upcoming November. Designers (and design enthusiasts) involved in open source will gather for the second time and collaborate on a common vision for the Open Source Design movement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thunderbird User Interviews&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As part of our ongoing work with the &lt;a href=&quot;https://www.opentech.fund/lab/usability-lab&quot;&gt;OTF Usability Lab&lt;/a&gt;, we have been helping &lt;a href=&quot;https://www.thunderbird.net/en-US/&quot;&gt;Thunderbird&lt;/a&gt; with a refreshed identity and are currently building up their new style guide followed by a Usability Study. For that, we have worked with &lt;a href=&quot;https://renatagegaj.wordpress.com/&quot;&gt;Renata Gegaj&lt;/a&gt;, a User Researcher and a fellow Open Source Designer who has worked in the past for &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; as part of the &lt;a href=&quot;https://www.outreachy.org/&quot;&gt;Outreachy&lt;/a&gt; program.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/OSCALRenata.jpg&quot; alt=&quot;Renata Gegaj&quot; /&gt;&lt;br /&gt;
+&lt;i&gt;During Renata Gegaj’s interview – By Elio Qoshi (Creative Commons – Attribution-ShareAlike 4.0 International)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Renata interviewed 6 people of different ages and occupations. They had 9 tasks given by Renata to complete and while they were doing so, she would observe if they encountered any blockers or pushbacks.
+This will set a solid base for the upcoming Usability Study which will shine light on potential issues where Thunderbird can be improved. We hope to pave the way to revitalize Thunderbird and improve Usability in a future version.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/OSCALRedon_Renata.jpg&quot; alt=&quot;Ura&quot; /&gt;&lt;br /&gt;
+&lt;i&gt;Renata and Redon from our team during OSCAL’18 – By Andis Rado (Creative Commons – Attribution-ShareAlike 4.0 International)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;It was great to be part of OSCAL again. As the 5th anniversary of the conference, it marked a milestone for our local communities in Albania. We hope to see more Open Source Design enthusiasts at the next event!&lt;/p&gt;
+
+&lt;p&gt;Pictures acquired from &lt;a href=&quot;https://commons.wikimedia.org/wiki/Category:OSCAL_2018&quot;&gt;Wikimedia Commons&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 May 2018 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/05/31/oscal-18-we-were-there.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/05/31/oscal-18-we-were-there.html</guid>
+        
+        <category>OSCAL</category>
+        
+        <category>Identihub</category>
+        
+        <category>Open Source Design</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Introducing cryptopayments for our services</title>
+        <description>&lt;p&gt;We aim to iterate our processes continously based on the feedback and experiences we have with projects we are lucky to work with. With this in mind, we noticed that some of our partners prefer to use Paypal and others bank transactions, which has been for many years the standard process of payments for services similar to what we offer. As a design studio which highly values decentralized platforms, we have been positively surprised to see growing demand for payment integration of different &lt;strong&gt;cryptocurrencies&lt;/strong&gt;. This is the reason that starting from today, we accept payments with some of the most established cryptocurrencies at the moment such as &lt;strong&gt;Bitcoin&lt;/strong&gt;, &lt;strong&gt;Ethereum&lt;/strong&gt; and &lt;strong&gt;Litecoin&lt;/strong&gt;. If none of the above works for you, &lt;a href=&quot;mailto:hello@ura.design&quot;&gt;let us know&lt;/a&gt; and our team will be happy to find an alternative.&lt;/p&gt;
+
+&lt;div class=&quot;large-10 large-centered columns&quot;&gt;
+&lt;img src=&quot;/images/blog/CryptoCurrencyBanner.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;In case you have missed the crypto hype: cryptocurrencies are a type of digital currencies, alternative currencies and virtual currencies. Cryptocurrencies use decentralized control as opposed to centralized electronic money and central banking systems. The decentralized control of each cryptocurrency works through a blockchain, which is a public transaction database, functioning as a distributed ledger. Bitcoin, created in 2009, was the first decentralized cryptocurrency. Since then, numerous other cryptocurrencies have been created. These are frequently called altcoins, as a blend of alternative coin.
+Interested in learning more? This 20+ minute long &lt;a href=&quot;https://www.youtube.com/watch?v=g6iDZspbRMg&quot;&gt;John Oliver episode&lt;/a&gt; explains in more detail and admittedly in a fund way how Blockchain and cryptocurrencies work. No worries, we are not building anything on the blockchain as of now. In the past we have been involved in crypto things, namely GPG Workshops and Cryptoparties as well, so we are well aware of the definition.&lt;/p&gt;
+
+&lt;p&gt;Since you are here: if you would like to financially support &lt;a href=&quot;https://identihub.co/&quot;&gt;Identihub&lt;/a&gt;, our open source assets hostings software, you can always pledge us on &lt;a href=&quot;https://www.patreon.com/ura&quot;&gt;Patreon&lt;/a&gt;. The project itself is bootstrapped by the Ura team and other volunteers and no investors are involved, so we rely on your donations.
+As you might know, a part of the project is funded by generous pledges on our Patreon. If you however prefer to do one-time crypto donations, you can do so by sending to these addresses:&lt;/p&gt;
+
+&lt;div class=&quot;large-12 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/cryptos.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bitcoin address:&lt;/strong&gt; 3D7RowFVFWcfNABV4BwQ8bfZhTbhAh2gL1&lt;br /&gt;
+&lt;strong&gt;Ethereum address:&lt;/strong&gt; 0x08c7eC3Ad8A58287c45cc776A72AA1401123710c&lt;br /&gt;
+&lt;strong&gt;Litecoin address:&lt;/strong&gt; MEm4dyJv7nqPw3p32CQKP3QdnwLtskUC5K&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Mar 2018 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2018/03/31/introducing-cryptopayments-for-our-services.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/31/introducing-cryptopayments-for-our-services.html</guid>
+        
+        <category>Cryptopayments</category>
+        
+        <category>Open Source Design</category>
+        
+        <category>UX design</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ura has a new website</title>
+        <description>&lt;p&gt;Our new website is up and running! When Ura was founded we were just 2 people trying to build something in our free time. Since then, we came a long way and others have joined us too. It was time for us to move away from WordPress to a more contribution friendly platform, such as &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Whereas WordPress makes it quite difficult to open source a website, Jekyll allows outside contributors to suggest tweaks and file Pull Requests for every aspect of the website. You can get the code and file issues on &lt;a href=&quot;https://github.com/uracreative/ura.design&quot;&gt;our Website’s GitHub repo&lt;/a&gt;. Every new git commit gets synced right on our production website. As the website is still being polished and tweaked, we appreciate your bug reports and suggestions so we can iterate further.&lt;/p&gt;
+
+&lt;p&gt;Oh, last but not least, we also updated our logo! Head over to &lt;a href=&quot;https://demo.identihub.co/project/uradesign&quot;&gt;its Identihub page&lt;/a&gt; where it lives. It now has an updated wordmark with improved readability and adhering to our typography guidelines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog/new-website.jpg&quot; alt=&quot;New Ura Logo&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Mar 2018 11:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2018/03/19/new-ura-website.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/19/new-ura-website.html</guid>
+        
+        <category>Website</category>
+        
+        <category>GitHub Pages</category>
+        
+        <category>Jekyll</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ura is now part of Open Tech Fund’s Usability Lab</title>
+        <description>&lt;p&gt;Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of &lt;a href=&quot;https://www.opentech.fund/lab/usability-lab&quot; target=&quot;_blank&quot;&gt;Open Tech Fund’s Usability Lab&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;large-10 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/OTF.jpg&quot; alt=&quot;OTF logo&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.opentech.fund/lab/usability-lab&quot; target=&quot;_blank&quot;&gt;Usability Lab&lt;/a&gt; aims to increase user safety and promote practical internet freedom by working with developers and technologists to improve the usability of open ­source circumvention and digital security tools. There are many open ­source software projects that aim to help people around the world – activists, journalists, and everyday citizens – communicate in privacy and security.&lt;br /&gt;
+Unfortunately, few of these software­ development teams have the capacity or expertise in-house to make tools that are truly usable. These usability challenges hamper tool adoption, or may cause misunderstandings for users about tool functionalities, and subsequently may give users a false sense of security.&lt;/p&gt;
+
+&lt;p&gt;To provide the above services, &lt;a href=&quot;https://www.opentech.fund/&quot; target=&quot;_blank&quot;&gt;Open Tech Fund&lt;/a&gt; (OTF) is working together with four different Usability Lab partners (among them also Simply Secure with whom we have collaborated in the past). As Ura we are proud to be involved in the Usability Lab and contribute to the improvement and accessibility of Internet Freedom projects.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;About Open Tech Fund&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.opentech.fund/&quot; target=&quot;_blank&quot;&gt;Open Technology Fund&lt;/a&gt; utilizes available funds to support Internet freedom projects that empower world citizens to have access to modern communication channels that are free of restrictions, and allow them to communicate without fear of repressive censorship or surveillance.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;About Usability Lab Services&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to Secure Usability Audits, which will analyze and identify any pitfalls that might make it difficult for users under threat to use a tool, the Lab will be offering these additional services:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Secure Usability and User Experience (UX) Consultations&lt;/strong&gt;, to connect tools with Usability and UX experts to help address a specific gap in expertise, or to work on solving the hard and specific challenges facing digital security tools.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure Usability Testing&lt;/strong&gt;, which is similar to a Usability Audit, but limited in scope to a particular area or aspect of the tool.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User Research and User Studies&lt;/strong&gt;, to help tools better understand the needs of their users, and how to articulate those needs in the design of their tools.&lt;/li&gt;
+&lt;li&gt;Assistance in secure &lt;strong&gt;UX Design&lt;/strong&gt;, to help projects to design their tool in a manner that puts their user’s needs, usability, and security first.&lt;/li&gt;
+&lt;li&gt;Assistance developing secure usable &lt;strong&gt;Style Guides&lt;/strong&gt;, which outline user interface and graphical elements, rules and guidelines to ensure a cohesive and consistent user experience across different aspects of a tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are interested to request help from the Usability Lab, you can &lt;a href=&quot;https://www.opentech.fund/lab/usability-lab&quot; target=&quot;_blank&quot;&gt;file a request via OTF&lt;/a&gt;.&lt;br /&gt;If you are specifically requesting Ura’s services and believe that your project or tool and meets the criteria, you can also contact us directly and we will help you frame a scope of work proposal.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2018 11:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2018/03/12/ura-now-part-open-tech-funds-usability-lab.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/12/ura-now-part-open-tech-funds-usability-lab.html</guid>
+        
+        <category>Open Tech Fund</category>
+        
+        <category>Usability</category>
+        
+        <category>UX Design</category>
+        
+        <category>Internet Freedom</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Inkscape Workshop in Tirana</title>
+        <description>&lt;p&gt;Quite some time has passed since we first got in touch with the &lt;a href=&quot;http://opensourcedesign.net/&quot; target=&quot;_blank&quot;&gt;Open Source Design community&lt;/a&gt;. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania. We were happy to bring young designers in town more information about Open Source Design and the efforts the community is putting into improving Free Software/ Open Source projects.&lt;/p&gt;
+
+&lt;div class=&quot;large-10 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/Inkscape-Workshop-1.jpg&quot; alt=&quot;During the workshop&quot; /&gt;&lt;br /&gt;
+&lt;i&gt;During the workshop&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Consequently, we organized another &lt;a href=&quot;https://discourse.opensourcedesign.net/t/tirana-albania/573/1&quot; target=&quot;_blank&quot;&gt;Design workshop&lt;/a&gt; at the local &lt;a href=&quot;https://openlabs.cc/en/&quot; target=&quot;_blank&quot;&gt;Open Labs Hackerspace&lt;/a&gt;, this time with a deep dive into Inkscape. While there have been a few designers who worked with Adobe tools, everyone was new to Inkscape, so we went all the way from explaining basic tools, to designing a poster and making it production ready. The attendees were free to pick a main topic for their poster and design it themselves. Towards the end things were becoming interesting as people debated on colors, typography and other design rules.&lt;/p&gt;
+
+&lt;div class=&quot;large-10 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/Inkscape-Workshop-2.jpg&quot; alt=&quot;During the workshop&quot; /&gt;&lt;br /&gt;
+&lt;i&gt;During the workshop&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The workshop was great fun and we learnt new things as well! Who said that giving workshops does not teach you something too? We are looking forward to host another workshop soon.&lt;/p&gt;
+
+&lt;p&gt;[Photos during the event] &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot; target=&quot;_blank&quot;&gt;CC BY SA 4.0&lt;/a&gt; Andis Rado&lt;/p&gt;
+
+&lt;div class=&quot;large-10 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/Inkscape-Workshop-3.jpg&quot; alt=&quot;During the workshop&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;large-10 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/Inkscape-Workshop-4.jpg&quot; alt=&quot;During the workshop&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;large-10 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/Inkscape-Workshop-5.jpg&quot; alt=&quot;During the workshop&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;large-10 large-centered centered-text columns&quot;&gt;
+&lt;img src=&quot;/images/blog/Inkscape-Workshop-6.jpg&quot; alt=&quot;During the workshop&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;two spacing&quot;&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 23 Feb 2018 11:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2018/02/23/inkscape-workshop-tirana.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/23/inkscape-workshop-tirana.html</guid>
+        
+        <category>Inkscape</category>
+        
+        <category>Open Source Design</category>
+        
+        <category>Workshop</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
