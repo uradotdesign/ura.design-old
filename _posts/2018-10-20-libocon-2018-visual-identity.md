@@ -30,15 +30,11 @@ Let's start it with the logo. For this year conference, we sketched a monoline i
 
 For the logotype, we used [Zilla Slab](https://www.fontsquirrel.com/fonts/zilla-slab) [bold] al la [Aaron Draplin](https://en.wikipedia.org/wiki/Aaron_Draplin) style. We also picked the LibreOffice green and composed it with black and white, to keep the connection with the umbrella brand clear. The [template for the] logo is also easily adapted to next conferences: *we can change the city, the year below and replace Tirana clock tower with a certain symbol from the host city*.
 
-![LibOCon Banner](/images/projects/libocon_banner.jpg)
-
 Stamps are always closely connected with a certain place and manifest a big event for that place. The idea of the stamp tower came after a brainstorm “how to make an event big”. We see the LibOCon with the importance of a big event not only for the LibreOffice community but even for the city of Tirana. We are working at the local level to make LibreOffice accessible and useful for everyone who works in the public sector. LibOCon 2018 is a big opportunity to show off the benefits of LibreOffice to the actors we are working with.
 
-![LibOCon Poster](/images/projects/libocon_poster_A2.jpg)
+![LibOCon Poster](/images/blog/libocon_poster_totebag.jpg)
 
 The dates and the venue of the conference are composed in a seal, as they stay for real in postcards. The stamp with the clock tower, the seal of the venue and posters vintage texture make the participants feel like they’re a postcard, as a souvenir from Tirana. The green color of the brand guidelines makes the poster easily identifiable for the community. 
-
-![LibOCon Totebag](/images/projects/libocon_totebag.jpg)
 
 ## Onwards
 
