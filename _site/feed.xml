@@ -6,35 +6,41 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Oct 2018 00:03:35 +0200</pubDate>
-    <lastBuildDate>Mon, 22 Oct 2018 00:03:35 +0200</lastBuildDate>
+    <pubDate>Mon, 22 Oct 2018 11:10:41 +0200</pubDate>
+    <lastBuildDate>Mon, 22 Oct 2018 11:10:41 +0200</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
-        <title>LibOCon 2018 Visual Identity</title>
+        <title>LibreOffice Conference 2018</title>
         <description>&lt;p&gt;As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the &lt;a href=&quot;https://libocon.org&quot;&gt;LibreOffice Conference&lt;/a&gt; (short LibOCon). The conference is organized by the local &lt;a href=&quot;https://openlabs.cc&quot;&gt;Open Labs Hackerspace&lt;/a&gt; community, with which we share a lot of values and goals together.&lt;/p&gt;
 
-&lt;p&gt;We were particularly delighted to support this year’s edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania. We hope to see more happening outside the usual western spots like Berlin, London and welcome more projects to contribute locally. With &lt;a href=&quot;https://libreoffice.org&quot;&gt;LibreOffice&lt;/a&gt; being the most used alternative to proprietary Office software, we were eager to chime in and help out. With more than 130 contributors coming together for 4 days, Tirana became the focus point of everything LibreOffice and Document Freedom related, even the Mayor of Tirana attended. Further, LibOCon was also a great opportunity to invite friends at the &lt;a href=&quot;https://opensourcedesign.net/summit&quot;&gt;Open Source Design Summit&lt;/a&gt; in November, held at the same Venue (Oficina).&lt;/p&gt;
+&lt;p&gt;We were particularly excited to support this year’s edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania. We hope to see more happening outside the usual western spots like Berlin, London and welcome more projects to contribute locally. With &lt;a href=&quot;https://libreoffice.org&quot;&gt;LibreOffice&lt;/a&gt; being the most used alternative to proprietary Office software, we were eager to chime in and help out. With more than 130 contributors coming together for 4 days, Tirana became the focus point of everything LibreOffice and Document Freedom related, even the Mayor of Tirana attended. Further, LibOCon was also a great opportunity to invite friends at the &lt;a href=&quot;https://opensourcedesign.net/summit&quot;&gt;Open Source Design Summit&lt;/a&gt; in November, held at the same Venue (Oficina).&lt;/p&gt;
 
-&lt;p&gt;For creating a visual identity of LibOCon 2018, we had to consider two main elements: the &lt;a href=&quot;https://en.wikipedia.org/wiki/Clock_Tower%2C_Tirana&quot;&gt;clock tower&lt;/a&gt;, a local element from Tirana, and an element of LibreOffice brand. The most difficult and interesting part of the whole creative process was finding a balance between those two elements.&lt;/p&gt;
+&lt;h2 id=&quot;creative-process&quot;&gt;Creative Process&lt;/h2&gt;
 
-&lt;h2 id=&quot;logo-concept&quot;&gt;Logo Concept&lt;/h2&gt;
+&lt;p&gt;To create a visual identity for LibOCon 2018, we had to consider two main elements: the &lt;a href=&quot;https://en.wikipedia.org/wiki/Clock_Tower%2C_Tirana&quot;&gt;clock tower&lt;/a&gt;, a local element from Tirana, and an element of LibreOffice brand. The most difficult and interesting part of the whole creative process was finding a balance between those two elements.&lt;/p&gt;
 
-&lt;p&gt;Let’s start it with the logo. For this year conference, &lt;a href=&quot;https://elioqoshi.me&quot;&gt;Elio&lt;/a&gt;  — the creator of LibOCon 2018 logo sketched a monoline icon of the clock tower of the city, inside a hexagonal frame as the logo. The clock tower is one of the most popular and most recognizable symbols of Tirana. It is a part of old buildings ensemble of the city center, and it belongs to the city since the beginning of the 19th century.&lt;/p&gt;
+&lt;p&gt;Let’s start it with the logo. For this year conference, we sketched a monoline icon of the clock tower of the city, inside a hexagonal frame as the logo. The clock tower is one of the most popular and most recognizable symbols of Tirana. It is a part of old buildings ensemble of the city center, and it belongs to the city since the beginning of the 19th century.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/blog/post_libocon_logo.png&quot; alt=&quot;LibOCon Main Logo&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;For the logotype, Elio also used a slab and open source font as &lt;a href=&quot;https://www.fontsquirrel.com/fonts/zilla-slab&quot;&gt;Zilla Slab&lt;/a&gt; [bold] al la &lt;a href=&quot;https://en.wikipedia.org/wiki/Aaron_Draplin&quot;&gt;Aaron Draplin&lt;/a&gt; style. We also picked the LibreOffice green and composed it with black and white, to keep it connected with the brand and make it clear. The [template for the] logo is also easily adapted to next conferences: &lt;em&gt;we can change the city, the year below and replace Tirana clock tower with a certain symbol from the host city&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For the logotype, we used &lt;a href=&quot;https://www.fontsquirrel.com/fonts/zilla-slab&quot;&gt;Zilla Slab&lt;/a&gt; [bold] al la &lt;a href=&quot;https://en.wikipedia.org/wiki/Aaron_Draplin&quot;&gt;Aaron Draplin&lt;/a&gt; style. We also picked the LibreOffice green and composed it with black and white, to keep the connection with the umbrella brand clear. The [template for the] logo is also easily adapted to next conferences: &lt;em&gt;we can change the city, the year below and replace Tirana clock tower with a certain symbol from the host city&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;poster-concept&quot;&gt;Poster concept&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/projects/libocon_banner.jpg&quot; alt=&quot;LibOCon Banner&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Stamps are always closely connected with a certain place and manifest a big event for that place. The idea of the stamp tower came after a brainstorm “how to make an event big”. We see the LibOCon with the importance of a big event not only for the LibreOffice community but even for the city of Tirana. We are working at the local level to make LibreOffice accessible and useful for everyone who works in the public sector. LibOCon 2018 is a big opportunity to show off the benefits of LibreOffice to the actors we are working with.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/blog/post_libocon_posters.png&quot; alt=&quot;LibOCon Posters&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/projects/libocon_poster_A2.jpg&quot; alt=&quot;LibOCon Poster&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The dates and the venue of the conference are composed in a seal, as they stay for real in postcards. The stamp with the clock tower, the seal of the venue and posters vintage texture make the participants feel like they’re a postcard, as a souvenir from Tirana. The green color of the brand guidelines makes the poster easily identifiable for the community.&lt;/p&gt;
 
-&lt;p&gt;Working on the visual identity of LibOCon 2018 is one of my first experiences toward &lt;a href=&quot;https://opensourcedesign.net&quot;&gt;open source design&lt;/a&gt;. From my personal point of view, the extension of LibOCon 2018 is the reflection on FLOSS platforms’ necessity and my self-commitment to contribute on them. This experience was a good example how a passionate work, a healthy feedback and the desire for learning led us to a fruitful collaboration and paramount outcomes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/projects/libocon_totebag.jpg&quot; alt=&quot;LibOCon Totebag&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;onwards&quot;&gt;Onwards&lt;/h2&gt;
+
+&lt;p&gt;As always, you are free to explore and remix the designs of our work. In fact, due to us having a great amount of freedom on this particular project, all LibOCon 2018 designs are licensed under a CC0 license (Public Domain dedication). We hope this will foster more innovative design processes for Free Software and Open Source events.&lt;/p&gt;
+
+&lt;p&gt;We look forward to the next year’s LibreOffice Conference in Almería, Spain!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://ura.design/projects/libocon&quot;&gt;Explore this work on our portfolio&lt;/a&gt;&lt;/p&gt;
 
