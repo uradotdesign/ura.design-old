@@ -1,4 +1,4 @@
-This repo contains the files needed to build the Ura Design website, using Jekyll as the base and several plugins on top. The website will be localizable soon so everyone can contribute to have the website in as many languages as possible.
+This repo contains the files needed to build the Ura Design website, using Jekyll as the base and several plugins on top. The website will be localizable soon, so everyone can contribute to have the website in as many languages as possible.
 
 ## Config file
 The _config.yml file contains the basic settings for building Jekyll, which is done using a server that fetches the files from this repo upon changes and builds it (this ensures we get to keep our custom domain and apply SSL from Let's Encrypt on top of it).
