@@ -364,6 +364,9 @@ body {
 .button.libocon::before {
   background: #11A500; }
 
+.button.i2p::before {
+  background: #4661A9; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -462,9 +465,19 @@ body {
   border: 1px solid #11A500;
   background: none;
   color: #11A500; }
+
  .button.boxed.libocon:hover {
   color: #fff;
-  background: ##11A500; }
+  background: #11A500; }
+
+ .button.boxed.i2p {
+  border: 1px solid #4661A9;
+  background: none;
+  color: #4661A9; }
+  
+ .button.boxed.i2p:hover {
+  color: #fff;
+  background: #4661A9; }
 
 .button.boxed.openlabs {
   border: 1px solid #2BBBB0;
