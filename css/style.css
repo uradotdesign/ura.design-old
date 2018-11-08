@@ -367,6 +367,9 @@ body {
 .button.i2p::before {
   background: #4661A9; }
 
+.button.securedrop::before {
+  background: #034482; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -478,6 +481,15 @@ body {
  .button.boxed.i2p:hover {
   color: #fff;
   background: #4661A9; }
+
+ .button.boxed.securedrop {
+  border: 1px solid #034482;
+  background: none;
+  color: #034482; }
+  
+ .button.boxed.securedrop:hover {
+  color: #fff;
+  background: #034482; }
 
 .button.boxed.openlabs {
   border: 1px solid #2BBBB0;
