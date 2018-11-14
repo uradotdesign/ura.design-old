@@ -25,7 +25,6 @@
 <script src="{{ "/js/slick.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/wow.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/jquery.validate.js" | prepend: site.baseurl }}"></script>
-<!-- <script src="{{ "/bower_components/countto/jquery.countTo.js" | prepend: site.baseurl }}"></script> -->
 <script src="{{ "/bower_components/appear/jquery.appear.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
@@ -38,22 +37,3 @@ window.lazyLoadOptions = {
     elements_selector: ".lazy"
 };
 </script>
-
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  / tracker methods like "setCustomDimension" should be called before "trackPageView" /
-  _paq.push(["setCookieDomain", "*.ura.design"]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//analytics.ura.design/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-
-<noscript><p><img src="//analytics.ura.design/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Matomo Code -->
