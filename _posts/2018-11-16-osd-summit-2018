@@ -13,37 +13,37 @@ tags:
 - Open Source Design
 - Software
 excerpt:
- During the first weekend of November we had the pleasure to facilitate the annual Open Source Design Summit in our city, Tirana. Open Source Design is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. […]
+ During the first weekend of November we had the pleasure to facilitate the annual Open Source Design Summit in Tirana, Albania. Open Source Design is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. […]
 ---
 
-During the first weekend of November we had the pleasure to facilitate the annual [Open Source Design Summit](https://opensourcedesign.net/summit) in our city, Tirana.
+During the first weekend of November we had the pleasure to facilitate the annual [Open Source Design Summit](https://opensourcedesign.net/summit) in the city we are based in, Tirana.
 
-[Open Source Design](https://opensourcedesign.net/) is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. The community writes articles, runs a [job board](https://opensourcedesign.net/jobs), puts on events, provides resources, and presents talks targeted at developers and designers interested in working and designing in Open Source.
+[Open Source Design](https://opensourcedesign.net/) (short OSD) is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. The community writes articles, runs a [job board](https://opensourcedesign.net/jobs), puts on events, provides resources, and presents talks targeted at developers and designers interested in working and designing in Open Source.
 
 ![Open Source Design logo](/images/blog/osd-logo.png)
 
-Open Source Design Summit itself is an yearly event where designers, developers and more join to discuss about the issues of Open Design and how to improve our involvement in projects, provide better design and feedback, use better tools, ways of communicating and sharing with people etc.
+Open Source Design Summit itself is an annual event where designers, developers and more join to discuss and work towards internal and external Open Source Design related topics. This includes how to improve our involvement in various projects, improve feedback processes, and work in the open
 
-Together with the Open Source Design community a few months ago we at [Ura Design](https://ura.design) [initiated the discussion](https://github.com/opensourcedesign/organization/issues/103) on the [Open Source Design organization repo on GitHub](https://github.com/opensourcedesign) for the location of the upcoming Summit and proposed Tirana. The discussion kept going for quite some months and the members of the community chimed in and gave their opinion. 
-We had discussions with the OSD members during the following months regarding the final details on monthly calls and [Discourse](https://discourse.opensourcedesign.net/).
+Together with the Open Source Design community, we at [Ura Design](https://ura.design) [initiated the discussion](https://github.com/opensourcedesign/organization/issues/103) on the [Open Source Design organization repo on GitHub](https://github.com/opensourcedesign) regarding the location of the upcoming Summit and proposed Tirana. While the last edition was held in Berlin, we were convinced it would be a healthy step to have a moving Summit which would not necessarily happen in the usual suspect cities of Europe. Tirana was a good compromise to try this out (we might have been a bit biased though!)
+In the following months, we coordinated our efforts through monthly calls and [Discourse](https://discourse.opensourcedesign.net/).
  
-### The full story
+### Overview
 
-#### November 2nd (opening)
+#### November 2nd (Reception)
 
-This edition of the Summit started on the Friday of November 2nd in the afternoon with a reception gathering at [Ofiçina](http://oficina.al), the venue for the Summit. The OSD Summit is not the [classic big conference](https://en.wikipedia.org/wiki/Conference) with parallel sessions and workshops but more of a collective or a small [unconference](https://en.wikipedia.org/wiki/Unconference).
+We started on the Friday afternoon with a reception gathering at [Ofiçina](http://oficina.al), the venue fwe know and love for so many other past events we were involved in, including [LibreOffice Conference](https://ura.design/2018/10/20/libocon-2018-visual-identity). The OSD Summit is not close to any big [conference](https://en.wikipedia.org/wiki/Conference) (yet at least)  but more of a small [unconference](https://en.wikipedia.org/wiki/Unconference).
 
-There were participants from countries as far away as [New Zealand](https://en.wikipedia.org/wiki/New_Zealand), [Czech Republic](https://en.wikipedia.org/wiki/Czech_Republic), [Germany](https://en.wikipedia.org/wiki/Germany), [Kosovo](https://en.wikipedia.org/wiki/Kosovo) etc.
+There were participants from countries as far as [New Zealand](https://en.wikipedia.org/wiki/New_Zealand), [Czech Republic](https://en.wikipedia.org/wiki/Czech_Republic), [Germany](https://en.wikipedia.org/wiki/Germany), [Kosovo](https://en.wikipedia.org/wiki/Kosovo). 
  
-As it was the opening day we started a "round table of chairs" where everyone would introduce themselves, what they do, what projects they contribute to, why they were attending the summit and more. After this round of intros, we began compiling the agenda entirely onsite with all the attendees proposing the topics they wanted to discuss during the event over a beer.
-
-#### November 3rd (first day)
-
-The following Saturday morning (officially the 1st day of the Summit) started with new energies. The event started at 10.00 AM at Ofiçina and we started discussing on the topics we proposed the previous day and preparing a more curated agenda for the day.
+During the rather informal gaterhing we spontaneously put up a circle of chairs in the area outside. Did we mention that the weather was fantastic? We even ended up doing many sessions out in the open.
 
 ![Saturday agenda](../images/blog/osd-agenda-sat.jpg)
 
-We officially started the Summit by welcoming everyone and giving an intro to Open Source Design for newcomers that decided to join us in the Summit, following up with a short talk by [David](https://twitter.com/halaszdavid) and [Teresa](https://twitter.com/terezanovotna_) from [Red Hat](https://redhat.com) about [Design Systems](https://en.wikipedia.org/wiki/Systems_design), and specifically about [PatternFly](https://www.patternfly.org/). 
+After a round of introductions, we began brainstorming the schedule for the next 2 days, something which has worked well for us in the past edition as well. 
+
+#### November 3rd (First Meeting Day)
+
+We officially started the Summit by welcoming everyone and giving an intro to Open Source Design for newcomers that decided to join us in the Summit. Unlike the past Summit, we had a good mix of core contributors and newcomers, so it only made sense to adapt, following up with a short talk by [David](https://twitter.com/halaszdavid) and [Teresa](https://twitter.com/terezanovotna_) from [Red Hat](https://redhat.com) about [Design Systems](https://en.wikipedia.org/wiki/Systems_design), and specifically about [PatternFly](https://www.patternfly.org/). 
 
 [![David and Tereza talk](/images/blog/osd-david-tereza.jpg)](https://upload.wikimedia.org/wikipedia/commons/0/0a/Open_Source_Design_Summit_2018_-_79.jpg)
 
