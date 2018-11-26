@@ -370,6 +370,9 @@ body {
 .button.securedrop::before {
   background: #034482; }
 
+.button.rustfest::before {
+  background: #b20f32; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -490,6 +493,15 @@ body {
  .button.boxed.securedrop:hover {
   color: #fff;
   background: #034482; }
+
+.button.boxed.rustfest {
+  border: 1px solid #b20f32;
+  background: none;
+  color: #b20f32; }
+
+.button.boxed.rustfest:hover {
+  color: #fff;
+  background: #b20f32; }
 
 .button.boxed.openlabs {
   border: 1px solid #2BBBB0;
