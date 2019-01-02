@@ -373,6 +373,9 @@ body {
 .button.rustfest::before {
   background: #b20f32; }
 
+.button.fsfe::before {
+  background:  #53b749; }
+
 .button.boxed.white {
   border: 1px solid #fff;
   background: none;
@@ -502,6 +505,15 @@ body {
 .button.boxed.rustfest:hover {
   color: #fff;
   background: #b20f32; }
+
+.button.boxed.fsfe {
+  border: 1px solid #53b749;
+  background: none;
+  color: #53b749; }
+
+.button.boxed.fsfe:hover {
+  color: #fff;
+  background: #53b749; }
 
 .button.boxed.openlabs {
   border: 1px solid #2BBBB0;
