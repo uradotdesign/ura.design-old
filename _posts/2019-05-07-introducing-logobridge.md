@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Launching Logobridge
+title: Introducing Logobridge
 author: Anxhelo Lushka
 link: https://lushka.al/
 date: 2019-05-07 18:00:00 +0200
