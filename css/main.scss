@@ -1,0 +1,44 @@
+---
+---
+@charset "utf-8";
+
+// Variables
+$base-font-family: 'Overpass', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.895;
+$large-font-size:  $base-font-size * 1.40;
+
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #000;
+$background-color: #FFF;
+$brand-color:      #1F78D1;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 30%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1200px;
+$on-laptop:         950px;
+$on-palm:           700px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "colors",
+        "base",
+        "animate",
+        "grid",
+        "layout",
+        "syntax-highlighting",
+        "normalize",
+        "components"
+;

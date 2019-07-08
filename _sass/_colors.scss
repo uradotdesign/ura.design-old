@@ -1,0 +1,181 @@
+$primary: #1F78D1;
+$secondary: #C1392B;
+
+// Colors
+
+// ━━━━ General ━━━━
+
+$white:         #ffffff;
+$black:         #000000;
+
+// Gradients
+
+$blue-indigo: linear-gradient(46.3deg, #17599C 23.2%, #4B4BA3 76.8%);
+
+// Indigo
+
+$indigo-list: (
+      "50": #F7F7FF,
+      "100": #EBEBFA,
+      "200": #D1D1F0,
+      "300": #A6A6DE,
+      "400": #7C7CCC,
+      "500": #6666C4,
+      "600": #5B5BBD,
+      "700": #4B4BA3,
+      "800": #393982,
+      "900": #292961,
+      "950": #1A1A40
+);
+
+$indigo-50: map-get($indigo-list, "50");
+$indigo-100: map-get($indigo-list, "100");
+$indigo-200: map-get($indigo-list, "200");
+$indigo-300: map-get($indigo-list, "300");
+$indigo-400: map-get($indigo-list, "400");
+$indigo-500: map-get($indigo-list, "500");
+$indigo-600: map-get($indigo-list, "600");
+$indigo-700: map-get($indigo-list, "700");
+$indigo-800: map-get($indigo-list, "800");
+$indigo-900: map-get($indigo-list, "900");
+$indigo-950: map-get($indigo-list, "950");
+
+// Blue
+
+$blue-list: (
+      "50": #F6FAFE,
+      "100": #E4F0FB,
+      "200": #B8D6F4,
+      "300": #73AFEA,
+      "400": #418CD8,
+      "500": #1F78D1,
+      "600": #1B69B6,
+      "700": #17599C,
+      "800": #134A81,
+      "900": #0F3B66,
+      "950": #0A2744
+);
+
+$blue-50: map-get($blue-list, "50");
+$blue-100: map-get($blue-list, "100");
+$blue-200: map-get($blue-list, "200");
+$blue-300: map-get($blue-list, "300");
+$blue-400: map-get($blue-list, "400");
+$blue-500: map-get($blue-list, "500");
+$blue-600: map-get($blue-list, "600");
+$blue-700: map-get($blue-list, "700");
+$blue-800: map-get($blue-list, "800");
+$blue-900: map-get($blue-list, "900");
+$blue-950: map-get($blue-list, "950");
+
+// Green
+
+$green-list: (
+      "50": #F1FDF6,
+      "100": #DCF5E7,
+      "200": #B3E6C8,
+      "300": #75D09B,
+      "400": #37B96D,
+      "500": #1AAA55,
+      "600": #168F48,
+      "700": #12753A,
+      "800": #0E5A2D,
+      "900": #0A4020,
+      "950": #072B15
+);
+
+$green-50: map-get($green-list, "50");
+$green-100: map-get($green-list, "100");
+$green-200: map-get($green-list, "200");
+$green-300: map-get($green-list, "300");
+$green-400: map-get($green-list, "400");
+$green-500: map-get($green-list, "500");
+$green-600: map-get($green-list, "600");
+$green-700: map-get($green-list, "700");
+$green-800: map-get($green-list, "800");
+$green-900: map-get($green-list, "900");
+$green-950: map-get($green-list, "950");
+
+//  Gray
+
+$gray-list: (
+        "50": #FAFAFA,
+        "100": #F2F2F2,
+        "200": #DFDFDF,
+        "300": #CCCCCC,
+        "400": #BABABA,
+        "500": #A7A7A7,
+        "600": #919191,
+        "700": #707070,
+        "800": #4F4F4F,
+        "900": #2E2E2E,
+        "950": #1F1F1F
+);
+
+$gray-50: map-get($gray-list, "50");
+$gray-100: map-get($gray-list, "100");
+$gray-200: map-get($gray-list, "200");
+$gray-300: map-get($gray-list, "300");
+$gray-400: map-get($gray-list, "400");
+$gray-500: map-get($gray-list, "500");
+$gray-600: map-get($gray-list, "600");
+$gray-700: map-get($gray-list, "700");
+$gray-800: map-get($gray-list, "800");
+$gray-900: map-get($gray-list, "900");
+$gray-950: map-get($gray-list, "950");
+
+//  Orange
+
+$orange-list: (
+        "50": #FFFAF4,
+        "100": #FFF1DE,
+        "200": #FED69F,
+        "300": #FDBC60,
+        "400": #FCA429,
+        "500": #FC9403,
+        "600": #DE7E00,
+        "700": #C26700,
+        "800": #A35200,
+        "900": #853C00,
+        "950": #592800
+);
+
+$orange-50: map-get($orange-list, "50");
+$orange-100: map-get($orange-list, "100");
+$orange-200: map-get($orange-list, "200");
+$orange-300: map-get($orange-list, "300");
+$orange-400: map-get($orange-list, "400");
+$orange-500: map-get($orange-list, "500");
+$orange-600: map-get($orange-list, "600");
+$orange-700: map-get($orange-list, "700");
+$orange-800: map-get($orange-list, "800");
+$orange-900: map-get($orange-list, "900");
+$orange-950: map-get($orange-list, "950");
+
+//  Red
+
+$red-list: (
+        "50": #FEF6F5,
+        "100": #FBE5E1,
+        "200": #F2B4A9,
+        "300": #EA8271,
+        "400": #E05842,
+        "500": #DB3B21,
+        "600": #C0341D,
+        "700": #A62D19,
+        "800": #8B2615,
+        "900": #711E11,
+        "950": #4B140B
+);
+
+$red-50: map-get($red-list, "50");
+$red-100: map-get($red-list, "100");
+$red-200: map-get($red-list, "200");
+$red-300: map-get($red-list, "300");
+$red-400: map-get($red-list, "400");
+$red-500: map-get($red-list, "500");
+$red-600: map-get($red-list, "600");
+$red-700: map-get($red-list, "700");
+$red-800: map-get($red-list, "800");
+$red-900: map-get($red-list, "900");
+$red-950: map-get($red-list, "950");

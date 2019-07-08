@@ -5,8 +5,8 @@ author: Redon Skikuli
 link: https://twitter.com/rskikuli
 date: 2017-01-24 12:00:00 +0200
 categories:
-images:
-- images/blog/ura-wikispeech.png
+image:
+- /blog/ura-wikispeech.png
 header:
 - images/blog/ura-wikispeech.png
 tags:
@@ -15,7 +15,7 @@ tags:
 - Logo
 - UX Design
 excerpt:
-  At Ura we <3 Wikipedia and other projects empowered by the Wikimedia Foundation such as Wikidata, Commons and Wikivoyage to mention a few. Actually, the organization has initiated and manages amazing projects in the filed of open knowledge and open source software, which labels it to our conscience as one of the most important pillars […]
+  At Ura we <3 Wikipedia and other projects empowered by the Wikimedia Foundation such as Wikidata, Commons and Wikivoyage to mention a few. Actually, the organization
 ---
 
 At Ura we <3 Wikipedia and other projects empowered by the <a href="https://www.wikimedia.org/" target="blank">Wikimedia Foundation</a> such as <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="blank">Wikidata</a>, <a href="https://commons.wikimedia.org/wiki/Main_Page" target="blank">Commons</a> and <a href="https://www.wikivoyage.org/" target="blank">Wikivoyage</a> to mention a few. Actually, the organization has initiated and manages amazing projects in the filed of open knowledge and open source software, which labels it to our conscience as one of the most important pillars of floss and open data culture. The latest addition to the list of the projects we really like, Wikimedia recently announced <a href="https://www.mediawiki.org/wiki/Wikispeech" target="blank">Wikispeech</a>, a text-to-speech tool with a focus on accessibility.

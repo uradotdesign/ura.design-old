@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Reproducible Builds Style Guide
-author: Anxhelo Lushka
+author: anxhelo_lushka
 link: https://lushka.al
 date: 2018-06-13 12:00:00 +0200
 categories:
-images:
-- images/blog/ReproducibleBuilds_thumbnail.png
+image:
+- /blog/ReproducibleBuilds_thumbnail.png
 tags:
 - Reproducible Builds
 - Open Tech Fund
 - Usability Lab
 - Style Guide
 excerpt:
- We have been in talks with the Reproducible Builds community since late 2017 where they were looking to have a new logo to represent the project. Going a step further, we also decided to work on a fully fledged live style guide.[…]
+ We have been in talks with the Reproducible Builds community since late 2017 where they were looking to have a new logo to represent the project
 ---
 
 Earlier this year, we announced our involvement with [Open Tech Fund's Usability Lab](http://opentech.fund/lab/usability-lab), providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the [announcement on our blog.](https://ura.design/2018/03/12/ura-now-part-open-tech-funds-usability-lab)

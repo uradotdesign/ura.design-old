@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Style Guides go Beyond Aesthetics
-author: Elio Qoshi
+author: elio_qoshi
 link: https://elioqoshi.me/
 date: 2018-07-02 12:00:00 +0200
 categories:
-images:
-- images/blog/osd_event.png
+image:
+- /blog/osd_event.png
 tags:
 - Style Guides
 - Brand Guidelines
 - Open Source Design
 excerpt:
- Style guides serve as a playbook for software creators. They itself serve as a single source of truth to create consistently well designed experiences familiar to the user.[…]
+ Style guides serve as a playbook for software creators. They itself serve as a single source of truth to create consistently well designed experiences familiar to the user
 ---
 
 

@@ -1,114 +1,195 @@
 ---
 layout: default
-section_id: portfolio
-works_left:
-- title: FSFE Infographic
-  link_to: fsfe-infographic
-  image: images/projects/fsfe-thumb.png
-  categories: Infographic
-- title: Reproducible Builds Style Guide
-  link_to: reproducible-builds
-  image: images/projects/rb_thumbnail.png
-  categories: Style Guide
-- title: SecureDrop Style Guide
-  link_to: securedrop
-  image: images/projects/securedrop_overview.png
-  categories: Style Guide
-- title: Thunderbird Style Guide and Usability Study
-  link_to: thunderbird
-  image: images/projects/tb_overview.png
-  categories: Usability Study | Style Guide
-- title: Software Freedom Kosova
-  link_to: sfk16
-  image: images/projects/poster_SFK.jpg
-  categories: Visual Identity, Print
-works_middle:
-- title: RustFest Rome Visual Identity
-  link_to: rustfestrome
-  image: images/projects/rustfestrome-thumb.png
-  categories: Visual Identity
-- title: I2P Style Guide and Usability Study
-  link_to: i2p
-  image: images/projects/i2p_overview.png
-  categories: Usability Study | Style Guide
-- title: Tor Style Guide
-  link_to: tor-style-guide
-  image: images/projects/tor_thumb.png
-  categories: Style Guide
-- title: OpenChain Penguins
-  link_to: openchain
-  image: images/projects/penguins_thumb.jpg
-  categories: Illustration
-works_right:
-- title: LibOCon 2018 Visual Identity
-  link_to: libocon
-  image: images/projects/libocon_overview.png
-  categories: Visual Identity
-- title: Enigmail Rebranding
-  link_to: enigmail
-  image: images/projects/enigmail_overview.png
-  categories: Visual Identity
-- title: Mozilla L10N T-Shirts
-  link_to: mozilla-l10n
-  image: images/projects/mozilla-l10n.jpg
-  categories: Print
-- title: Open Labs
-  link_to: openlabs
-  image: images/projects/openlabs_thumbnail.png
-  categories: Visual Identity
 ---
 
-<div class="full new" style="background-color: #3399d4;">
-  <div class="section-title new">
+<div class="container pb-5">
+  <div class="site-header">
     <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h1 class="wow slideInUp" style="font-size: 2rem;">Projects</h1>
+      <div class="col-md-9 col-sm-12">
+        <h1 class="align-left mb-2">Work</h1>
+        <p class="highlight-10">Our expertise in design strategy, usability and open source technologies empower grassroot projects compete with industry leaders.</p>
       </div>
     </div>
   </div>
+</div>
+
+<div class="container pb-5">
+
+  <div class="row pb-3">
+    <div class="col-md-6 col-sm-12 pb-5">
+      <a href="/projects/thunderbird">
+        <div class="box background-blue-500">
+          <img src="../assets/img/projects/thunderbird_logo.png" alt="Thunderbird" />
+        </div>
+      </a>
+    </div>
+        <div class="col-md-6 col-sm-12 pb-5">
+      <div class="box bg-tor-project">
+        <a href="/projects/tor">
+        <img src="../assets/img/projects/tor.png" alt="Tor Project" />
+      </div>
+    </div>
+  </div>
+
+  <div class="row pb-3">
+
+    <div class="col-md-6 col-sm-12 pb-5">
+      <div class="box background-sd">
+        <a href="/projects/securedrop">
+          <img src="../assets/img/projects/securedrop.png" alt="SecureDrop" />
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-sm-12 pb-5">
+      <div class="box background-libocon">
+        <a href="/projects/libocon">
+         <img src="../assets/img/projects/libocon-logo.png" alt="LibreOffice Conference 2018" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row pb-3">
+    <div class="col-md-6 col-sm-12 pb-5">
+      <div class="box background-i2p">
+        <a href="/projects/i2p">
+            <img src="../assets/img/projects/i2p.png" alt="I2P" />
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12 pb-5">
+      <div class="box background-oxidize">
+        <a href="/projects/oxidize">
+          <img src="../assets/img/projects/oxidize.png" alt="Oxidize Conference 2019" />
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="full text">
-  <div class="row">
-  <div class="large-4 columns">
-    {% for work in page.works_left %}
-      <div class="work-wrapper">
-        <a href="{{work.link_to}}" class="work">
-          <img class="lazy" data-src="{{site.baseurl}}/{{work.image}}" alt="">
-          <div class="info">
-            <h3>{{work.title}}</h3>
-            <p>{{work.categories}}</p>
-          </div>
-        </a>
+<div class="bg-mute">
+  <div class="container pt-3 pb-3">
+    <div class="row no-margins pb-5">
+      <h2 class="title-30">Projects & Clients</h2>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3 pb-5">
+
+        <p class="caption-20 indigo">Privacy & Security</p>
+        <p class="pt-2 body-10 mb-2">Electronic Frontier Foundation</p>
+        <p class="body-10 mb-2">Thunderbird</p>
+        <p class="body-10 mb-2">Enigmail</p>
+        <p class="body-10 mb-2">I2P</p>
+        <p class="body-10 mb-2">Simply Secure</p>
+        <p class="body-10 mb-2">Tor Project</p>
+        <p class="body-10 mb-2">Passman</p>
+        <p class="body-10 mb-2">Briar</p>
+        <p class="body-10 mb-2">Whonix</p>
+        <p class="body-10 mb-2">The Tin Hat</p>
+        <p class="body-10 mb-2">git-secret</p>
+
+        <p class="caption-20 pt-5 indigo">Events</p>
+        <p class="pt-2 body-10 mb-2">Oxidize Conference</p>
+        <p class="body-10 mb-2">CopyFest Albania</p>
+        <p class="body-10 mb-2">Elixir Lang Moscow</p>
+        <p class="body-10 mb-2">Open Source Cubesat Workshop</p>
+        <p class="body-10 mb-2">Open Source Design Summit</p>
+        <p class="body-10 mb-2">Rust LATAM</p>
+        <p class="body-10 mb-2">RustFest Paris</p>
+        <p class="body-10 mb-2">RustFest Rome</p>
+        <p class="body-10 mb-2">Software Freedom Kosova</p>
+        <p class="body-10 mb-2">Wiki Weekend Tirana</p>
+
       </div>
-    {% endfor %}
-  </div>
-  <div class="large-4 columns">
-    {% for work in page.works_middle %}
-      <div class="work-wrapper">
-        <a href="{{work.link_to}}" class="work">
-          <img class="lazy" data-src="{{site.baseurl}}/{{work.image}}" alt="">
-          <div class="info">
-            <h3>{{work.title}}</h3>
-            <p>{{work.categories}}</p>
-          </div>
-        </a>
+
+      <div class="col-md-3 pb-5">
+
+        <p class="caption-20 indigo">Community</p>
+        <p class="pt-2 body-10 mb-2">Open Source Design</p>
+        <p class="body-10 mb-2">Open Labs Hackerspace </p>
+        <p class="body-10 mb-2">Open Source Event Manager</p>
+        <p class="body-10 mb-2">OpenStreetMap Albania</p>
+        <p class="body-10 mb-2">OpenStreetMap UK</p>
+        <p class="body-10 mb-2">RITLUG</p>
+        <p class="body-10 mb-2">Sustain OSS</p>
+        <p class="body-10 mb-2">camp-firefox.de</p>
+        <p class="body-10 mb-2">lib.reviews</p>
+        <p class="body-10 mb-2">Mastodon.cloud</p>
+        <p class="body-10 mb-2">openCFP</p>
+
+        <p class="caption-20 pt-5 indigo">Advocacy & Human Rights</p>
+        <p class="pt-2 body-10 mb-2">Open Technology Fund</p>
+        <p class="body-10 mb-2">Free Software Foundation Europe</p>
+        <p class="body-10 mb-2">LO Initiative</p>
+        <p class="body-10 mb-2">Freedom of the Press Foundation</p>
+
+        <p class="caption-20 pt-5 indigo">Health</p>
+        <p class="pt-2 body-10 mb-2">Glucosio</p>
+        <p class="body-10 mb-2">Rufus+</p>
+        <p class="body-10 mb-2">Open Humans</p>
+
       </div>
-    {% endfor %}
-  </div>
-  <div class="large-4 columns">
-    {% for work in page.works_right %}
-      <div class="work-wrapper">
-        <a href="{{work.link_to}}" class="work">
-          <img class="lazy" data-src="{{site.baseurl}}/{{work.image}}" alt="">
-          <div class="info">
-            <h3>{{work.title}}</h3>
-            <p>{{work.categories}}</p>
-          </div>
-        </a>
+
+      <div class="col-md-3 pb-5">
+
+        <p class="caption-20 indigo">Developer tools</p>
+        <p class="pt-2 body-10 mb-2">DependenCI</p>
+        <p class="body-10 mb-2">CloudCover</p>
+        <p class="body-10 mb-2">Valueflows</p>
+        <p class="body-10 mb-2">GoCollect</p>
+        <p class="body-10 mb-2">CloudCover</p>
+        <p class="body-10 mb-2">Reproducible Builds</p>
+        <p class="body-10 mb-2">asterisklint</p>
+        <p class="body-10 mb-2">gpredict</p>
+        <p class="body-10 mb-2">gqrx</p>
+        <p class="body-10 mb-2">orgmanager</p>
+        <p class="body-10 mb-2">PlanB</p>
+        <p class="body-10 mb-2">proxmove</p>
+        <p class="body-10 mb-2">proxtop</p>
+        <p class="body-10 mb-2">pstore</p>
+
+        <p class="caption-20 pt-3 indigo">Productivity</p>
+        <p class="pt-2 body-10 mb-2">Firefox</p>
+        <p class="body-10 mb-2">Firefox Bookmark Organizer</p>
+        <p class="body-10 mb-2">Firefox Enterprise Policy Generator</p>
+        <p class="body-10 mb-2">GalliumOS</p>
+        <p class="body-10 mb-2">Inkscape Open Symbols</p>
+        <p class="body-10 mb-2">InventOS</p>
+        <p class="body-10 mb-2">QupZilla</p>
+        <p class="body-10 mb-2">Remmina</p>
+
       </div>
-    {% endfor %}
+
+      <div class="col-md-3 pb-5">
+
+        <p class="body-10 mb-2">TeleIRC</p>
+        <p class="body-10 mb-2">WorldBrain</p>
+        <p class="body-10 mb-2">phpList</p>
+        <p class="body-10 mb-2">Astroid</p>
+
+        <p class="caption-20 pt-5 indigo">Others</p>
+        <p class="pt-2 body-10 mb-2">Insignary</p>
+        <p class="body-10 mb-2">AGO Labs</p>
+        <p class="body-10 mb-2">Libre Space Foundation</p>
+        <p class="body-10 mb-2">OpenChain</p>
+        <p class="body-10 mb-2">ProTip</p>
+        <p class="body-10 mb-2">Equinox</p>
+        <p class="body-10 mb-2">learnk8s</p>
+        <p class="body-10 mb-2">CutePeaks</p>
+        <p class="body-10 mb-2">CuteVariant</p>
+        <p class="body-10 mb-2">Wikispeech</p>
+
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="container">
+  <div class="center pt-5 pb-5">
+    <p class="display-30">Ready to work with us?</p>
+    <p class="size-20 pt-3 pb-3">Not sure yet? Shoot us an email for more info or schedule a free consultation</p>
+    <a class="button-blue" href="mailto:hello@ura.design">Contact</a>
   </div>
 </div>

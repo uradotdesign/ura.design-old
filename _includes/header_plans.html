@@ -1,0 +1,207 @@
+<header class="site-header-color">
+
+  <div class="container">
+
+    <div class="navbar">
+      <a class="nav-brand" href="/" title="Home"><img src="../assets/img/logo-white.svg" alt="Ura Design Logo" class="logo"></a>
+
+      <a id="menuwhite" href="javascript:void(0);" onclick="menuwhite()">
+        <i class="fas fa-bars align-right"></i>
+      </a>
+
+      <nav id="topnav-white" class="nav-menu-white">
+        {% for item in site.data.nav %}
+        <a class="nav-link-white" href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+
+  </div>
+
+  <div class="site-header center container white">
+
+    <h1 class="display-20 white mb-1">Plans</h1>
+    <p class="white">We offer rolling plans for our DAS (Design as a Service) packages to cater your ongoing design<br>needs. No contracts, cancel anytime. Need something custom or one-off? Contact us!</p>
+
+
+    <div class="tab pt-4 pb-4">
+      <button class="tablinks" onclick="plan(event, 'weekly')">Weekly</button>
+      <button class="tablinks" onclick="plan(event, 'monthly')" id="defaultOpen">Monthly</button>
+    </div>
+
+    <div id="weekly" class="tabcontent">
+      <div class="row justify-content-md-center">
+
+        <div class="col col-md-4 pb-4">
+          <div class="pricing-box">
+            <div class="row pb-3 no-margins">
+              <div class="pill-basic">Basics</div>
+            </div>
+            <div class="no-margins black align-left">
+              <p class="price indigo">$120<span class="per-period">/week</span></p>
+              <p class="description">Your own in-house designer to get your product polished. Great for small projects which want to improve their user experience and design without going all-in.</p>
+              <hr>
+              <p class="pt-3 size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> Brand Identity projects</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> UI design (mockups &wireframes)</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> Web accessibility audit</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> 5 Business days turnaround time</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> 1 ongoing project</p>
+              <p class="size-16 pb-3"><i class="fas fa-check white bg-basic size-10 mr-1"></i> Open source workflow</p>
+              <a class="button-cta-basic" href="mailto:hello@ura.design?subject=Ura%20Basics%20Plan">Get started with Basics</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-4 pb-4">
+          <div class="pricing-box">
+            <div class="row pb-3 no-margins">
+              <div class="pill-pro">Pro</div>
+            </div>
+            <div class="no-margins black align-left">
+              <p class="price blue-800">$260<span class="per-period">/week</span></p>
+              <p class="description">Your In-house design department to assist you with all your Branding, UX and Usability needs. Perfect if you want to take your product design further.</p>
+              <hr>
+              <p class="pt-3 size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Brand Identity projects</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> UX / UI design & web development</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Design Systems / Style Guides</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Usability research & testing</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Web accessibility audit</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> 4 Business days turnaround time</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> 1 ongoing project</p>
+              <p class="size-16 pb-3"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Open source workflow</p>
+              <a class="button-cta-pro" href="mailto:hello@ura.design?subject=Ura%20Pro%20Plan">Get started with Pro</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-4 pb-4">
+          <div class="pricing-box">
+            <div class="row pb-3 no-margins">
+              <div class="pill-custom">Custom</div>
+            </div>
+            <div class="no-margins black align-left">
+              <p class="price">Custom</p>
+              <p class="description">Need something else on an ongoing basis? We can help no matter if it’s about having your back or being part of your team to launch a project. Contact us and let’s talk!</p>
+              <hr>
+              <p class="pt-3 size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Flexible ongoing projects</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Custom turnaround time</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Copywriting</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Privacy-enhancing tech support</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Website performance and security</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Usability testing (in-person)</p>
+              <p class="size-16 pb-3"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Workshops & trainings</p>
+              <a class="button-cta-custom" href="mailto:hello@ura.design?subject=Ura%20Custom%20Plan">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="monthly" class="tabcontent">
+      <div class="row justify-content-md-center">
+
+        <div class="col col-md-4 pb-4">
+          <div class="pricing-box">
+            <div class="row pb-3 no-margins">
+              <div class="pill-basic">Basics</div>
+            </div>
+            <div class="no-margins black align-left">
+              <p class="price indigo">$400<span class="per-period">/month</span></p>
+              <p class="description">Your own in-house designer to get your product polished. Great for small projects which want to improve their user experience and design without going all-in.</p>
+              <hr>
+              <p class="pt-3 size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> Brand Identity projects</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> UI design (mockups &wireframes)</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> Web accessibility audit</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> 5 Business days turnaround time</p>
+              <p class="size-16"><i class="fas fa-check white bg-basic size-10 mr-1"></i> 1 ongoing project</p>
+              <p class="size-16 pb-3"><i class="fas fa-check white bg-basic size-10 mr-1"></i> Open source workflow</p>
+              <a class="button-cta-basic" href="mailto:hello@ura.design?subject=Ura%20Basics%20Plan">Get started with Basics</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-4 pb-4">
+          <div class="pricing-box">
+            <div class="row pb-3 no-margins">
+              <div class="pill-pro">Pro</div>
+            </div>
+            <div class="no-margins black align-left">
+              <p class="price blue-800">$1000<span class="per-period">/month</span></p>
+              <p class="description">Your In-house design department to assist you with all your Branding, UX and Usability needs. Perfect if you want to take your product design further.</p>
+              <hr>
+              <p class="pt-3 size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Brand Identity projects</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> UX / UI design & web development</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Design Systems / Style Guides</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Usability research & testing</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Web accessibility audit</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> 4 Business days turnaround time</p>
+              <p class="size-16"><i class="fas fa-check white bg-pro size-10 mr-1"></i> 1 ongoing project</p>
+              <p class="size-16 pb-3"><i class="fas fa-check white bg-pro size-10 mr-1"></i> Open source workflow</p>
+              <a class="button-cta-pro" href="mailto:hello@ura.design?subject=Ura%20Pro%20Plan">Get started with Pro</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-4 pb-4">
+          <div class="pricing-box">
+            <div class="row pb-3 no-margins">
+              <div class="pill-custom">Custom</div>
+            </div>
+            <div class="no-margins black align-left">
+              <p class="price">Custom</p>
+              <p class="description">Need something else on an ongoing basis? We can help no matter if it’s about having your back or being part of your team to launch a project. Contact us and let’s talk!</p>
+              <hr>
+              <p class="pt-3 size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Flexible ongoing projects</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Custom turnaround time</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Copywriting</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Privacy-enhancing tech support</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Website performance and security</p>
+              <p class="size-16"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Usability testing (in-person)</p>
+              <p class="size-16 pb-3"><i class="fas fa-check white bg-custom size-10 mr-1"></i> Workshops & trainings</p>
+              <a class="button-cta-custom" href="mailto:hello@ura.design?subject=Ura%20Custom%20Plan">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</header>
+
+<script>
+  document.getElementById("defaultOpen").click();
+
+  function plan(evt, period) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(period).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  function menuwhite() {
+    var x = document.getElementById("topnav-white");
+    if (x.className === "nav-menu-white") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav-menu-white";
+    }
+  }
+</script>

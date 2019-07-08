@@ -1,19 +1,20 @@
 ---
 layout: post
 title: I2P Style Guide and Usability Study
-author: Anxhelo Lushka
+author: anxhelo_lushka
 link: https://lushka.al/
 date: 2018-12-03 12:00:00 +0200
 categories:
-images: 
-- images/projects/i2p_overview.png
+type: Usability Study
+image: 
+- /projects/i2p_overview.png
 tags:
 - Style Guides
 - Usability Study
 - Open Source Design
 - I2P
 excerpt:
- Back when Ura was started in 2016 we only had a small landing page and a Patreon to help fund the time we help Open Source projects. It was very little but the thought people would support us kept us fueled. […]
+ Back when Ura was started in 2016 we only had a small landing page and a Patreon to help fund the time we help Open Source projects.
 ---
 
 Back when Ura was founded in 2016 we only had a small landing page and a [Patreon](https://patreon.com/ura) to help fund the time we help Open Source projects. It was very little but the thought that people would support us kept us fueled. During that time we were also approached by I2P for helping them with updating their website and some branding. We resided to simplify the logo to something which would offer more flexibility and be already an improvement of the former logo. Some months later we also helped with a logo for the I2P Summer Dev Initative.

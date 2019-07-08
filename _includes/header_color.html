@@ -1,0 +1,57 @@
+<header class="site-header-cl">
+
+  <div class="container">
+
+    <div class="navbar">
+    <a class="nav-brand" href="/" title="Home"><img src="../assets/img/logo-white.svg" alt="Ura Design Logo" class="logo"></a>
+
+    <a id="menuwhite" href="javascript:void(0);" onclick="menuwhite()">
+        <i class="fas fa-bars align-right"></i>
+    </a>
+
+    <nav id="topnav-white" class="nav-menu-white">
+        {% for item in site.data.nav %}
+              <a class="nav-link-white" href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+        {% endfor %}
+    </nav>
+    </div>
+
+    </div>
+
+</header>
+
+<script>
+  document.getElementById("defaultOpen").click();
+
+  function plan(evt, period) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(period).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  function menuwhite() {
+    var x = document.getElementById("topnav-white");
+    if (x.className === "nav-menu-white") {
+      x.className += " responsive";
+      document.getElementById("navigation").style.height = "300px";
+    } else {
+      x.className = "nav-menu-white";
+      document.getElementById("navigation").style.height = "100px";
+    }
+  }
+</script>

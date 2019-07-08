@@ -1,24 +1,25 @@
 ---
 layout: post
 title: SecureDrop Style Guide
-author: Anxhelo Lushka
+author: anxhelo_lushka
 link: https://lushka.al/
 date: 2018-12-25 12:00:00 +0200
 categories:
-images: 
-- images/projects/securedrop_overview.png
+type: Style Guide
+image: 
+- /blog/securedrop_overview.png
 tags:
 - Style Guides
 - Usability Study
 - Open Source Design
 - I2P
 excerpt:
-  Our next project, in the series of funding from OpenTechFund, is SecureDrop. SecureDrop is an open source whistleblower submission system […]
+  Our next project, in the series of funding from OpenTechFund, is SecureDrop. SecureDrop is an open source whistleblower submission system
 ---
 
 Our next project, in the series of funding from OpenTechFund, is SecureDrop. SecureDrop is an open source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources.
 
-![SecureDrop Logo](/images/projects/securedrop_logo.png)
+![SecureDrop Logo](../../../assets/img/projects/securedrop_logo.png)
 
 During this process we were brought closer with the [Project](https://securedrop.org), getting to know the developers and designers behind it that help create a secure system for whistleblowers. The work we conducted with SecureDrop was part of the OTF Usability Lab, as have been previous ones before.
 
@@ -34,7 +35,7 @@ The style guide contains all the necessary elements and assets that make up the 
 
 Considering the fact that we work with projects related to privacy and security, the style guide also adapts to these rules. The website itself works without problems in the Tor Browser high security settings mode (with JavaScript disabled), meaning the user experience will be the same no matter the browser and its settings.
 
-![Style Guide website](/images/projects/securedrop_image_alerts.png)
+![Style Guide website](../../../assets/img/projects/securedrop_image_alerts.png)
 
 The repo has been transferred to the Freedom of Press GitHub [organization](https://github.com/freedomofpress/securedrop/).
 However, we keep a static archive for the time being where you can preview the live site of the [style guide](https://uracreative.github.io/securedrop-styleguide/) and the portfolio [project](../../../projects/securedrop) on our website.

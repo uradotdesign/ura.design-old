@@ -5,15 +5,16 @@ author: Kristi Çunga
 link: http://kristicunga.com/
 date: 2018-10-20 08:00:00 +0200
 categories:
-images: 
-- images/blog/thumb_libocon.png
+type: Visual Identity
+image: 
+- /blog/thumb_libocon.png
 tags:
 - Visual Identity
 - Conference
 - Open Source Design
 - LibreOffice
 excerpt:
- As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the LibreOffice Conference (short LibOCon). The conference is organized by the local Open Labs Hackerspace community, with which we share a lot of values and goals together.[…]
+ As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the LibreOffice Conference (short LibOCon).
 ---
 
 As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the [LibreOffice Conference](https://libocon.org) (short LibOCon). The conference is organized by the local [Open Labs Hackerspace](https://openlabs.cc) community, with which we share a lot of values and goals together. 

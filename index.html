@@ -1,277 +1,164 @@
 ---
-layout: default
-section_id: home
-slides:
-- text: <span>USABILITY</span> AND <span>OPEN SOURCE DESIGN</span>
-  subtitle: Ura supports Open Source and Free Software Projects with Usability, Visual Identity and User Experience Design, no matter if small grassroots or established enterprise.
-  overlay: overlay
-  button:
-    text: What is it?
-    url: http://opensourcedesign.net
-  bg_color: "#3399d4"
-  image: images/main/half-1.jpg
-- text: Host your Visual Assets with <span>Identihub</span>
-  subtitle: Identihub is free open source software designed to host your brand and visual assets in a single place, making it convenient to share with others.
-  overlay: overlay grey
-  button:
-    text: Try it out
-    url: https://identihub.co
-  bg_color: "#58595B"
-  image: images/main/half-2.jpg
-- text: Across <span>industry</span> and <span>communities</span>
-  subtitle: We understand Open Source Communities unlike the average design studio. Have a look at our past projects to see if we can help you.
-  overlay: overlay
-  button:
-    text: Showcases
-    url: projects
-  bg_color: "#3399d4"
-  image: images/main/half-3.jpg
-- text: REQUEST <span>DESIGN</span> AND <span>USABILITY</span> SERVICES
-  subtitle: Need help with your project? Request a free consultation for your Open Source Project and we handle the rest.
-  overlay: overlay grey
-  button:
-    text: Request Services
-    url: request
-  bg_color: "#58595B"
-  image: images/main/half-4.jpg
-
-works_left:
-- title: RustFest Rome Visual Identity
-  link_to: /projects/rustfestrome
-  image: images/projects/rustfestrome-thumb.png
-  categories: Visual Identity
-- title: Thunderbird Style Guide and Usability Study
-  link_to: /projects/thunderbird
-  image: images/projects/tb_overview.png
-  categories: Usability Study | Style Guide
-
-works_middle:
-- title: SecureDrop Style Guide
-  link_to: /projects/securedrop
-  image: images/projects/securedrop_overview.png
-  categories: Style Guide
-- title: Reproducible Builds Styleguide
-  link_to: /projects/reproducible-builds
-  image: images/projects/rb_thumbnail.png
-  categories: Style Guide
-
-works_right:
-- title: I2P Style Guide and Usability Study
-  link_to: /projects/i2p
-  image: images/projects/i2p_overview.png
-  categories: Usability Study | Style Guide
-- title: LibOCon 2018 Visual Identity
-  link_to: /projects/libocon
-  image: images/projects/libocon_overview.png
-  categories: Visual Identity
-
-testimonials_left:
-- author: Jeff Beatty - Mozilla
-  twitter: https://twitter.com/gueroJeff
-  content: “The folks at Ura were very professional in learning our expectations, planning the project, and being flexible as things changed. Add to that their commitment to work in the open and it made for a wonderful experience.”
-  avatar: images/testimonials/jeffbeatty.png
-- author: Benjamin Kerensa  - Glucosio
-  twitter: https://twitter.com/bkerensa
-  content: “When looking for an identity for Glucosio we put our faith into Ura. With an unrivaled ability to bring ideas together into a fresh and modern branding experience we were really happy with the results.”
-  avatar: images/testimonials/benjaminkerensa.png
-testimonials_right:
-- author: Justin Dorfman - Stickermule
-  twitter: https://twitter.com/jdorfman
-  content: “Ever since 'Open Source' was coined 20 years ago, a majority of projects have lacked great design. Ura is leading the way to fill that gap of Open Source Design in the community.”
-  avatar: images/testimonials/justindorfman.png
-- author: Sara Sinclair Brody - Simply Secure
-  twitter: https://twitter.com/scouttle
-  content: “Ura understood the needs of the open-source community when we worked together creating a styleguide for the Tor Project. They were able to deliver a polished result in a large, distributed volunteer organization.”
-  avatar: images/testimonials/simplysecure.png
-
-clients:
-- image: images/clients/mozilla.svg
-  url: https://mozilla.org
-- image: images/clients/tor.svg
-  url: https://www.torproject.org/
-- image: images/clients/linuxfoundation.svg
-  url: https://www.linuxfoundation.org
-- image: images/clients/fsfe.svg
-  url: https://fsfe.org/
-- image: images/clients/stickermule.svg
-  url: https://stickermule.com/
+layout: home
 ---
 
-<div class="full no-padding" style="height: 100vh;">
-  <div id="slides">
-    <div class="slides-container">
-      {% for slide in page.slides %}
-        <div class="slide">
-          <div class="slide-info">
-            <p>{{ slide.title }}</p>
-            <h1>{{ slide.text }}</h1>
-            <div class="one spacing"></div>
-            <p style="line-height: 1.3;">{{ slide.subtitle }}</p>
-            <div class="one spacing"></div>
-            <a href="{{ slide.button.url }}" class="button boxed white">{{ slide.button.text }}</a>
+<div class="center">
+  <div class="pt-4 pb-4 container">
+
+    <div class="row justify-content-md-center">
+
+      <div class="col-md-4 col-sm-12 pb-3">
+        <div class="card">
+          <div class="row no-margins">
+            <div class="mr-2">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="24" fill="#1F78D1" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13 24C13 17.9 17.9 13 24 13C30.1 13 35 17.9 35 24C35 30.1 30.1 35 24 35C17.9 35 13 30.1 13 24ZM15 24C15 29 19 33 24 33C29 33 33 29 33 24C33 19 29 15 24 15C19 15 15 19 15 24ZM27.9 18.8L21.6 20.9C21.3 21 21 21.3 20.9 21.6L18.8 28C18.7 28.4 18.8 28.8 19 29C19.2 29.2 19.4 29.3 19.7 29.3C19.8 29.3 19.9 29.3 20 29.2L26.4 27.1C26.7 27 26.9 26.8 27 26.5L29.1 20.1C29.2 19.7 29.1 19.3 28.9 19.1C28.7 18.8 28.3 18.7 27.9 18.8ZM21.3 26.6L25.3 25.3L26.6 21.3L22.6 22.6L21.3 26.6Z"
+                  fill="white" />
+                <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="13" y="13" width="22" height="22">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13 24C13 17.9 17.9 13 24 13C30.1 13 35 17.9 35 24C35 30.1 30.1 35 24 35C17.9 35 13 30.1 13 24ZM15 24C15 29 19 33 24 33C29 33 33 29 33 24C33 19 29 15 24 15C19 15 15 19 15 24ZM27.9 18.8L21.6 20.9C21.3 21 21 21.3 20.9 21.6L18.8 28C18.7 28.4 18.8 28.8 19 29C19.2 29.2 19.4 29.3 19.7 29.3C19.8 29.3 19.9 29.3 20 29.2L26.4 27.1C26.7 27 26.9 26.8 27 26.5L29.1 20.1C29.2 19.7 29.1 19.3 28.9 19.1C28.7 18.8 28.3 18.7 27.9 18.8ZM21.3 26.6L25.3 25.3L26.6 21.3L22.6 22.6L21.3 26.6Z"
+                    fill="white" />
+                </mask>
+                <g mask="url(#mask0)">
+                  <rect x="12" y="12" width="24" height="24" fill="white" />
+                </g>
+              </svg>
+            </div>
+            <h3 class="title-20 pt-2">Brand Systems</h3>
           </div>
-          <div class="slide-left" style="background-color: {{ slide.bg_color }};">
-          </div>
-          <div class="slide-right {{ slide.overlay }}" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          <div class="row pt-2 no-margins align-left">
+            <p class="body-10 mb-0">Logos and brand guidelines is where our roots are. Ura has helped over 100 open source projects with branding and design services.</p>
           </div>
         </div>
-      {% endfor %}
-    </div>
-    <nav class="slides-navigation">
-      <a href="#" class="next"><i class="icon-arrows-slim-right"></i></a>
-      <a href="#" class="prev"><i class="icon-arrows-slim-left"></i></a>
-    </nav>
-  </div>
-</div>
+      </div>
 
-<div class="full">
-  <div class="section-title">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <img class="lazy" data-src="images/main/icon.svg" alt="" class="wow flipInY" data-wow-duration="2s" data-wow-delay="0.1s">
-        <div class="spacing"></div>
-        <h2>Design, but Open</h2>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-10 large-centered columns">
-      <p>Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software. We specialize in UX Design, Design Systems Research and Visual Identity.</p>
-        <p>Our work can be seen across various Open Source projects such as <a href="https://mozilla.org" target="_blank">Mozilla</a>, <a href="https://www.torproject.org" target="_blank">The Tor Project</a> and <a href="https://www.linuxfoundation.org" target="_blank">The Linux Foundation</a>.</p>
-      <div class="two spacing"></div>
-      <div class="centered-text">
-      <a href="about" class="button boxed blue">Learn more</a>
-      </div>
-    </div>
-  </div>
-</div>
+      <div class="col-md-4 col-sm-12 pb-3">
+        <div class="card">
+          <div class="row no-margins">
+            <div class="mr-2">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="24" fill="#6666C4" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.6 24.8885L13.6 19.8828C13.2 19.6826 13 19.3823 13 18.9818C13 18.5813 13.2 18.281 13.5 18.0808L23.5 13.0751C23.8 12.975 24.1 12.975 24.4 13.0751L34.4 18.0808C34.8 18.281 35 18.5813 35 18.9818C35 19.3823 34.8 19.6826 34.4 19.8828L24.4 24.8885C24.3 24.9886 24.2 24.9886 24 24.9886C23.8 24.9886 23.7 24.9886 23.6 24.8885ZM31.8 18.9818L24 15.0774L16.2 18.9818L24 22.8862L31.8 18.9818ZM34.9 28.5927C35.1 29.0933 34.9 29.694 34.5 29.8942L24.5 34.8999C24.3 35 24.2 35 24 35C23.8 35 23.7 35 23.6 34.8999L13.6 29.8942C13.1 29.694 12.9 29.0933 13.2 28.5927C13.4 28.0921 14 27.8919 14.5 28.1923L24.1 32.9977L33.7 28.1923C34 27.8919 34.6 28.0921 34.9 28.5927ZM34.5 24.8885C34.9 24.6883 35.1 24.0876 34.9 23.587C34.6 23.0865 34 22.8862 33.7 23.1866L24.1 27.992L14.5 23.1866C14 22.8862 13.4 23.0865 13.2 23.587C12.9 24.0876 13.1 24.6883 13.6 24.8885L23.6 29.8942C23.7 29.9943 23.8 29.9943 24 29.9943C24.2 29.9943 24.3 29.9943 24.5 29.8942L34.5 24.8885Z"
+                  fill="white" />
+                <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="13" y="13" width="22" height="22">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M23.6 24.8885L13.6 19.8828C13.2 19.6826 13 19.3823 13 18.9818C13 18.5813 13.2 18.281 13.5 18.0808L23.5 13.0751C23.8 12.975 24.1 12.975 24.4 13.0751L34.4 18.0808C34.8 18.281 35 18.5813 35 18.9818C35 19.3823 34.8 19.6826 34.4 19.8828L24.4 24.8885C24.3 24.9886 24.2 24.9886 24 24.9886C23.8 24.9886 23.7 24.9886 23.6 24.8885ZM31.8 18.9818L24 15.0774L16.2 18.9818L24 22.8862L31.8 18.9818ZM34.9 28.5927C35.1 29.0933 34.9 29.694 34.5 29.8942L24.5 34.8999C24.3 35 24.2 35 24 35C23.8 35 23.7 35 23.6 34.8999L13.6 29.8942C13.1 29.694 12.9 29.0933 13.2 28.5927C13.4 28.0921 14 27.8919 14.5 28.1923L24.1 32.9977L33.7 28.1923C34 27.8919 34.6 28.0921 34.9 28.5927ZM34.5 24.8885C34.9 24.6883 35.1 24.0876 34.9 23.587C34.6 23.0865 34 22.8862 33.7 23.1866L24.1 27.992L14.5 23.1866C14 22.8862 13.4 23.0865 13.2 23.587C12.9 24.0876 13.1 24.6883 13.6 24.8885L23.6 29.8942C23.7 29.9943 23.8 29.9943 24 29.9943C24.2 29.9943 24.3 29.9943 24.5 29.8942L34.5 24.8885Z"
+                    fill="white" />
+                </mask>
+                <g mask="url(#mask1)">
+                  <rect x="12" y="12" width="24" height="24" fill="white" />
+                </g>
+              </svg>
 
-<div class="full light-grey no-padding">
-  <div class="two spacing"></div>
-    <div class="section-title" style="margin-bottom: 0px;">
-        <div class="row">
-            <div class="medium-10 medium-centered columns">
-                <p style="font-size: 18px;">We are proud to have worked with:</p>
             </div>
-        </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='clients'>
-        {% for client in page.clients %}
-          <div><a href="{{client.url}}" target="blank"><img class="lazy" alt="" data-src="{{site.baseurl}}/{{client.image}}" width="200px" height="120px"></a></div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  <div class="two spacing"></div>
-</div>
-
-<div class="full">
-  <div class="section-title">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h2>Testimonials</h2>
-        <p>What people say about us</p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-6 columns">
-      {% for testimonial in page.testimonials_left %}
-        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
-          <div class="row">
-            <div class="small-3 columns">
-              <img class="lazy" data-src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
-            </div>
-            <div class="small-9 columns">
-              <p>{{testimonial.content}}</p>
-              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
-            </div>
+            <h3 class="title-20 pt-2">UI/UX Design</h3>
+          </div>
+          <div class="row no-margins pt-2 align-left">
+            <p class="body-10 mb-0">We are specialized in decentralized design patterns and can help polish your product experience with a design system and UX audit.</p>
           </div>
         </div>
-      {% endfor %}
-    </div>
-    <div class="large-6 columns">
-      {% for testimonial in page.testimonials_right %}
-        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
-          <div class="row">
-            <div class="small-3 columns">
-              <img class="lazy" data-src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
+      </div>
+
+      <div class="col-md-4 col-sm-12 pb-3">
+        <div class="card">
+          <div class="row no-margins">
+            <div class="mr-2">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="24" fill="#1AAA55" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 14C17.7 14 15.5 16.2 15.5 19C15.5 21.8 17.7 24 20.5 24C23.3 24 25.5 21.8 25.5 19C25.5 16.2 23.3 14 20.5 14ZM29 33V31C29 28.2 26.8 26 24 26H17C14.2 26 12 28.2 12 31V33C12 33.6 12.4 34 13 34C13.6 34 14 33.6 14 33V31C14 29.3 15.3 28 17 28H24C25.7 28 27 29.3 27 31V33C27 33.6 27.4 34 28 34C28.6 34 29 33.6 29 33ZM17.5 19C17.5 20.7 18.8 22 20.5 22C22.2 22 23.5 20.7 23.5 19C23.5 17.3 22.2 16 20.5 16C18.8 16 17.5 17.3 17.5 19ZM34.3 20.3C34.7 19.9 35.3 19.9 35.7 20.3C36.1 20.7 36.1 21.3 35.7 21.7L31.7 25.7C31.5 25.9 31.2 26 31 26C30.8 26 30.5 25.9 30.3 25.7L28.3 23.7C27.9 23.3 27.9 22.7 28.3 22.3C28.7 21.9 29.3 21.9 29.7 22.3L31 23.6L34.3 20.3Z"
+                  fill="white" />
+                <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="12" y="14" width="24" height="20">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 14C17.7 14 15.5 16.2 15.5 19C15.5 21.8 17.7 24 20.5 24C23.3 24 25.5 21.8 25.5 19C25.5 16.2 23.3 14 20.5 14ZM29 33V31C29 28.2 26.8 26 24 26H17C14.2 26 12 28.2 12 31V33C12 33.6 12.4 34 13 34C13.6 34 14 33.6 14 33V31C14 29.3 15.3 28 17 28H24C25.7 28 27 29.3 27 31V33C27 33.6 27.4 34 28 34C28.6 34 29 33.6 29 33ZM17.5 19C17.5 20.7 18.8 22 20.5 22C22.2 22 23.5 20.7 23.5 19C23.5 17.3 22.2 16 20.5 16C18.8 16 17.5 17.3 17.5 19ZM34.3 20.3C34.7 19.9 35.3 19.9 35.7 20.3C36.1 20.7 36.1 21.3 35.7 21.7L31.7 25.7C31.5 25.9 31.2 26 31 26C30.8 26 30.5 25.9 30.3 25.7L28.3 23.7C27.9 23.3 27.9 22.7 28.3 22.3C28.7 21.9 29.3 21.9 29.7 22.3L31 23.6L34.3 20.3Z"
+                    fill="white" />
+                </mask>
+                <g mask="url(#mask2)">
+                  <rect x="12" y="12" width="24" height="24" fill="white" />
+                </g>
+              </svg>
             </div>
-            <div class="small-9 columns">
-              <p>{{testimonial.content}}</p>
-              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
-            </div>
+            <h3 class="title-20 pt-2">Usability Testing</h3>
+          </div>
+          <div class="row no-margins pt-2 align-left">
+            <p class="body-10 mb-0">We help you improve usability by conducting interviews with users. Need to meet accessibility standards? We can help.</p>
           </div>
         </div>
-      {% endfor %}
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+  <div class="container pb-5 pt-5">
+    <div class="row justify-content-md-center container">
+      <div class="col-md-6 col-sm-9 offset-md-1">
+        <p class="body-20">Our design process is shaped by open source tools and our works are published in the open under open licenses. <strong>Pssht... even this very website is open source</strong>.</p>
+      </div>
+      <div class="col-md-3 col-sm-3 offset-md-1 pb-4">
+        <a class="button-ghost">View Source Files</a>
+      </div>
+    </div>
+  </div>
+
+
+<div class="bg-securedrop">
+  <div class="container pt-4">
+    <div class="row container pt-2">
+      <div class="col col-md-4 pt-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="98" viewBox="0 0 170 194.1" fill="#fff">
+          <path d="M141.3 104.6l-20.2 11.6v28.4l20.5-11.5a7.78 7.78 0 0 0 4-6.8V107c0-.5-.1-1-.4-1.4-.7-1.3-2.5-1.8-3.9-1zM170 53.4l-81.2 46.9v93.8l81.2-46.9V53.4zm-12.1 77.2a13.65 13.65 0 0 1-6.7 11.7l-44 25.4v-59.2L148 85c1-.6 2.2-.9 3.3-.9 3.7 0 6.6 3 6.6 6.7v39.8zm8.3-83.7L85 0 3.8 46.9 85 93.8l81.2-46.9zm-90.7 1.7c-9.1 0-16.5-4.2-16.5-9.2 0-5.1 7.4-9.2 16.5-9.2S92 34.3 92 39.4c0 1-.3 2-.8 2.9l25 9.2L99 61.3l-19.9-13c-1.2.2-2.4.3-3.6.3zM0 53.4v93.8l81.2 46.9v-93.8L0 53.4zm62.6 112.4l-45.4-26.2V125l31.1 18v-6.7l-31.1-17.9V82.9l45.4 26.2v14.2l-33.1-19.1v6.7L62.6 130v35.8z" /></svg>
+        <h1 class="display-30 white mt-2 mb-2">SecureDrop</h1>
+        <p class="body-20-bold white pb-2">We helped shape a living style guide and design system for SecureDrop, closely working together with Freedom of the Press.</p>
+        <a class="button-ghost-white" href="/projects/securedrop">SecureDrop Style Guide</a>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="full no-padding">
-  <div class="spacing"></div>
-  <div class="section-title">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h2>Featured projects</h2>
-        <p>Have a look at our past projects</p>
+<div class="bg-thunderbird">
+  <div class="container pt-4">
+    <div class="row container pt-4">
+      <div class="col col-md-4 offset-md-8 pt-4">
+        <svg width="87" height="85" viewBox="0 0 87 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M86.0197 35.88C85.2043 31.5889 83.5057 27.4319 81.1955 23.6772C80.9917 23.342 80.7878 22.9397 80.516 22.6045C80.0404 21.8669 79.4968 21.1294 78.9533 20.3919C74.0612 13.62 70.1882 11.3404 69.4408 10.9381C68.7614 10.4688 68.0819 9.99945 67.4025 9.59716C61.0835 5.70838 57.0067 5.172 57.0067 5.172C54.085 3.96513 51.2313 3.29465 49.125 2.95941C44.5726 2.42303 40.7676 2.49008 37.4383 2.95941C37.9818 2.02074 38.4575 1.6855 38.5933 1.61845C38.6613 1.61845 38.6613 1.61845 38.6613 1.61845H38.5933C36.9626 1.75255 34.9922 2.82532 33.2256 3.89808C34.4486 1.5514 37.0306 0.210444 37.3703 0.00930041H37.4383C35.3999 -0.124796 29.6245 1.14912 24.6644 6.58C9.24066 12.9496 0 26.8955 0 42.1154C0 53.6477 4.48444 61.8276 9.4445 67.3255L9.51244 67.4596C14.2007 72.4882 19.3646 75.1701 21.8107 75.9076C22.1504 76.0417 22.4901 76.1088 22.7619 76.1088C22.694 76.1088 22.694 76.0417 22.626 76.0417C22.694 75.8406 19.5005 70.812 18.0736 64.7777C20.9274 67.6607 24.3247 69.8733 28.1297 70.2756C28.5373 70.3426 26.7707 68.1971 24.8682 65.3811L27.4502 66.2527L55.7837 75.5724C52.9979 78.3884 49.2609 81.1374 44.1649 83.5511C44.1649 83.5511 55.5798 82.6124 61.2194 76.377C58.9092 81.6067 52.5902 84.4227 52.5902 84.4227C57.2106 83.7522 69.4408 80.1987 77.1867 70.6108C86.0197 59.7491 88.6696 49.5578 86.0197 35.88ZM63.4616 61.2912C62.5783 65.5152 60.7437 70.2086 56.599 74.7008L6.52282 58.274C5.09595 53.7818 4.41649 48.5521 4.82417 42.4507C5.70747 44.0598 8.35736 45.4008 9.98807 45.4678C6.18309 37.0868 7.6779 31.3207 10.5316 27.499C11.5508 28.974 12.8418 30.8514 14.2687 32.9299C14.2687 32.7958 14.2687 32.6617 14.2687 32.5276C14.3366 31.9912 14.4046 31.5889 14.5405 31.1866C13.2495 29.3093 12.1623 27.7001 11.347 26.5603C12.9097 24.8171 14.6763 23.5431 16.2391 22.6715C16.307 23.4091 16.4429 24.0795 16.6468 24.8841C16.9186 26.0239 16.9865 27.7001 16.8506 29.0411V28.974C16.8506 29.2422 16.7827 29.5104 16.7147 29.7786C16.6468 30.0468 15.8994 30.7843 15.6955 32.7287C15.4917 34.8072 16.2391 35.947 16.9865 36.8187C17.8698 36.0141 19.5005 34.0026 22.4901 32.8628C25.4798 31.656 27.4502 29.9127 31.2552 28.0354C33.4974 26.8955 35.8755 27.0296 38.8651 27.1637C44.2329 28.1024 51.2993 29.9798 57.89 30.315C59.3848 33.8015 59.9963 38.8301 59.9963 38.9642C59.9963 39.4335 60.0643 39.8358 60.0643 40.2381C48.3776 44.5962 34.6525 49.5578 28.8771 51.0328C28.4014 51.1669 23.3734 43.9928 18.6852 37.1539C18.6172 37.288 18.4813 37.355 18.4134 37.4221C18.2775 37.5562 18.1416 37.6903 18.0736 37.8244H17.666C22.694 45.1326 28.0617 52.709 28.6053 52.709C33.7012 50.8987 48.9211 45.736 59.9963 41.9813C59.9284 50.2282 57.89 53.3125 57.89 53.3125C57.89 53.3125 60.6758 52.2397 63.5295 49.4237C63.5295 51.7033 62.918 57.6035 58.0939 63.3026C58.0939 63.3026 60.6079 62.6321 63.4616 61.2912Z"
+            fill="#1F1F1F" />
+        </svg>
+        <h1 class="display-30 mt-2 mb-2">Thunderbird</h1>
+        <p class="body-20 pb-2">We created the new Thunderbird brand and helped the project with extensive usability research.</p>
+        <a class="button-ghost" href="/projects/thunderbird">Thunderbird Case Study</a>
       </div>
     </div>
   </div>
-</div>
-  <div class="full">
-    <div class="row">
-  <div class="large-4 columns">
-    {% for work in page.works_left %}
-      <div class="work-wrapper">
-        <a href="{{work.link_to}}" class="work">
-          <img class="lazy" data-src="{{site.url}}/{{work.image}}" alt="">
-          <div class="info">
-            <h3>{{work.title}}</h3>
-            <p>{{work.categories}}</p>
-          </div>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-  <div class="large-4 columns">
-    {% for work in page.works_middle %}
-      <div class="work-wrapper">
-        <a href="{{work.link_to}}" class="work">
-          <img class="lazy" data-src="{{site.url}}/{{work.image}}" alt="">
-          <div class="info">
-            <h3>{{work.title}}</h3>
-            <p>{{work.categories}}</p>
-          </div>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-  <div class="large-4 columns">
-    {% for work in page.works_right %}
-      <div class="work-wrapper">
-        <a href="{{work.link_to}}" class="work">
-          <img class="lazy" data-src="{{site.url}}/{{work.image}}" alt="">
-          <div class="info">
-            <h3>{{work.title}}</h3>
-            <p>{{work.categories}}</p>
-          </div>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-</div>
 </div>
 
-<div class="full light-grey no-padding">
-  <div class="two spacing"></div>
-  <div id="newsletter" class='row'>
-    <div class='medium-10 medium-centered centered-text columns'>
-      <p>Stay updated with our newsletter!</p>
-      <a class="button boxed black" href="https://uradesign.hosted.phplist.com/lists/?p=subscribe&id=1" target="_blank">SUBSCRIBE</a>
+
+<div class="bg-libocon">
+  <div class="container pt-4">
+    <div class="row container pt-4">
+      <div class="col col-md-4 pt-4">
+        <svg width="86" height="98" viewBox="0 0 86 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M42.7931 53.9446C34.8242 53.9446 28.3296 60.3533 28.3296 68.2168C28.3296 76.0803 34.8242 82.489 42.7931 82.489C50.7621 82.489 57.2567 76.0803 57.2567 68.2168C57.2169 60.3533 50.7621 53.9446 42.7931 53.9446ZM42.7931 77.6923C37.4938 77.6923 33.1906 73.446 33.1906 68.2168C33.1906 62.9876 37.4938 58.7413 42.7931 58.7413C48.0925 58.7413 52.3957 62.9876 52.3957 68.2168C52.3558 73.446 48.0925 77.6923 42.7931 77.6923Z"
+            fill="white" />
+          <path d="M42.9524 0L0 24.413V73.2391L42.9524 97.6914L85.9048 73.2391V24.413L42.9524 0ZM56.0214 27.8277H29.6045L42.793 11.3823L56.0214 27.8277ZM49.9252 32.6161V44.7442H45.1837V32.6161H49.9252ZM40.3625 32.6161V44.7442H35.621V32.6161H40.3625ZM23.0301 28.181C22.1536 29.2799 21.4364 31.3209 21.4364 32.7339L21.3965 79.8723L4.86104 70.4524V27.1997L39.7648 7.37886L23.3489 27.7885L23.0301 28.181ZM26.2575 44.6264H26.2974V32.6161H30.7201V44.7442H26.2575V44.6264ZM59.209 82.8944L42.9125 92.1573L26.2575 82.659V49.6896V49.5326H59.209V82.8944ZM59.209 44.7834H54.7464V32.6554H59.1691C59.209 32.6554 59.209 32.7339 59.209 32.7731V44.7834ZM80.9641 70.4917L64.07 80.1077V32.7731C64.07 31.3602 63.3528 29.3192 62.4762 28.2202L62.3567 28.1025V27.8277H62.1575L45.3829 6.98636L80.9641 27.1997V70.4917Z"
+            fill="white" />
+          <path d="M47.2555 66.4474H44.5461V65.8183C44.5461 64.4815 43.4703 63.4199 42.1156 63.4199C40.7609 63.4199 39.6851 64.4815 39.6851 65.8183V68.8458C39.6851 70.1826 40.7609 71.2441 42.1156 71.2441H47.2555C48.6102 71.2441 49.686 70.1826 49.686 68.8458C49.686 67.509 48.6102 66.4474 47.2555 66.4474Z"
+            fill="white" />
+        </svg>
+        <h1 class="display-30 white mt-2 mb-2">LibOCon 2018</h1>
+        <p class="body-20 white pb-2">We designed the branding and visual identity for the LibreOffice Conference 2018 which took place in our home town: Tirana.</p>
+        <a class="button-ghost-white" href="/projects/libocon">LibOCon 2018 Identity</a>
+      </div>
     </div>
-  <div class="two spacing"></div>
+  </div>
+</div>
+
+
+<div class="container empty pt-4 pb-4">
+  <div class="center pt-4 pb-4">
+    <h1 class="display-30">Let’s get to work</h1>
+    <p class="pb-3 size-18">Not sure yet? Shoot us an email for more info or schedule a free consultation</p>
+    <a class="button-blue" href="mailto:hello@ura.design">Contact</a>
+  </div>
 </div>

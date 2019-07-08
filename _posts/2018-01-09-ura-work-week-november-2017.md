@@ -5,13 +5,13 @@ author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-01-09 12:00:00 +0200
 categories:
-images:
-- images/blog/work_week_2017.png
+image:
+- image/blog/work_week_2017.png
 tags:
 - Ura Work Week
 - Identihub
 excerpt:
-  Working remotely can be comfortable and productive at the same time, but some time getting together with your co-workers, having coffee,discussing, brainstorming… is also good to have from time to time. At Ura we all work from home, so we have our "Ura work week" every 6 months as a way to bring the team […]
+  Working remotely can be comfortable and productive at the same time, but some time getting together with your co-workers, having coffee,discussing, brainstorming…
 ---
 
 <p>Working remotely can be comfortable and productive at the same time, but some time getting together with your co-workers, having coffee,discussing, brainstorming… is also good to have from time to time.<br />

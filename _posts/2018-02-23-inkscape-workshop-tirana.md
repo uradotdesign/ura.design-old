@@ -5,16 +5,14 @@ author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-02-23 12:00:00 +0200
 categories:
-images:
-- images/blog/Inkscape-Workshop-1-thumb.jpg
-header:
-- images/blog/Inkscape-Workshop-1.jpg
+image:
+- /blog/Inkscape-Workshop-1-thumb.jpg
 tags:
 - Inkscape
 - Open Source Design
 - Workshop
 excerpt:
-  Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, […]
+  Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source
 ---
 
 <p>Quite some time has passed since we first got in touch with the <a href="http://opensourcedesign.net/" target="_blank">Open Source Design community</a>. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania. We were happy to bring young designers in town more information about Open Source Design and the efforts the community is putting into improving Free Software/ Open Source projects.</p>

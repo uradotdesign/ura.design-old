@@ -1,28 +1,10 @@
+- name: Who we are
+  path: about/
+- name: Plans & Services
+  path: plans
+- name: Work
+  path: projects/
 - name: Blog
   path: blog/
-  section_id: blog
-  children:
-    - name: Events
-      path: events
-- name: Services
-  path: services
-  section_id: pages
-  children:
-   - name: Request
-     path: request
-- name: Projects
-  path: projects
-  children:
-   - name: Logobridge
-     path: logobridge
-     section_id: works
-- name: Support Us
-  path: support-us
-- name: About
-  path: about
-  section_id: pages
-  children:
-    - name: Contact
-      path: contact
-    - name: Jobs
-      path: jobs
+- name: Contact
+  path: contact

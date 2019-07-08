@@ -5,16 +5,14 @@ author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-01-15 12:00:00 +0200
 categories:
-images:
-- images/blog/34c3_thumb.png
-header:
-- images/blog/elio-ccc.png
+image:
+- /blog/34c3_thumb.png
 tags:
 - Chaos Communication Congress
 - CCC
 - Identihub
 excerpt:
-  Chaos Communication Congress or simply CCC , is a four-day conference focusing on technology and social issues of our times. The organizers, the Chaos Computer Club, try to bring up to the spotlight privacy issues and the importance of the human rights on the digital world we “breathe” every day. Through workshops and presentations the […]
+  Chaos Communication Congress or simply CCC , is a four-day conference focusing on technology and social issues of our times. The organizers, the Chaos Computer Club
 ---
 
 <p><a href="https://events.ccc.de/congress/2017/wiki/index.php/Main_Page" target="blank">Chaos Communication Congress</a> or simply CCC , is a four-day conference focusing on technology and social issues of our times. The organizers, the Chaos Computer Club, try to bring up to the spotlight privacy issues and the importance of the human rights on the digital world we “breathe” every day. Through workshops and presentations the attendees have the chance to get updated on how the unethical use of the digital resources that we have on our disposal can harm or transform our society.</p>

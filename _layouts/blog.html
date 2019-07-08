@@ -2,47 +2,42 @@
 layout: default
 ---
 
-<div style="background-color: #3399d4;" class="full new">
-  <div class="section-title new">
+<div class="container pb-3">
+  <div class="site-header">
     <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h1 style="color: #fff; font-size: 2rem;" class="wow slideInDown">Blog</h1>
-      </div>
+    <div class="col-md-9 col-sm-12">
+    <h1 class="align-left mb-2">Blog</h1>
     </div>
     </div>
   </div>
 </div>
   
-<div class="three spacing"></div>
-      {{content}}
+<div class="bg-mute">
+  <div class="container">
+      {{ content }}
+  </div>
+</div>
+
+<div class="container pt-5 pb-3">
       {% if paginator %}
-<div class="full light-grey blog">
-  <nav class='wrapper'>
-    <div class="row">
-      <div class="small-6 columns">
+    <div class="row justify-content-center align-middle pt-2 pb-4">
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-              <a href="/blog" class="next button boxed black" style="float: right;"><i class="fa fa-angle-double-left"></i> Newer Entries</a>
+              <a href="/blog"><i class="rounded-button background-blue-500 white" data-feather="arrow-left"></i></a>
             {% else %}
-              <a href="/blog/older{{ paginator.previous_page }}" class="next button boxed black" style="float: right;"><i class="fa fa-angle-double-left"></i>Newer Entries</a>
+              <a href="/blog/page-{{ paginator.previous_page }}"><i class="rounded-button background-blue-500 white" data-feather="arrow-left"></i></a>
             {% endif %}
           {% else %}
-            <!-- <span class="newer">Newer Entries</span> -->
           {% endif %}
-        </div>
-      <div class="small-6 columns">      
+          <p class="caption-20 pl-4 pr-4 mb-1">Page <strong class="black">{{ paginator.page }} of {{ paginator.total_pages }}</strong></p>
         {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
-              <a href="/blog" class="previous button boxed black" style="float: left;">Older Entries <i class="fa fa-angle-double-right"></i></a>
+              <a href="/blog"><i class="rounded-button background-blue-500 white" data-feather="arrow-right"></i></i></a>
             {% else %}
-              <a href="/blog/older{{ paginator.next_page }}" class="previous button boxed black" style="float: left;">Older Entries <i class="fa fa-angle-double-right"></i></a>
+              <a href="/blog/page-{{ paginator.next_page }}"><i class="rounded-button background-blue-500 white" data-feather="arrow-right"></i></a>
             {% endif %}
           {% else %}
-            <!-- <span class="older">Older Entries</span> -->
           {% endif %}
-      </div>
     </div>
-  </nav>
-</div>
 {% endif %}
-
+</div>

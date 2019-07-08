@@ -5,17 +5,15 @@ author: Mariana Balla
 link: https://twitter.com/marianaballa1
 date: 2018-03-12 12:00:00 +0200
 categories:
-images:
-- images/blog/home-banner.jpg
-header:
-- images/blog/home-banner.jpg
+image:
+- /blog/home-banner.jpg
 tags:
 - Open Tech Fund
 - Usability
 - UX Design
 - Internet Freedom
 excerpt:
-  Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of Open Tech Fund’s Usability Lab. The Usability Lab aims to increase user safety and promote practical internet freedom by working with developers and technologists to improve the usability of open ­source circumvention and digital security […]
+  Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of Open Tech Fund’s Usability Lab. The Usability Lab aims to increase user safety
 ---
 
 <p>Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of <a href="https://www.opentech.fund/lab/usability-lab" target="_blank">Open Tech Fund’s Usability Lab</a>.</p>

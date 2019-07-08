@@ -1,18 +1,16 @@
 <!DOCTYPE html>
- <html lang="en-US"> 
-
+<html lang="en-US">
   {% include head.html %}
-
   <body>
-
-    {% include header-404.html %}
-
-
-    {{ content }}
-    
-
+    <script>addBackToTop({
+      diameter: 56,
+      backgroundColor: '#fff',
+      textColor: '#000'
+    })</script>
+    {% include header.html %}
+      <div>
+        {{ content }}
+    </div>
     {% include footer.html %}
-
   </body>
-
 </html>
