@@ -1,0 +1,45 @@
+---
+layout: post
+title: Our Technical Infrastructure
+author: Anja Xhakani
+link: https://twitter.com/anjaxhakani
+date: 2019-07-31 16:00:00 +0200
+categories:
+images:
+- images/blog/technical.png
+tags:
+- Infrastructure
+- System Administration
+- Service
+excerpt:
+  We at Ura, love to create friendly environments and platforms for everyone to understand, especially on the technical side. […]
+---
+
+# Small company, big infrastructure.
+
+We at Ura, love to create friendly environments and platforms for everyone to understand, especially on the technical side. To have a simple infrastructure for our servers and services, we chose DigitalOcean.
+As a business, DigitalOcean allows us to have more simplicity and savings, with reasonable prices and with the most prepared and amazing support, making that one of the key reasons we chose this platform.
+As for our System Administrators, it allows us to spend less time maintaining the infrastructure and more time developing cool projects.
+
+
+
+## Let's talk technical.
+
+All the configurations one needs to do for their infrastructure, DigitalOcean has it already pre configured as a simple framework and you can do that in one click.
+We create Droplets, which are virtual machines, where we host our servers and login in to them using SSH keys, which is one of the most secure ways to control the workspace.
+Even if you don't work with SSH, DigitalOcean provides a virtual terminal where you can keep your Droplet in control.
+Droplets provide information configuring the virtual framework, such as Linux distributions, backup plan where we create our own schemes, the data center and the host name, where we host our domains. Regarding the datacenter, we always choose the one that is geographically closest to us, because it is more faster and the chances of a package getting lost are lower.
+
+One of the most important things DigitalOcean offers is integration with databases which are clusters connected with each other. We use PostgreSQL, and the implementation is really easy and efficient, including the build-in backup. We need a database to save all the data and information toward the servers and the activities happening inside and outside the company.
+Other then that, clusters use PITR (point-in-time recovery) which means if a backup goes wrong, the cluster is smart enough to detect the error and retrieve the missed data. 
+
+We created a certain backup scheme in order to give the software all the needed support for them to function, and for us not to lose our data. The scheme is coded for an automated daily, weekly and monthly backup, giving us the opportunity to keep the server up and running all the time. 
+What we like to do is, create a droplet that saves all the backups done from all other servers backups with the rsync command, which is a sync tool for remote directories, in order to be more flexible and more precise on our work and on our server's status.
+In the lazy-case scenario, DigitalOcean provides Snapshots, which do a full capture of the droplet saving every data inside the server.
+
+As a company dedicated and working on open source, we try to self-host most of the services we are using. One other key reason we chose DigitOcean, is that this platform makes hosting the domains in a favorable way, making the process very simple and understandable even for newcomers in the System Administration world. 
+Other than hosting servers, we also host bridges and bots with webhooks, so we can make different platforms we use, communicate with each other creating a full connection between the servers.
+One of the examples we can mention is the bot we use for connecting our Mattermost (chat.ura.design) channel and IRC for the old school users so everyone can communicate comfortably, using matterbridge. The bot is hosted in DigitalOcean and it is very easy and simple to be implemented and maintained at the same time!
+
+You can also check online documentation of DigitalOcean to learn how to navigate through the platform and everything else DO offers.
+
