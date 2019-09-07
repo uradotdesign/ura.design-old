@@ -373,6 +373,9 @@ body {
 .button.rustfest::before {
   background: #b20f32; }
 
+.button.httpse::before {
+  background: #0060DF; }
+
 .button.fsfe::before {
   background:  #53b749; }
 
@@ -532,6 +535,15 @@ body {
 .button.boxed.mozilla:hover {
   color: #fff;
   background: #fc9606; }
+
+.button.boxed.httpse {
+  border: 1px solid #0060DF;
+  background: none;
+  color: #0060DF; }
+
+.button.boxed.httpse:hover {
+  color: #fff;
+  background: #0060DF; }
 
 .button.boxed.openchain {
   border: 1px solid #00adbb;
