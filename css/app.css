@@ -4890,7 +4890,7 @@ code {
 /* Lists */
 ul, ol, dl {
   font-family: inherit;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.6;
   list-style-position: outside;
   margin-bottom: 1.25rem; }
