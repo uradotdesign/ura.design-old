@@ -991,6 +991,9 @@ nav.wrapper {
     display: block;
   }
   .post img, .recent-post img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
     opacity: 1;
     -webkit-transition-property: opacity;
     -moz-transition-property: opacity;
