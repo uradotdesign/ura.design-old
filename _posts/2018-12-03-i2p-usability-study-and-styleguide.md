@@ -26,7 +26,7 @@ During this process we were brought closer with the [I2P Project](https://geti2p
 
 After our first Usability Study for Thunderbird, we put these lessons into use and optimized the process in which we would conduct Usability Research for I2P. Renata, our Usability Researcher interviewed ten (10) I2P Users (that's twice as many as in our [Thunderbird Study](/2018/07/05/thunderbird-style-guide)) throughout local events in Albania and Kosovo. The study focused on I2P for Windows and Linux operating systems, asking users to complete 5 major tasks in I2P and additionally also another optional task. 
 
-You can read the final I2P Usability Study [here](https://github.com/uracreative/works/raw/master/I2P/Usability%20Study/I2P%20Usability%20Study.pdf).
+You can read the final I2P Usability Study [here](https://github.com/uracreative/works/raw/main/I2P/Usability%20Study/I2P%20Usability%20Study.pdf).
 
 ## Style Guide
 
